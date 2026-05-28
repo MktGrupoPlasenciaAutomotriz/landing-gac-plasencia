@@ -642,6 +642,38 @@ button, a, .v-card, .filter-chip, .filter-select, .filter-clear, .calc-term-btn 
 
 .modal-gallery { position: relative; aspect-ratio: 16/9; background: linear-gradient(135deg, var(--ink-100), var(--ink-200)); }
 .modal-gallery img { width: 100%; height: 100%; object-fit: cover; }
+
+/* ── FICHA TÉCNICA AMPLIADA (MODAL · canon SEM) ── */
+.modal-ficha { margin-bottom: 24px; padding: 16px; background: var(--ink-50, #F8FAFC); border-radius: 12px; border: 1px solid var(--ink-100); }
+.modal-ficha-title { font-family: var(--font-display); font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; color: var(--ink-600); margin-bottom: 10px; }
+.modal-ficha-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 10px 16px; }
+.ficha-item { display: flex; flex-direction: column; gap: 2px; }
+.ficha-item-label { font-size: 10px; font-weight: 700; color: var(--ink-500); text-transform: uppercase; letter-spacing: 0.04em; }
+.ficha-item-value { font-size: 13px; font-weight: 600; color: var(--ink-800, #1A202C); font-variant-numeric: tabular-nums; }
+
+/* ── EQUIPAMIENTO (MODAL · COLAPSABLE · canon SEM) ── */
+.modal-equipamiento { margin-bottom: 24px; border: 1px solid var(--ink-100); border-radius: 12px; background: white; overflow: hidden; }
+.modal-equipamiento summary { list-style: none; cursor: pointer; padding: 14px 16px; display: flex; justify-content: space-between; align-items: center; font-family: var(--font-display); font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; color: var(--ink-700); user-select: none; }
+.modal-equipamiento summary::-webkit-details-marker { display: none; }
+.modal-equipamiento summary:hover { background: var(--ink-50); }
+.me-summary-arrow { transition: transform 0.2s ease; font-size: 14px; }
+.modal-equipamiento[open] .me-summary-arrow { transform: rotate(180deg); }
+.me-body { padding: 4px 16px 16px; border-top: 1px solid var(--ink-100); }
+.me-section { padding: 10px 0; border-bottom: 1px solid var(--ink-50); }
+.me-section:last-child { border-bottom: none; }
+.me-section-title { font-size: 11px; font-weight: 700; color: var(--brand-accent, #EB0A1E); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 6px; }
+.me-items { display: flex; flex-wrap: wrap; gap: 6px; }
+.me-item { display: inline-block; padding: 4px 10px; background: var(--ink-50); border: 1px solid var(--ink-100); border-radius: 9999px; font-size: 11px; font-weight: 500; color: var(--ink-700); }
+
+/* ── COLORES DISPONIBLES + FICHA TÉCNICA PDF (extras GAC) ── */
+.modal-colores { margin-bottom: 20px; padding: 12px 16px; background: var(--ink-50); border-radius: 12px; border: 1px solid var(--ink-100); }
+.modal-colores-title { font-size: 11px; font-weight: 700; color: var(--ink-600); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 8px; }
+.modal-colores-list { display: flex; flex-wrap: wrap; gap: 6px; }
+.modal-color-chip { display: inline-flex; align-items: center; gap: 6px; padding: 4px 10px; background: white; border: 1px solid var(--ink-200); border-radius: 9999px; font-size: 11px; font-weight: 500; color: var(--ink-700); }
+.modal-color-dot { width: 10px; height: 10px; border-radius: 50%; border: 1px solid var(--ink-200); }
+.modal-ficha-pdf { display: inline-flex; align-items: center; gap: 8px; padding: 10px 16px; margin-bottom: 20px; background: var(--brand-accent, #EB0A1E); color: white; border-radius: 8px; font-family: var(--font-display); font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; text-decoration: none; transition: background 0.15s ease; }
+.modal-ficha-pdf:hover { background: var(--brand-accent-hover, #C0081A); }
+.modal-ficha-pdf svg { width: 16px; height: 16px; }
 .modal-gallery-badge {
   position: absolute; top: 20px; left: 20px;
   background: rgba(255,255,255,0.95); backdrop-filter: blur(10px);
@@ -1770,6 +1802,33 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
         <div class="modal-specs" id="modalSpecs"></div>
 
+        <!-- Ficha técnica ampliada (canon SEM): chips HP, motor, consumo, etc. del JSON enriquecido -->
+        <div class="modal-ficha" id="modalFicha" style="display:none;">
+          <div class="modal-ficha-title">Ficha técnica</div>
+          <div class="modal-ficha-grid" id="modalFichaGrid"></div>
+        </div>
+
+        <!-- Colores disponibles oficiales (extraídos de los brochures GAC) -->
+        <div class="modal-colores" id="modalColores" style="display:none;">
+          <div class="modal-colores-title">Colores disponibles</div>
+          <div class="modal-colores-list" id="modalColoresList"></div>
+        </div>
+
+        <!-- Botón descarga ficha técnica PDF (brochure oficial GAC) -->
+        <a class="modal-ficha-pdf" id="modalFichaPdf" href="#" target="_blank" rel="noopener" style="display:none;" download>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          Descargar ficha técnica oficial
+        </a>
+
+        <!-- Equipamiento por categoría (Confort/Audio/Seguridad/Performance/Exterior) — colapsable -->
+        <details class="modal-equipamiento" id="modalEquipamiento" style="display:none;">
+          <summary>
+            <span class="me-summary-label">Equipamiento incluido</span>
+            <span class="me-summary-arrow" aria-hidden="true">▾</span>
+          </summary>
+          <div class="me-body" id="modalEquipamientoBody"></div>
+        </details>
+
         <div class="modal-trust">
           <div class="trust-badge-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><polyline points="9 12 11 14 15 10"/></svg> Garantía 5 años</div>
           <div class="trust-badge-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg> Mantenimiento incluido</div>
@@ -2550,7 +2609,83 @@ function openModal(id) {
     currentCar.fuel,
     currentCar.engine,
     currentCar.version
-  ].map(s => `<span class="spec-chip">${s}</span>`).join('');
+  ].filter(Boolean).map(s => `<span class="spec-chip">${s}</span>`).join('');
+
+  // ── Ficha técnica ampliada (canon SEM): chips de specs estructurados ──
+  // Cada chip se oculta si el dato no está en el JSON enriquecido (cero invento).
+  const fichaItems = [
+    { label: 'Motor',            value: currentCar.hp ? `${currentCar.hp} HP` : '' },
+    { label: 'Combustible',      value: currentCar.fuel || '' },
+    { label: 'Puertas',          value: currentCar.puertas ? `${currentCar.puertas}` : '' },
+    { label: 'Pasajeros',        value: currentCar.pasajeros ? `${currentCar.pasajeros}` : '' },
+    { label: 'Transmisión',      value: currentCar.trans || '' },
+    { label: 'Tracción',         value: currentCar.traccion || '' },
+    { label: 'Consumo combinado', value: currentCar.consumo_combinado ? `${currentCar.consumo_combinado} km/L` : '' },
+    { label: 'Consumo ciudad',    value: currentCar.consumo_ciudad    ? `${currentCar.consumo_ciudad} km/L`    : '' },
+    { label: 'Consumo carretera', value: currentCar.consumo_carretera ? `${currentCar.consumo_carretera} km/L` : '' },
+    { label: 'Tanque',           value: currentCar.tanque_l ? `${currentCar.tanque_l} L` : '' },
+    { label: 'Rines',            value: currentCar.rines ? `${currentCar.rines}″` : '' },
+  ].filter(it => it.value && String(it.value).trim() !== '');
+  const fichaWrap = document.getElementById('modalFicha');
+  const fichaGrid = document.getElementById('modalFichaGrid');
+  if (fichaItems.length > 0) {
+    fichaGrid.innerHTML = fichaItems.map(it => `<div class="ficha-item"><span class="ficha-item-label">${it.label}</span><span class="ficha-item-value">${it.value}</span></div>`).join('');
+    fichaWrap.style.display = '';
+  } else {
+    fichaWrap.style.display = 'none';
+  }
+
+  // ── Colores disponibles oficiales (del brochure GAC) ──
+  // Cada chip de color con un dot visual basado en el nombre del color.
+  const colorMap = {
+    'blanco': '#F4F4F4', 'blanco metalico': '#E8E8E8', 'blanco rococo': '#F8F0E3', 'blanco magnolia': '#F5EFE6', 'blanco artico': '#E0EAF0',
+    'negro': '#1A1A1A', 'negro obsidiana': '#0A0A0A',
+    'gris': '#7A7A7A', 'gris magnetico': '#5A5F66', 'gris titanio': '#4A4F55', 'gris mate': '#888',
+    'plata': '#C0C0C0', 'plata polar': '#D6D6D8', 'plata centella': '#B8BCC1', 'plata iridio': '#B0B5BA',
+    'rojo': '#C0181A', 'rojo grafito': '#8B1F22', 'azul': '#1A3F77', 'azul cobalto': '#1F3B7A',
+    'beige': '#D8C6A0', 'beige champana': '#D9C3A1', 'vino': '#5C1A2B', 'cobre': '#A05A2C'
+  };
+  const colores = Array.isArray(currentCar.colores_disponibles) ? currentCar.colores_disponibles : [];
+  const coloresWrap = document.getElementById('modalColores');
+  const coloresList = document.getElementById('modalColoresList');
+  if (colores.length > 0) {
+    coloresList.innerHTML = colores.map(c => {
+      const key = String(c).toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
+      const dotColor = colorMap[key] || '#94A3B8';
+      return `<span class="modal-color-chip"><span class="modal-color-dot" style="background:${dotColor};"></span>${c}</span>`;
+    }).join('');
+    coloresWrap.style.display = '';
+  } else {
+    coloresWrap.style.display = 'none';
+  }
+
+  // ── Ficha técnica PDF descargable (brochure oficial GAC) ──
+  const fichaPdfEl = document.getElementById('modalFichaPdf');
+  if (currentCar.ficha_pdf) {
+    fichaPdfEl.href = currentCar.ficha_pdf;
+    // Si es brochure (jpg), abre en nueva pestaña en vez de descargar
+    if (currentCar.ficha_pdf.match(/\.(jpe?g|png|webp)$/i)) {
+      fichaPdfEl.removeAttribute('download');
+    } else {
+      fichaPdfEl.setAttribute('download', '');
+    }
+    fichaPdfEl.style.display = 'inline-flex';
+  } else {
+    fichaPdfEl.style.display = 'none';
+  }
+
+  // ── Equipamiento por categoría (canon SEM): Confort, Audio, Seguridad, etc. ──
+  const equip = currentCar.equipamiento || {};
+  const equipSections = Object.keys(equip).filter(k => Array.isArray(equip[k]) && equip[k].length > 0);
+  const equipWrap = document.getElementById('modalEquipamiento');
+  const equipBody = document.getElementById('modalEquipamientoBody');
+  if (equipSections.length > 0) {
+    equipBody.innerHTML = equipSections.map(name => `<div class="me-section"><div class="me-section-title">${name}</div><div class="me-items">${equip[name].map(it => `<span class="me-item">${it}</span>`).join('')}</div></div>`).join('');
+    equipWrap.style.display = '';
+    equipWrap.open = false;
+  } else {
+    equipWrap.style.display = 'none';
+  }
 
   // Calculadora eliminada (versión lite) — solo reset selectedTerm por compatibilidad
   selectedTerm = 36;
