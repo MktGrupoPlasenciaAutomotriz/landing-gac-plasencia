@@ -8,7 +8,7 @@
     "version": "AION UT ELITE",
     "type": "suv",
     "price": 366285,
-    "priceType": "msrp",
+    "priceType": "dca_real",
     "badge": "BEV",
     "loc": "GAC Américas",
     "locs": [
@@ -141,7 +141,7 @@
         "precio_dca": 366285
       }
     ],
-    "_fecha_parse": "2026-05-28T21:11:54.943449",
+    "_fecha_parse": "2026-05-28T23:43:36.330806",
     "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-03.jpg"
   },
   {
@@ -153,7 +153,7 @@
     "version": "AION UT STANDARD",
     "type": "suv",
     "price": 338343,
-    "priceType": "msrp",
+    "priceType": "dca_real",
     "badge": "BEV",
     "loc": "GAC Américas",
     "locs": [
@@ -318,7 +318,7 @@
         "precio_dca": 338343
       }
     ],
-    "_fecha_parse": "2026-05-28T21:11:54.943508",
+    "_fecha_parse": "2026-05-28T23:43:36.330863",
     "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-04.jpg"
   },
   {
@@ -406,7 +406,7 @@
         "precio_dca": 385974
       }
     ],
-    "_fecha_parse": "2026-05-28T21:11:54.943535"
+    "_fecha_parse": "2026-05-28T23:43:36.330888"
   },
   {
     "id": 219236248,
@@ -514,7 +514,7 @@
         "precio_dca": 483906
       }
     ],
-    "_fecha_parse": "2026-05-28T21:11:54.943580"
+    "_fecha_parse": "2026-05-28T23:43:36.330926"
   },
   {
     "id": 4186101128,
@@ -738,7 +738,7 @@
         "precio_dca": 373579
       }
     ],
-    "_fecha_parse": "2026-05-28T21:11:54.943628"
+    "_fecha_parse": "2026-05-28T23:43:36.330968"
   },
   {
     "id": 1815686536,
@@ -1187,7 +1187,7 @@
         "precio_dca": 395783
       }
     ],
-    "_fecha_parse": "2026-05-28T21:11:54.943742"
+    "_fecha_parse": "2026-05-28T23:43:36.331070"
   },
   {
     "id": 3333051273,
@@ -1393,7 +1393,7 @@
         "precio_dca": 343974
       }
     ],
-    "_fecha_parse": "2026-05-28T21:11:54.943786"
+    "_fecha_parse": "2026-05-28T23:43:36.331107"
   },
   {
     "id": 2885992475,
@@ -1404,7 +1404,7 @@
     "version": "GAC GS4 GL MAX",
     "type": "suv",
     "price": 440522,
-    "priceType": "msrp",
+    "priceType": "dca_real",
     "badge": "",
     "loc": "GAC Américas",
     "locs": [
@@ -1684,7 +1684,7 @@
         "precio_dca": 440522
       }
     ],
-    "_fecha_parse": "2026-05-28T21:11:54.943848",
+    "_fecha_parse": "2026-05-28T23:43:36.331162",
     "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-07.jpg"
   },
   {
@@ -1796,7 +1796,7 @@
         "precio_dca": 487217
       }
     ],
-    "_fecha_parse": "2026-05-28T21:11:54.943871",
+    "_fecha_parse": "2026-05-28T23:43:36.331182",
     "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-08.jpg"
   },
   {
@@ -1808,7 +1808,7 @@
     "version": "GS8 HEV GX AWD GAC",
     "type": "suv",
     "price": 781470,
-    "priceType": "msrp",
+    "priceType": "dca_real",
     "badge": "HEV",
     "loc": "GAC Américas",
     "locs": [
@@ -1908,7 +1908,7 @@
         "precio_dca": 781470
       }
     ],
-    "_fecha_parse": "2026-05-28T21:11:54.943892",
+    "_fecha_parse": "2026-05-28T23:43:36.331199",
     "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-08.jpg"
   },
   {
@@ -1936,16 +1936,9 @@
       "Blanco Rococó",
       "Plata Centella"
     ],
-    "img": "imagenes/oficial/gac/aion-ut-01.jpg",
-    "gallery": [
-      "imagenes/oficial/gac/aion-ut-01.jpg",
-      "imagenes/oficial/gac/aion-ut-02.jpg",
-      "imagenes/oficial/gac/aion-ut-03.jpg",
-      "imagenes/oficial/gac/aion-ut-04.jpg",
-      "imagenes/oficial/gac/aion-ut-05.jpg",
-      "imagenes/oficial/gac/aion-ut-06.jpg"
-    ],
-    "photos": 6,
+    "img": null,
+    "gallery": [],
+    "photos": 0,
     "color": "",
     "color_int": "",
     "km": 0,
@@ -2016,7 +2009,7 @@
         "precio_dca": 422440
       }
     ],
-    "_fecha_parse": "2026-05-28T21:11:54.943913"
+    "_fecha_parse": "2026-05-28T23:43:36.331216"
   },
   {
     "id": 1984429722,
@@ -2123,7 +2116,7 @@
         "precio_dca": 463366
       }
     ],
-    "_fecha_parse": "2026-05-28T21:11:54.943933"
+    "_fecha_parse": "2026-05-28T23:43:36.331231"
   },
   {
     "id": 1944650304,
@@ -2335,7 +2328,7 @@
         "precio_dca": 292565
       }
     ],
-    "_fecha_parse": "2026-05-28T21:11:54.943970",
+    "_fecha_parse": "2026-05-28T23:43:36.331266",
     "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-05.jpg"
   },
   {
@@ -2436,7 +2429,7 @@
         "precio_dca": 376378
       }
     ],
-    "_fecha_parse": "2026-05-28T21:11:54.943989",
+    "_fecha_parse": "2026-05-28T23:43:36.331281",
     "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-05.jpg"
   },
   {
@@ -2448,7 +2441,7 @@
     "version": "GS4 HEV GL MAX",
     "type": "suv",
     "price": 490480,
-    "priceType": "msrp",
+    "priceType": "dca_real",
     "badge": "",
     "loc": "GAC Bugambilias",
     "locs": [
@@ -2612,7 +2605,7 @@
         "precio_dca": 491492
       }
     ],
-    "_fecha_parse": "2026-05-28T21:11:54.944028",
+    "_fecha_parse": "2026-05-28T23:43:36.331313",
     "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-09.jpg"
   },
   {
@@ -2690,7 +2683,7 @@
         "precio_dca": 673584
       }
     ],
-    "_fecha_parse": "2026-05-28T21:11:54.944047"
+    "_fecha_parse": "2026-05-28T23:43:36.331330"
   },
   {
     "id": 754699696,
@@ -2767,7 +2760,7 @@
         "precio_dca": 747722
       }
     ],
-    "_fecha_parse": "2026-05-28T21:11:54.944067"
+    "_fecha_parse": "2026-05-28T23:43:36.331345"
   },
   {
     "id": 4211890439,
@@ -2878,7 +2871,7 @@
         "precio_dca": 401758
       }
     ],
-    "_fecha_parse": "2026-05-28T21:11:54.944087",
+    "_fecha_parse": "2026-05-28T23:43:36.331360",
     "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-08.jpg"
   },
   {
@@ -2890,7 +2883,7 @@
     "version": "GS8 HEV GX AWD",
     "type": "suv",
     "price": 780559,
-    "priceType": "msrp",
+    "priceType": "dca_real",
     "badge": "HEV",
     "loc": "GAC Bugambilias",
     "locs": [
@@ -2990,7 +2983,7 @@
         "precio_dca": 780559
       }
     ],
-    "_fecha_parse": "2026-05-28T21:11:54.944107",
+    "_fecha_parse": "2026-05-28T23:43:36.331376",
     "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-08.jpg"
   },
   {
@@ -3099,7 +3092,7 @@
         "precio_dca": 747610
       }
     ],
-    "_fecha_parse": "2026-05-28T21:11:54.944127",
+    "_fecha_parse": "2026-05-28T23:43:36.331390",
     "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-02.jpg"
   }
 ]
