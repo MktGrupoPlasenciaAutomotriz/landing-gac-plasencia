@@ -554,17 +554,15 @@ button, a, .v-card, .filter-chip, .filter-select, .filter-clear, .calc-term-btn 
   border-color: var(--brand-accent);
 }
 .v-card-img-wrap {
-  position: relative; aspect-ratio: 16/10; overflow: hidden;
+  position: relative; aspect-ratio: 4/5; overflow: hidden;
   background: linear-gradient(135deg, var(--ink-100), var(--ink-200));
-  /* Centrar imagen para que object-fit:contain quede balanceado */
-  display: flex; align-items: center; justify-content: center;
-  padding: 6px;
+  display: block;
 }
-/* object-fit:contain (no cover) — las imágenes oficiales de Hyundai son side-view
-   con ratio más alto que 16:10. Con cover se corta el techo y parte baja del auto.
-   Director reportó autos cortados 2026-05-07. STL/Sem mantienen cover (sus imágenes
-   encajan bien con 16:10). */
-.v-card-img { max-width: 100%; max-height: 100%; width: auto; height: auto; object-fit: contain; transition: transform var(--duration-slow) var(--ease); }
+/* GAC BIBLIOTECA fotos son verticales (1280×1600, ratio 0.80) — fotos reales
+   de piso de venta, no oficiales del fabricante. Card aspect-ratio 4/5 (=0.80)
+   coincide perfecto con la foto -> object-fit:cover llena edge-to-edge sin
+   cortar nada. Si en el futuro llegan fotos horizontales oficiales, revisar. */
+.v-card-img { width: 100%; height: 100%; object-fit: cover; object-position: center; transition: transform var(--duration-slow) var(--ease); display: block; }
 .v-card:hover .v-card-img { transform: scale(1.04); }
 .v-card-badge {
   position: absolute; top: 12px; left: 12px;
@@ -2343,6 +2341,30 @@ function formatSucursalShort(loc, locs) {
   return raw ? '📍 ' + raw : '';
 }
 
+// Construye el título de la card incluyendo trim/version (necesario para
+// diferenciar AION UT Elite vs AION UT Standard, etc.). Strip del nombre
+// del modelo si aparece duplicado en version. Title-case suave.
+function formatCardTitle(v) {
+  const name = (v.name || '').trim();
+  const ver  = (v.version || '').trim();
+  const year = v.year || '';
+  if (!ver) return [name, year].filter(Boolean).join(' ');
+  // Quitar el modelo del version si esta repetido (ej. version="GAC EMZOOM GL 2026" -> "GL")
+  let cleanVer = ver
+    .replace(new RegExp('^' + name + '\\s*', 'i'), '')
+    .replace(/^GAC\s*/i, '')
+    .replace(/\s*\d{4}\s*$/, '')  // strip year suffix
+    .trim();
+  if (!cleanVer) return [name, year].filter(Boolean).join(' ');
+  // Title-case: AION UT ELITE -> AION UT Elite. Preservar siglas (GL, GT, GX, HEV, PHEV, BEV, AWD, FWD, MAX, LUX)
+  const SIGLAS = new Set(['GL','GT','GX','HEV','PHEV','BEV','AWD','FWD','MAX','LUX','UT','ES','GB','GS4','GS7','GS8','GN8','HT','S','Y','ALL','NEW']);
+  cleanVer = cleanVer.split(/\s+/).map(function(w) {
+    if (SIGLAS.has(w.toUpperCase())) return w.toUpperCase();
+    return w.charAt(0).toUpperCase() + w.slice(1).toLowerCase();
+  }).join(' ');
+  return [name, cleanVer, year].filter(Boolean).join(' ');
+}
+
 function buildVCardHTML(v) {
     const monthly = calcMonthly(v.price, 20, 36, v.tasa);
     const hasImg = v.img && v.img.length > 0;
@@ -2368,8 +2390,8 @@ function buildVCardHTML(v) {
         <div class="v-card-brand-row">
           <span class="v-card-type">${{suv:'SUV',sedan:'Sedán',hatchback:'Hatchback',pickup:'Pickup',van:'Van',electrico:'Eléctrico'}[v.type] || v.type}</span>
         </div>
-        <div class="v-card-title">${v.name} ${v.year}</div>
-        <div class="v-card-specs">${[v.version, v.engine, v.trans].filter(Boolean).join(' · ')}</div>
+        <div class="v-card-title">${formatCardTitle(v)}</div>
+        <div class="v-card-specs">${[v.engine, v.trans].filter(Boolean).join(' · ')}</div>
         <div class="v-card-price-row">
           <div class="v-card-price" title="Precio de lista, incluye IVA. Sujeto a disponibilidad y cambios sin previo aviso.">${fmt(v.price)}</div>
           <div class="v-card-monthly" title="Estimado con tasa de referencia Banorte">Desde ${fmt(monthly)}/mes</div>
