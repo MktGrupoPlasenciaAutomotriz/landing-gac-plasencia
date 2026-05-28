@@ -1,7 +1,7 @@
 [
   {
     "id": 1263074480,
-    "name": "GAC Emzoom",
+    "name": "GAC EMZOOM",
     "brand": "GAC",
     "submarca": null,
     "year": null,
@@ -30,15 +30,22 @@
       "Plata Polar",
       "Rojo Extremo"
     ],
-    "img": null,
-    "gallery": [],
-    "photos": 0,
+    "img": "imagenes/oficial/gac/emzoom-01.jpg",
+    "gallery": [
+      "imagenes/oficial/gac/emzoom-01.jpg",
+      "imagenes/oficial/gac/emzoom-02.jpg",
+      "imagenes/oficial/gac/emzoom-03.jpg",
+      "imagenes/oficial/gac/emzoom-04.jpg",
+      "imagenes/oficial/gac/emzoom-05.jpg",
+      "imagenes/oficial/gac/emzoom-06.jpg"
+    ],
+    "photos": 6,
     "color": "",
     "color_int": "",
     "km": 0,
     "engine": "",
     "trans": "",
-    "fuel": "",
+    "fuel": "Gasolina",
     "cilindros": 0,
     "hp": 0,
     "puertas": 0,
@@ -67,7 +74,7 @@
   },
   {
     "id": 1815686536,
-    "name": "GAC Emzoom",
+    "name": "GAC EMZOOM",
     "brand": "GAC",
     "submarca": null,
     "year": 2026,
@@ -96,15 +103,22 @@
       "Plata Polar",
       "Rojo Extremo"
     ],
-    "img": null,
-    "gallery": [],
-    "photos": 0,
+    "img": "imagenes/oficial/gac/emzoom-01.jpg",
+    "gallery": [
+      "imagenes/oficial/gac/emzoom-01.jpg",
+      "imagenes/oficial/gac/emzoom-02.jpg",
+      "imagenes/oficial/gac/emzoom-03.jpg",
+      "imagenes/oficial/gac/emzoom-04.jpg",
+      "imagenes/oficial/gac/emzoom-05.jpg",
+      "imagenes/oficial/gac/emzoom-06.jpg"
+    ],
+    "photos": 6,
     "color": "",
     "color_int": "",
     "km": 0,
     "engine": "",
     "trans": "",
-    "fuel": "",
+    "fuel": "Gasolina",
     "cilindros": 0,
     "hp": 0,
     "puertas": 0,
@@ -133,13 +147,13 @@
   },
   {
     "id": 1577422486,
-    "name": "GAC Gs4 All New",
+    "name": "GAC GS4 ALL NEW",
     "brand": "GAC",
     "submarca": null,
     "year": null,
     "version": "GAC GS4 GL MAX",
     "type": "suv",
-    "price": 440522,
+    "price": 589900,
     "priceType": "msrp",
     "badge": "",
     "loc": "GAC Américas",
@@ -160,19 +174,26 @@
       "Negro Obsidiana",
       "Plata Polar"
     ],
-    "img": null,
-    "gallery": [],
-    "photos": 0,
+    "img": "imagenes/oficial/gac/gs4-max-01.jpg",
+    "gallery": [
+      "imagenes/oficial/gac/gs4-max-01.jpg",
+      "imagenes/oficial/gac/gs4-max-02.jpg",
+      "imagenes/oficial/gac/gs4-max-03.jpg",
+      "imagenes/oficial/gac/gs4-max-04.jpg",
+      "imagenes/oficial/gac/gs4-max-05.jpg",
+      "imagenes/oficial/gac/gs4-max-06.jpg"
+    ],
+    "photos": 6,
     "color": "",
     "color_int": "",
     "km": 0,
-    "engine": "",
+    "engine": "2.0L 4 cilindros ATK",
     "trans": "",
-    "fuel": "",
+    "fuel": "Gasolina",
     "cilindros": 0,
-    "hp": 0,
-    "puertas": 0,
-    "pasajeros": 0,
+    "hp": 140,
+    "puertas": 5,
+    "pasajeros": 5,
     "velocidades": 0,
     "traccion": "",
     "tanque_l": 0,
@@ -180,7 +201,29 @@
     "consumo_combinado": 0,
     "consumo_ciudad": 0,
     "consumo_carretera": 0,
-    "equipamiento": {},
+    "equipamiento": {
+      "Confort": [
+        "Aire acondicionado automático",
+        "Asientos traseros abatibles 40/60",
+        "Techo panorámico LED"
+      ],
+      "Audio": [
+        "Pantalla multimedia táctil de 10\"",
+        "Apple CarPlay™",
+        "Android Auto™"
+      ],
+      "Seguridad": [
+        "6 bolsas de aire",
+        "Frenos ABS + EBD + ESP",
+        "Sistema de control de descenso (HDC)",
+        "Cámara 360°"
+      ],
+      "Exterior": [
+        "Rines de 19\" (225/55)",
+        "Faros LED con ajuste de altura y función Follow Me Home",
+        "Luces de manejo diurno LED"
+      ]
+    },
     "tasa": 0.0999,
     "cxa": 0,
     "descContado": 0,
@@ -193,17 +236,18 @@
     "_id_grupo": "GAC||GAC GS4 ALL NEW|GAC GS4 GL MAX|",
     "_modelo_raw": "GAC GS4 ALL NEW",
     "_modelo_normalizado": "GAC GS4 ALL NEW",
-    "_fecha_parse": "2026-05-28T10:14:00.934917"
+    "_fecha_parse": "2026-05-28T10:14:00.934917",
+    "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-06.jpg"
   },
   {
     "id": 2885992475,
-    "name": "GAC Gs4 All New",
+    "name": "GAC GS4 ALL NEW",
     "brand": "GAC",
     "submarca": null,
     "year": 2026,
     "version": "GAC GS4 GL MAX",
     "type": "suv",
-    "price": 440522,
+    "price": 589900,
     "priceType": "msrp",
     "badge": "",
     "loc": "GAC Américas",
@@ -224,19 +268,26 @@
       "Negro Obsidiana",
       "Plata Polar"
     ],
-    "img": null,
-    "gallery": [],
-    "photos": 0,
+    "img": "imagenes/oficial/gac/gs4-max-01.jpg",
+    "gallery": [
+      "imagenes/oficial/gac/gs4-max-01.jpg",
+      "imagenes/oficial/gac/gs4-max-02.jpg",
+      "imagenes/oficial/gac/gs4-max-03.jpg",
+      "imagenes/oficial/gac/gs4-max-04.jpg",
+      "imagenes/oficial/gac/gs4-max-05.jpg",
+      "imagenes/oficial/gac/gs4-max-06.jpg"
+    ],
+    "photos": 6,
     "color": "",
     "color_int": "",
     "km": 0,
-    "engine": "",
+    "engine": "2.0L 4 cilindros ATK",
     "trans": "",
-    "fuel": "",
+    "fuel": "Gasolina",
     "cilindros": 0,
-    "hp": 0,
-    "puertas": 0,
-    "pasajeros": 0,
+    "hp": 140,
+    "puertas": 5,
+    "pasajeros": 5,
     "velocidades": 0,
     "traccion": "",
     "tanque_l": 0,
@@ -244,7 +295,29 @@
     "consumo_combinado": 0,
     "consumo_ciudad": 0,
     "consumo_carretera": 0,
-    "equipamiento": {},
+    "equipamiento": {
+      "Confort": [
+        "Aire acondicionado automático",
+        "Asientos traseros abatibles 40/60",
+        "Techo panorámico LED"
+      ],
+      "Audio": [
+        "Pantalla multimedia táctil de 10\"",
+        "Apple CarPlay™",
+        "Android Auto™"
+      ],
+      "Seguridad": [
+        "6 bolsas de aire",
+        "Frenos ABS + EBD + ESP",
+        "Sistema de control de descenso (HDC)",
+        "Cámara 360°"
+      ],
+      "Exterior": [
+        "Rines de 19\" (225/55)",
+        "Faros LED con ajuste de altura y función Follow Me Home",
+        "Luces de manejo diurno LED"
+      ]
+    },
     "tasa": 0.0999,
     "cxa": 0,
     "descContado": 0,
@@ -257,11 +330,12 @@
     "_id_grupo": "GAC||GAC GS4 ALL NEW|GAC GS4 GL MAX|2026",
     "_modelo_raw": "GAC GS4 ALL NEW",
     "_modelo_normalizado": "GAC GS4 ALL NEW",
-    "_fecha_parse": "2026-05-28T10:14:00.934925"
+    "_fecha_parse": "2026-05-28T10:14:00.934925",
+    "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-06.jpg"
   },
   {
     "id": 2699336287,
-    "name": "GAC Emzoom",
+    "name": "GAC EMZOOM",
     "brand": "GAC",
     "submarca": null,
     "year": null,
@@ -289,15 +363,22 @@
       "Plata Polar",
       "Rojo Extremo"
     ],
-    "img": null,
-    "gallery": [],
-    "photos": 0,
+    "img": "imagenes/oficial/gac/emzoom-01.jpg",
+    "gallery": [
+      "imagenes/oficial/gac/emzoom-01.jpg",
+      "imagenes/oficial/gac/emzoom-02.jpg",
+      "imagenes/oficial/gac/emzoom-03.jpg",
+      "imagenes/oficial/gac/emzoom-04.jpg",
+      "imagenes/oficial/gac/emzoom-05.jpg",
+      "imagenes/oficial/gac/emzoom-06.jpg"
+    ],
+    "photos": 6,
     "color": "",
     "color_int": "",
     "km": 0,
     "engine": "",
     "trans": "",
-    "fuel": "",
+    "fuel": "Gasolina",
     "cilindros": 0,
     "hp": 0,
     "puertas": 0,
@@ -326,7 +407,7 @@
   },
   {
     "id": 4186101128,
-    "name": "GAC Emzoom",
+    "name": "GAC EMZOOM",
     "brand": "GAC",
     "submarca": null,
     "year": 2026,
@@ -354,15 +435,22 @@
       "Plata Polar",
       "Rojo Extremo"
     ],
-    "img": null,
-    "gallery": [],
-    "photos": 0,
+    "img": "imagenes/oficial/gac/emzoom-01.jpg",
+    "gallery": [
+      "imagenes/oficial/gac/emzoom-01.jpg",
+      "imagenes/oficial/gac/emzoom-02.jpg",
+      "imagenes/oficial/gac/emzoom-03.jpg",
+      "imagenes/oficial/gac/emzoom-04.jpg",
+      "imagenes/oficial/gac/emzoom-05.jpg",
+      "imagenes/oficial/gac/emzoom-06.jpg"
+    ],
+    "photos": 6,
     "color": "",
     "color_int": "",
     "km": 0,
     "engine": "",
     "trans": "",
-    "fuel": "",
+    "fuel": "Gasolina",
     "cilindros": 0,
     "hp": 0,
     "puertas": 0,
@@ -391,7 +479,7 @@
   },
   {
     "id": 3379173129,
-    "name": "GAC Emzoom",
+    "name": "GAC EMZOOM",
     "brand": "GAC",
     "submarca": null,
     "year": null,
@@ -417,15 +505,22 @@
       "Gris Magnetico",
       "Plata Polar"
     ],
-    "img": null,
-    "gallery": [],
-    "photos": 0,
+    "img": "imagenes/oficial/gac/emzoom-01.jpg",
+    "gallery": [
+      "imagenes/oficial/gac/emzoom-01.jpg",
+      "imagenes/oficial/gac/emzoom-02.jpg",
+      "imagenes/oficial/gac/emzoom-03.jpg",
+      "imagenes/oficial/gac/emzoom-04.jpg",
+      "imagenes/oficial/gac/emzoom-05.jpg",
+      "imagenes/oficial/gac/emzoom-06.jpg"
+    ],
+    "photos": 6,
     "color": "",
     "color_int": "",
     "km": 0,
     "engine": "",
     "trans": "",
-    "fuel": "",
+    "fuel": "Gasolina",
     "cilindros": 0,
     "hp": 0,
     "puertas": 0,
@@ -454,7 +549,7 @@
   },
   {
     "id": 3333051273,
-    "name": "GAC Emzoom",
+    "name": "GAC EMZOOM",
     "brand": "GAC",
     "submarca": null,
     "year": 2026,
@@ -480,15 +575,22 @@
       "Gris Magnetico",
       "Plata Polar"
     ],
-    "img": null,
-    "gallery": [],
-    "photos": 0,
+    "img": "imagenes/oficial/gac/emzoom-01.jpg",
+    "gallery": [
+      "imagenes/oficial/gac/emzoom-01.jpg",
+      "imagenes/oficial/gac/emzoom-02.jpg",
+      "imagenes/oficial/gac/emzoom-03.jpg",
+      "imagenes/oficial/gac/emzoom-04.jpg",
+      "imagenes/oficial/gac/emzoom-05.jpg",
+      "imagenes/oficial/gac/emzoom-06.jpg"
+    ],
+    "photos": 6,
     "color": "",
     "color_int": "",
     "km": 0,
     "engine": "",
     "trans": "",
-    "fuel": "",
+    "fuel": "Gasolina",
     "cilindros": 0,
     "hp": 0,
     "puertas": 0,
@@ -517,13 +619,13 @@
   },
   {
     "id": 1059163338,
-    "name": "GAC Gn8",
+    "name": "GAC GN8",
     "brand": "GAC",
     "submarca": null,
     "year": null,
     "version": "GN8 GT",
     "type": "van",
-    "price": 292565,
+    "price": 888800,
     "priceType": "msrp",
     "badge": "",
     "loc": "GAC Bugambilias",
@@ -538,19 +640,22 @@
       "Blanco Magnolia",
       "Negro Obsidiana"
     ],
-    "img": null,
-    "gallery": [],
-    "photos": 0,
+    "img": "imagenes/oficial/gac/brochures/brochure-04.jpg",
+    "gallery": [
+      "imagenes/oficial/gac/brochures/brochure-04.jpg",
+      "imagenes/oficial/gac/brochures/brochure-05.jpg"
+    ],
+    "photos": 2,
     "color": "",
     "color_int": "",
     "km": 0,
-    "engine": "",
+    "engine": "2.0L Turbo GDI",
     "trans": "",
-    "fuel": "",
+    "fuel": "Gasolina",
     "cilindros": 0,
     "hp": 0,
-    "puertas": 0,
-    "pasajeros": 0,
+    "puertas": 5,
+    "pasajeros": 7,
     "velocidades": 0,
     "traccion": "",
     "tanque_l": 0,
@@ -558,7 +663,30 @@
     "consumo_combinado": 0,
     "consumo_ciudad": 0,
     "consumo_carretera": 0,
-    "equipamiento": {},
+    "equipamiento": {
+      "Confort": [
+        "Segunda fila con asientos capitán de 6 posiciones",
+        "Asientos primera fila ventilados y calefactables",
+        "Cargador inalámbrico"
+      ],
+      "Audio": [
+        "Pantalla multifuncional táctil de 14.6\""
+      ],
+      "Seguridad": [
+        "7 Bolsas de aire 360°",
+        "11 ADAS (ACC, TSR, ISL-ACC, FCW, AEB, LDW, LKA, WELL, ICA, BSD, LCA, DOW, RCW, RCTA, ELKA, FAPA)",
+        "Cámara 360° única del segmento",
+        "Portavaso enfriamiento y calefactable"
+      ],
+      "Performance": [
+        "Transmisión 8 velocidades automática",
+        "Suspensión electromagnética"
+      ],
+      "Exterior": [
+        "Faros delanteros con animación de bienvenida",
+        "Parabrisas insonorizado"
+      ]
+    },
     "tasa": 0.0999,
     "cxa": 0,
     "descContado": 0,
@@ -571,17 +699,18 @@
     "_id_grupo": "GAC||GAC GN8|GN8 GT|",
     "_modelo_raw": "GAC GN8",
     "_modelo_normalizado": "GAC GN8",
-    "_fecha_parse": "2026-05-28T10:14:00.934970"
+    "_fecha_parse": "2026-05-28T10:14:00.934970",
+    "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-04.jpg"
   },
   {
     "id": 1944650304,
-    "name": "GAC Gn8",
+    "name": "GAC GN8",
     "brand": "GAC",
     "submarca": null,
     "year": 2024,
     "version": "GN8 GT",
     "type": "van",
-    "price": 292565,
+    "price": 888800,
     "priceType": "msrp",
     "badge": "",
     "loc": "GAC Bugambilias",
@@ -596,19 +725,22 @@
       "Blanco Magnolia",
       "Negro Obsidiana"
     ],
-    "img": null,
-    "gallery": [],
-    "photos": 0,
+    "img": "imagenes/oficial/gac/brochures/brochure-04.jpg",
+    "gallery": [
+      "imagenes/oficial/gac/brochures/brochure-04.jpg",
+      "imagenes/oficial/gac/brochures/brochure-05.jpg"
+    ],
+    "photos": 2,
     "color": "",
     "color_int": "",
     "km": 0,
-    "engine": "",
+    "engine": "2.0L Turbo GDI",
     "trans": "",
-    "fuel": "",
+    "fuel": "Gasolina",
     "cilindros": 0,
     "hp": 0,
-    "puertas": 0,
-    "pasajeros": 0,
+    "puertas": 5,
+    "pasajeros": 7,
     "velocidades": 0,
     "traccion": "",
     "tanque_l": 0,
@@ -616,7 +748,30 @@
     "consumo_combinado": 0,
     "consumo_ciudad": 0,
     "consumo_carretera": 0,
-    "equipamiento": {},
+    "equipamiento": {
+      "Confort": [
+        "Segunda fila con asientos capitán de 6 posiciones",
+        "Asientos primera fila ventilados y calefactables",
+        "Cargador inalámbrico"
+      ],
+      "Audio": [
+        "Pantalla multifuncional táctil de 14.6\""
+      ],
+      "Seguridad": [
+        "7 Bolsas de aire 360°",
+        "11 ADAS (ACC, TSR, ISL-ACC, FCW, AEB, LDW, LKA, WELL, ICA, BSD, LCA, DOW, RCW, RCTA, ELKA, FAPA)",
+        "Cámara 360° única del segmento",
+        "Portavaso enfriamiento y calefactable"
+      ],
+      "Performance": [
+        "Transmisión 8 velocidades automática",
+        "Suspensión electromagnética"
+      ],
+      "Exterior": [
+        "Faros delanteros con animación de bienvenida",
+        "Parabrisas insonorizado"
+      ]
+    },
     "tasa": 0.0999,
     "cxa": 0,
     "descContado": 0,
@@ -629,17 +784,18 @@
     "_id_grupo": "GAC||GAC GN8|GN8 GT|2024",
     "_modelo_raw": "GAC GN8",
     "_modelo_normalizado": "GAC GN8",
-    "_fecha_parse": "2026-05-28T10:14:00.934976"
+    "_fecha_parse": "2026-05-28T10:14:00.934976",
+    "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-04.jpg"
   },
   {
     "id": 2368662886,
-    "name": "GAC Aion",
+    "name": "GAC AION",
     "brand": "GAC",
     "submarca": null,
     "year": null,
     "version": "AION UT STANDARD",
     "type": "suv",
-    "price": 338343,
+    "price": 419900,
     "priceType": "msrp",
     "badge": "BEV",
     "loc": "GAC Américas",
@@ -658,17 +814,24 @@
       "Beige",
       "Blanco"
     ],
-    "img": null,
-    "gallery": [],
-    "photos": 0,
+    "img": "imagenes/oficial/gac/aion-ut-01.jpg",
+    "gallery": [
+      "imagenes/oficial/gac/aion-ut-01.jpg",
+      "imagenes/oficial/gac/aion-ut-02.jpg",
+      "imagenes/oficial/gac/aion-ut-03.jpg",
+      "imagenes/oficial/gac/aion-ut-04.jpg",
+      "imagenes/oficial/gac/aion-ut-05.jpg",
+      "imagenes/oficial/gac/aion-ut-06.jpg"
+    ],
+    "photos": 6,
     "color": "",
     "color_int": "",
     "km": 0,
-    "engine": "",
+    "engine": "Motor eléctrico",
     "trans": "",
-    "fuel": "",
+    "fuel": "Eléctrico (BEV)",
     "cilindros": 0,
-    "hp": 0,
+    "hp": 134,
     "puertas": 0,
     "pasajeros": 0,
     "velocidades": 0,
@@ -678,7 +841,27 @@
     "consumo_combinado": 0,
     "consumo_ciudad": 0,
     "consumo_carretera": 0,
-    "equipamiento": {},
+    "equipamiento": {
+      "Confort": [
+        "Asientos cubiertos en piel sintética",
+        "Diseño de techo flotante",
+        "Modo de manejo con pedal inteligente (I-Pedal)"
+      ],
+      "Audio": [
+        "Pantalla de 14.6\""
+      ],
+      "Seguridad": [
+        "Cámara de reversa"
+      ],
+      "Performance": [
+        "Motor eléctrico de 100 kW (134 hp)",
+        "Torque eléctrico de 145 Nm"
+      ],
+      "Exterior": [
+        "Iluminación LED",
+        "Palanca de cambios electrónica al volante"
+      ]
+    },
     "tasa": 0.0999,
     "cxa": 0,
     "descContado": 0,
@@ -691,17 +874,18 @@
     "_id_grupo": "GAC||GAC AION|AION UT STANDARD|",
     "_modelo_raw": "GAC AION",
     "_modelo_normalizado": "GAC AION",
-    "_fecha_parse": "2026-05-28T10:14:00.934822"
+    "_fecha_parse": "2026-05-28T10:14:00.934822",
+    "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-02.jpg"
   },
   {
     "id": 2903675631,
-    "name": "GAC Aion",
+    "name": "GAC AION",
     "brand": "GAC",
     "submarca": null,
     "year": 2026,
     "version": "AION UT STANDARD",
     "type": "suv",
-    "price": 338343,
+    "price": 419900,
     "priceType": "msrp",
     "badge": "BEV",
     "loc": "GAC Américas",
@@ -720,17 +904,24 @@
       "Beige",
       "Blanco"
     ],
-    "img": null,
-    "gallery": [],
-    "photos": 0,
+    "img": "imagenes/oficial/gac/aion-ut-01.jpg",
+    "gallery": [
+      "imagenes/oficial/gac/aion-ut-01.jpg",
+      "imagenes/oficial/gac/aion-ut-02.jpg",
+      "imagenes/oficial/gac/aion-ut-03.jpg",
+      "imagenes/oficial/gac/aion-ut-04.jpg",
+      "imagenes/oficial/gac/aion-ut-05.jpg",
+      "imagenes/oficial/gac/aion-ut-06.jpg"
+    ],
+    "photos": 6,
     "color": "",
     "color_int": "",
     "km": 0,
-    "engine": "",
+    "engine": "Motor eléctrico",
     "trans": "",
-    "fuel": "",
+    "fuel": "Eléctrico (BEV)",
     "cilindros": 0,
-    "hp": 0,
+    "hp": 134,
     "puertas": 0,
     "pasajeros": 0,
     "velocidades": 0,
@@ -740,7 +931,27 @@
     "consumo_combinado": 0,
     "consumo_ciudad": 0,
     "consumo_carretera": 0,
-    "equipamiento": {},
+    "equipamiento": {
+      "Confort": [
+        "Asientos cubiertos en piel sintética",
+        "Diseño de techo flotante",
+        "Modo de manejo con pedal inteligente (I-Pedal)"
+      ],
+      "Audio": [
+        "Pantalla de 14.6\""
+      ],
+      "Seguridad": [
+        "Cámara de reversa"
+      ],
+      "Performance": [
+        "Motor eléctrico de 100 kW (134 hp)",
+        "Torque eléctrico de 145 Nm"
+      ],
+      "Exterior": [
+        "Iluminación LED",
+        "Palanca de cambios electrónica al volante"
+      ]
+    },
     "tasa": 0.0999,
     "cxa": 0,
     "descContado": 0,
@@ -753,17 +964,18 @@
     "_id_grupo": "GAC||GAC AION|AION UT STANDARD|2026",
     "_modelo_raw": "GAC AION",
     "_modelo_normalizado": "GAC AION",
-    "_fecha_parse": "2026-05-28T10:14:00.934829"
+    "_fecha_parse": "2026-05-28T10:14:00.934829",
+    "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-02.jpg"
   },
   {
     "id": 3539697056,
-    "name": "GAC Gs4 All New",
+    "name": "GAC GS4 ALL NEW",
     "brand": "GAC",
     "submarca": null,
     "year": null,
     "version": "GS4 HEV GL MAX",
     "type": "suv",
-    "price": 490480,
+    "price": 639900,
     "priceType": "msrp",
     "badge": "HEV",
     "loc": "GAC Bugambilias",
@@ -780,19 +992,26 @@
       "Negro Obsidiana",
       "Plata Polar"
     ],
-    "img": null,
-    "gallery": [],
-    "photos": 0,
+    "img": "imagenes/oficial/gac/gs4-max-01.jpg",
+    "gallery": [
+      "imagenes/oficial/gac/gs4-max-01.jpg",
+      "imagenes/oficial/gac/gs4-max-02.jpg",
+      "imagenes/oficial/gac/gs4-max-03.jpg",
+      "imagenes/oficial/gac/gs4-max-04.jpg",
+      "imagenes/oficial/gac/gs4-max-05.jpg",
+      "imagenes/oficial/gac/gs4-max-06.jpg"
+    ],
+    "photos": 6,
     "color": "",
     "color_int": "",
     "km": 0,
-    "engine": "",
+    "engine": "2.0L 4 cilindros ATK",
     "trans": "",
-    "fuel": "",
+    "fuel": "Gasolina",
     "cilindros": 0,
-    "hp": 0,
-    "puertas": 0,
-    "pasajeros": 0,
+    "hp": 140,
+    "puertas": 5,
+    "pasajeros": 5,
     "velocidades": 0,
     "traccion": "",
     "tanque_l": 0,
@@ -800,7 +1019,29 @@
     "consumo_combinado": 0,
     "consumo_ciudad": 0,
     "consumo_carretera": 0,
-    "equipamiento": {},
+    "equipamiento": {
+      "Confort": [
+        "Aire acondicionado automático",
+        "Asientos traseros abatibles 40/60",
+        "Techo panorámico LED"
+      ],
+      "Audio": [
+        "Pantalla multimedia táctil de 10\"",
+        "Apple CarPlay™",
+        "Android Auto™"
+      ],
+      "Seguridad": [
+        "6 bolsas de aire",
+        "Frenos ABS + EBD + ESP",
+        "Sistema de control de descenso (HDC)",
+        "Cámara 360°"
+      ],
+      "Exterior": [
+        "Rines de 19\" (225/55)",
+        "Faros LED con ajuste de altura y función Follow Me Home",
+        "Luces de manejo diurno LED"
+      ]
+    },
     "tasa": 0.0999,
     "cxa": 0,
     "descContado": 0,
@@ -813,17 +1054,18 @@
     "_id_grupo": "GAC||GAC GS4 ALL NEW|GS4 HEV GL MAX|",
     "_modelo_raw": "GAC GS4 ALL NEW",
     "_modelo_normalizado": "GAC GS4 ALL NEW",
-    "_fecha_parse": "2026-05-28T10:14:00.934998"
+    "_fecha_parse": "2026-05-28T10:14:00.934998",
+    "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-06.jpg"
   },
   {
     "id": 2207884580,
-    "name": "GAC Gs4 All New",
+    "name": "GAC GS4 ALL NEW",
     "brand": "GAC",
     "submarca": null,
     "year": 2026,
     "version": "GS4 HEV GL MAX",
     "type": "suv",
-    "price": 490480,
+    "price": 639900,
     "priceType": "msrp",
     "badge": "HEV",
     "loc": "GAC Bugambilias",
@@ -840,19 +1082,26 @@
       "Negro Obsidiana",
       "Plata Polar"
     ],
-    "img": null,
-    "gallery": [],
-    "photos": 0,
+    "img": "imagenes/oficial/gac/gs4-max-01.jpg",
+    "gallery": [
+      "imagenes/oficial/gac/gs4-max-01.jpg",
+      "imagenes/oficial/gac/gs4-max-02.jpg",
+      "imagenes/oficial/gac/gs4-max-03.jpg",
+      "imagenes/oficial/gac/gs4-max-04.jpg",
+      "imagenes/oficial/gac/gs4-max-05.jpg",
+      "imagenes/oficial/gac/gs4-max-06.jpg"
+    ],
+    "photos": 6,
     "color": "",
     "color_int": "",
     "km": 0,
-    "engine": "",
+    "engine": "2.0L 4 cilindros ATK",
     "trans": "",
-    "fuel": "",
+    "fuel": "Gasolina",
     "cilindros": 0,
-    "hp": 0,
-    "puertas": 0,
-    "pasajeros": 0,
+    "hp": 140,
+    "puertas": 5,
+    "pasajeros": 5,
     "velocidades": 0,
     "traccion": "",
     "tanque_l": 0,
@@ -860,7 +1109,29 @@
     "consumo_combinado": 0,
     "consumo_ciudad": 0,
     "consumo_carretera": 0,
-    "equipamiento": {},
+    "equipamiento": {
+      "Confort": [
+        "Aire acondicionado automático",
+        "Asientos traseros abatibles 40/60",
+        "Techo panorámico LED"
+      ],
+      "Audio": [
+        "Pantalla multimedia táctil de 10\"",
+        "Apple CarPlay™",
+        "Android Auto™"
+      ],
+      "Seguridad": [
+        "6 bolsas de aire",
+        "Frenos ABS + EBD + ESP",
+        "Sistema de control de descenso (HDC)",
+        "Cámara 360°"
+      ],
+      "Exterior": [
+        "Rines de 19\" (225/55)",
+        "Faros LED con ajuste de altura y función Follow Me Home",
+        "Luces de manejo diurno LED"
+      ]
+    },
     "tasa": 0.0999,
     "cxa": 0,
     "descContado": 0,
@@ -873,17 +1144,18 @@
     "_id_grupo": "GAC||GAC GS4 ALL NEW|GS4 HEV GL MAX|2026",
     "_modelo_raw": "GAC GS4 ALL NEW",
     "_modelo_normalizado": "GAC GS4 ALL NEW",
-    "_fecha_parse": "2026-05-28T10:14:00.935004"
+    "_fecha_parse": "2026-05-28T10:14:00.935004",
+    "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-06.jpg"
   },
   {
     "id": 1173819100,
-    "name": "GAC Aion",
+    "name": "GAC AION",
     "brand": "GAC",
     "submarca": null,
     "year": null,
     "version": "AION UT ELITE",
     "type": "suv",
-    "price": 366285,
+    "price": 459900,
     "priceType": "msrp",
     "badge": "BEV",
     "loc": "GAC Américas",
@@ -902,17 +1174,24 @@
       "Rojo Rubi",
       "Verde Esmeralda"
     ],
-    "img": null,
-    "gallery": [],
-    "photos": 0,
+    "img": "imagenes/oficial/gac/aion-ut-01.jpg",
+    "gallery": [
+      "imagenes/oficial/gac/aion-ut-01.jpg",
+      "imagenes/oficial/gac/aion-ut-02.jpg",
+      "imagenes/oficial/gac/aion-ut-03.jpg",
+      "imagenes/oficial/gac/aion-ut-04.jpg",
+      "imagenes/oficial/gac/aion-ut-05.jpg",
+      "imagenes/oficial/gac/aion-ut-06.jpg"
+    ],
+    "photos": 6,
     "color": "",
     "color_int": "",
     "km": 0,
-    "engine": "",
+    "engine": "Motor eléctrico",
     "trans": "",
-    "fuel": "",
+    "fuel": "Eléctrico (BEV)",
     "cilindros": 0,
-    "hp": 0,
+    "hp": 134,
     "puertas": 0,
     "pasajeros": 0,
     "velocidades": 0,
@@ -922,7 +1201,27 @@
     "consumo_combinado": 0,
     "consumo_ciudad": 0,
     "consumo_carretera": 0,
-    "equipamiento": {},
+    "equipamiento": {
+      "Confort": [
+        "Asientos cubiertos en piel sintética",
+        "Diseño de techo flotante",
+        "Modo de manejo con pedal inteligente (I-Pedal)"
+      ],
+      "Audio": [
+        "Pantalla de 14.6\""
+      ],
+      "Seguridad": [
+        "Cámara de reversa"
+      ],
+      "Performance": [
+        "Motor eléctrico de 100 kW (134 hp)",
+        "Torque eléctrico de 145 Nm"
+      ],
+      "Exterior": [
+        "Iluminación LED",
+        "Palanca de cambios electrónica al volante"
+      ]
+    },
     "tasa": 0.0999,
     "cxa": 0,
     "descContado": 0,
@@ -935,17 +1234,18 @@
     "_id_grupo": "GAC||GAC AION|AION UT ELITE|",
     "_modelo_raw": "GAC AION",
     "_modelo_normalizado": "GAC AION",
-    "_fecha_parse": "2026-05-28T10:14:00.934793"
+    "_fecha_parse": "2026-05-28T10:14:00.934793",
+    "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-02.jpg"
   },
   {
     "id": 2961461311,
-    "name": "GAC Aion",
+    "name": "GAC AION",
     "brand": "GAC",
     "submarca": null,
     "year": 2026,
     "version": "AION UT ELITE",
     "type": "suv",
-    "price": 366285,
+    "price": 459900,
     "priceType": "msrp",
     "badge": "BEV",
     "loc": "GAC Américas",
@@ -964,17 +1264,24 @@
       "Rojo Rubi",
       "Verde Esmeralda"
     ],
-    "img": null,
-    "gallery": [],
-    "photos": 0,
+    "img": "imagenes/oficial/gac/aion-ut-01.jpg",
+    "gallery": [
+      "imagenes/oficial/gac/aion-ut-01.jpg",
+      "imagenes/oficial/gac/aion-ut-02.jpg",
+      "imagenes/oficial/gac/aion-ut-03.jpg",
+      "imagenes/oficial/gac/aion-ut-04.jpg",
+      "imagenes/oficial/gac/aion-ut-05.jpg",
+      "imagenes/oficial/gac/aion-ut-06.jpg"
+    ],
+    "photos": 6,
     "color": "",
     "color_int": "",
     "km": 0,
-    "engine": "",
+    "engine": "Motor eléctrico",
     "trans": "",
-    "fuel": "",
+    "fuel": "Eléctrico (BEV)",
     "cilindros": 0,
-    "hp": 0,
+    "hp": 134,
     "puertas": 0,
     "pasajeros": 0,
     "velocidades": 0,
@@ -984,7 +1291,27 @@
     "consumo_combinado": 0,
     "consumo_ciudad": 0,
     "consumo_carretera": 0,
-    "equipamiento": {},
+    "equipamiento": {
+      "Confort": [
+        "Asientos cubiertos en piel sintética",
+        "Diseño de techo flotante",
+        "Modo de manejo con pedal inteligente (I-Pedal)"
+      ],
+      "Audio": [
+        "Pantalla de 14.6\""
+      ],
+      "Seguridad": [
+        "Cámara de reversa"
+      ],
+      "Performance": [
+        "Motor eléctrico de 100 kW (134 hp)",
+        "Torque eléctrico de 145 Nm"
+      ],
+      "Exterior": [
+        "Iluminación LED",
+        "Palanca de cambios electrónica al volante"
+      ]
+    },
     "tasa": 0.0999,
     "cxa": 0,
     "descContado": 0,
@@ -997,11 +1324,12 @@
     "_id_grupo": "GAC||GAC AION|AION UT ELITE|2026",
     "_modelo_raw": "GAC AION",
     "_modelo_normalizado": "GAC AION",
-    "_fecha_parse": "2026-05-28T10:14:00.934813"
+    "_fecha_parse": "2026-05-28T10:14:00.934813",
+    "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-02.jpg"
   },
   {
     "id": 1273859906,
-    "name": "GAC Emkoo",
+    "name": "GAC EMKOO",
     "brand": "GAC",
     "submarca": null,
     "year": null,
@@ -1026,15 +1354,22 @@
       "Blanco Metalico",
       "Gris Magnetico"
     ],
-    "img": null,
-    "gallery": [],
-    "photos": 0,
+    "img": "imagenes/oficial/gac/emkoo-01.jpg",
+    "gallery": [
+      "imagenes/oficial/gac/emkoo-01.jpg",
+      "imagenes/oficial/gac/emkoo-02.jpg",
+      "imagenes/oficial/gac/emkoo-03.jpg",
+      "imagenes/oficial/gac/emkoo-04.jpg",
+      "imagenes/oficial/gac/emkoo-05.jpg",
+      "imagenes/oficial/gac/emkoo-06.jpg"
+    ],
+    "photos": 6,
     "color": "",
     "color_int": "",
     "km": 0,
     "engine": "",
     "trans": "",
-    "fuel": "",
+    "fuel": "Gasolina / Híbrido",
     "cilindros": 0,
     "hp": 0,
     "puertas": 0,
@@ -1063,7 +1398,7 @@
   },
   {
     "id": 219236248,
-    "name": "GAC Emkoo",
+    "name": "GAC EMKOO",
     "brand": "GAC",
     "submarca": null,
     "year": 2026,
@@ -1088,15 +1423,22 @@
       "Blanco Metalico",
       "Gris Magnetico"
     ],
-    "img": null,
-    "gallery": [],
-    "photos": 0,
+    "img": "imagenes/oficial/gac/emkoo-01.jpg",
+    "gallery": [
+      "imagenes/oficial/gac/emkoo-01.jpg",
+      "imagenes/oficial/gac/emkoo-02.jpg",
+      "imagenes/oficial/gac/emkoo-03.jpg",
+      "imagenes/oficial/gac/emkoo-04.jpg",
+      "imagenes/oficial/gac/emkoo-05.jpg",
+      "imagenes/oficial/gac/emkoo-06.jpg"
+    ],
+    "photos": 6,
     "color": "",
     "color_int": "",
     "km": 0,
     "engine": "",
     "trans": "",
-    "fuel": "",
+    "fuel": "Gasolina / Híbrido",
     "cilindros": 0,
     "hp": 0,
     "puertas": 0,
@@ -1125,7 +1467,7 @@
   },
   {
     "id": 2342399839,
-    "name": "GAC Emkoo",
+    "name": "GAC EMKOO",
     "brand": "GAC",
     "submarca": null,
     "year": null,
@@ -1133,7 +1475,7 @@
     "type": "suv",
     "price": 385974,
     "priceType": "msrp",
-    "badge": "",
+    "badge": "HEV",
     "loc": "GAC Américas",
     "locs": [
       {
@@ -1145,15 +1487,22 @@
     "colores_disponibles": [
       "Gris Magnetico"
     ],
-    "img": null,
-    "gallery": [],
-    "photos": 0,
+    "img": "imagenes/oficial/gac/emkoo-01.jpg",
+    "gallery": [
+      "imagenes/oficial/gac/emkoo-01.jpg",
+      "imagenes/oficial/gac/emkoo-02.jpg",
+      "imagenes/oficial/gac/emkoo-03.jpg",
+      "imagenes/oficial/gac/emkoo-04.jpg",
+      "imagenes/oficial/gac/emkoo-05.jpg",
+      "imagenes/oficial/gac/emkoo-06.jpg"
+    ],
+    "photos": 6,
     "color": "",
     "color_int": "",
     "km": 0,
     "engine": "",
     "trans": "",
-    "fuel": "",
+    "fuel": "Gasolina / Híbrido",
     "cilindros": 0,
     "hp": 0,
     "puertas": 0,
@@ -1182,7 +1531,7 @@
   },
   {
     "id": 3826184157,
-    "name": "GAC Emkoo",
+    "name": "GAC EMKOO",
     "brand": "GAC",
     "submarca": null,
     "year": 2025,
@@ -1190,7 +1539,7 @@
     "type": "suv",
     "price": 385974,
     "priceType": "msrp",
-    "badge": "",
+    "badge": "HEV",
     "loc": "GAC Américas",
     "locs": [
       {
@@ -1202,15 +1551,22 @@
     "colores_disponibles": [
       "Gris Magnetico"
     ],
-    "img": null,
-    "gallery": [],
-    "photos": 0,
+    "img": "imagenes/oficial/gac/emkoo-01.jpg",
+    "gallery": [
+      "imagenes/oficial/gac/emkoo-01.jpg",
+      "imagenes/oficial/gac/emkoo-02.jpg",
+      "imagenes/oficial/gac/emkoo-03.jpg",
+      "imagenes/oficial/gac/emkoo-04.jpg",
+      "imagenes/oficial/gac/emkoo-05.jpg",
+      "imagenes/oficial/gac/emkoo-06.jpg"
+    ],
+    "photos": 6,
     "color": "",
     "color_int": "",
     "km": 0,
     "engine": "",
     "trans": "",
-    "fuel": "",
+    "fuel": "Gasolina / Híbrido",
     "cilindros": 0,
     "hp": 0,
     "puertas": 0,
@@ -1239,7 +1595,7 @@
   },
   {
     "id": 303410495,
-    "name": "GAC Gs8 All New",
+    "name": "GAC GS8 ALL NEW",
     "brand": "GAC",
     "submarca": null,
     "year": null,
@@ -1247,7 +1603,7 @@
     "type": "suv",
     "price": 487217,
     "priceType": "msrp",
-    "badge": "",
+    "badge": "HEV",
     "loc": "GAC Américas",
     "locs": [
       {
@@ -1259,27 +1615,58 @@
     "colores_disponibles": [
       "Blanco Magnolia"
     ],
-    "img": null,
-    "gallery": [],
-    "photos": 0,
+    "img": "imagenes/oficial/gac/gs8-01.jpg",
+    "gallery": [
+      "imagenes/oficial/gac/gs8-01.jpg",
+      "imagenes/oficial/gac/gs8-02.jpg",
+      "imagenes/oficial/gac/gs8-03.jpg",
+      "imagenes/oficial/gac/gs8-04.jpg",
+      "imagenes/oficial/gac/gs8-05.jpg",
+      "imagenes/oficial/gac/gs8-06.jpg"
+    ],
+    "photos": 6,
     "color": "",
     "color_int": "",
     "km": 0,
-    "engine": "",
+    "engine": "2.0TM + GMC2.0 híbrido",
     "trans": "",
-    "fuel": "",
+    "fuel": "Híbrido (HEV)",
     "cilindros": 0,
     "hp": 0,
-    "puertas": 0,
-    "pasajeros": 0,
+    "puertas": 5,
+    "pasajeros": 6,
     "velocidades": 0,
     "traccion": "",
     "tanque_l": 0,
     "rines": 0,
-    "consumo_combinado": 0,
+    "consumo_combinado": 17.7,
     "consumo_ciudad": 0,
     "consumo_carretera": 0,
-    "equipamiento": {},
+    "equipamiento": {
+      "Confort": [
+        "Segunda fila estilo capitán",
+        "Amplia cabina para 6 pasajeros",
+        "Asientos ventilados y calefactables con función de memoria"
+      ],
+      "Audio": [
+        "Display de información frontal (Head-up display)",
+        "Pantalla táctil de 14.6\"",
+        "Luz ambiental inteligente multicolor"
+      ],
+      "Seguridad": [
+        "13 ADAS",
+        "Rendimiento hasta 17.7 km/L"
+      ],
+      "Performance": [
+        "Motor híbrido 2.0TM+GMC2.0",
+        "Hasta 1,000 km de autonomía"
+      ],
+      "Exterior": [
+        "Faros LED automáticos con luces diurnas LED",
+        "Rines de aluminio de 20\" con emblema flotante",
+        "Nueva parrilla HEV"
+      ]
+    },
     "tasa": 0.0999,
     "cxa": 0,
     "descContado": 0,
@@ -1292,11 +1679,12 @@
     "_id_grupo": "GAC||GAC GS8 ALL NEW|GS8 GT FWD|",
     "_modelo_raw": "GAC GS8 ALL NEW",
     "_modelo_normalizado": "GAC GS8 ALL NEW",
-    "_fecha_parse": "2026-05-28T10:14:00.934929"
+    "_fecha_parse": "2026-05-28T10:14:00.934929",
+    "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-07.jpg"
   },
   {
     "id": 3768416979,
-    "name": "GAC Gs8 All New",
+    "name": "GAC GS8 ALL NEW",
     "brand": "GAC",
     "submarca": null,
     "year": 2026,
@@ -1304,7 +1692,7 @@
     "type": "suv",
     "price": 487217,
     "priceType": "msrp",
-    "badge": "",
+    "badge": "HEV",
     "loc": "GAC Américas",
     "locs": [
       {
@@ -1316,27 +1704,58 @@
     "colores_disponibles": [
       "Blanco Magnolia"
     ],
-    "img": null,
-    "gallery": [],
-    "photos": 0,
+    "img": "imagenes/oficial/gac/gs8-01.jpg",
+    "gallery": [
+      "imagenes/oficial/gac/gs8-01.jpg",
+      "imagenes/oficial/gac/gs8-02.jpg",
+      "imagenes/oficial/gac/gs8-03.jpg",
+      "imagenes/oficial/gac/gs8-04.jpg",
+      "imagenes/oficial/gac/gs8-05.jpg",
+      "imagenes/oficial/gac/gs8-06.jpg"
+    ],
+    "photos": 6,
     "color": "",
     "color_int": "",
     "km": 0,
-    "engine": "",
+    "engine": "2.0TM + GMC2.0 híbrido",
     "trans": "",
-    "fuel": "",
+    "fuel": "Híbrido (HEV)",
     "cilindros": 0,
     "hp": 0,
-    "puertas": 0,
-    "pasajeros": 0,
+    "puertas": 5,
+    "pasajeros": 6,
     "velocidades": 0,
     "traccion": "",
     "tanque_l": 0,
     "rines": 0,
-    "consumo_combinado": 0,
+    "consumo_combinado": 17.7,
     "consumo_ciudad": 0,
     "consumo_carretera": 0,
-    "equipamiento": {},
+    "equipamiento": {
+      "Confort": [
+        "Segunda fila estilo capitán",
+        "Amplia cabina para 6 pasajeros",
+        "Asientos ventilados y calefactables con función de memoria"
+      ],
+      "Audio": [
+        "Display de información frontal (Head-up display)",
+        "Pantalla táctil de 14.6\"",
+        "Luz ambiental inteligente multicolor"
+      ],
+      "Seguridad": [
+        "13 ADAS",
+        "Rendimiento hasta 17.7 km/L"
+      ],
+      "Performance": [
+        "Motor híbrido 2.0TM+GMC2.0",
+        "Hasta 1,000 km de autonomía"
+      ],
+      "Exterior": [
+        "Faros LED automáticos con luces diurnas LED",
+        "Rines de aluminio de 20\" con emblema flotante",
+        "Nueva parrilla HEV"
+      ]
+    },
     "tasa": 0.0999,
     "cxa": 0,
     "descContado": 0,
@@ -1349,17 +1768,18 @@
     "_id_grupo": "GAC||GAC GS8 ALL NEW|GS8 GT FWD|2026",
     "_modelo_raw": "GAC GS8 ALL NEW",
     "_modelo_normalizado": "GAC GS8 ALL NEW",
-    "_fecha_parse": "2026-05-28T10:14:00.934934"
+    "_fecha_parse": "2026-05-28T10:14:00.934934",
+    "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-07.jpg"
   },
   {
     "id": 3200804831,
-    "name": "GAC Gs8 All New",
+    "name": "GAC GS8 ALL NEW",
     "brand": "GAC",
     "submarca": null,
     "year": null,
     "version": "GS8 HEV GX AWD GAC",
     "type": "suv",
-    "price": 781470,
+    "price": 999900,
     "priceType": "msrp",
     "badge": "HEV",
     "loc": "GAC Américas",
@@ -1373,27 +1793,58 @@
     "colores_disponibles": [
       "Gris Titanio"
     ],
-    "img": null,
-    "gallery": [],
-    "photos": 0,
+    "img": "imagenes/oficial/gac/gs8-01.jpg",
+    "gallery": [
+      "imagenes/oficial/gac/gs8-01.jpg",
+      "imagenes/oficial/gac/gs8-02.jpg",
+      "imagenes/oficial/gac/gs8-03.jpg",
+      "imagenes/oficial/gac/gs8-04.jpg",
+      "imagenes/oficial/gac/gs8-05.jpg",
+      "imagenes/oficial/gac/gs8-06.jpg"
+    ],
+    "photos": 6,
     "color": "",
     "color_int": "",
     "km": 0,
-    "engine": "",
+    "engine": "2.0TM + GMC2.0 híbrido",
     "trans": "",
-    "fuel": "",
+    "fuel": "Híbrido (HEV)",
     "cilindros": 0,
     "hp": 0,
-    "puertas": 0,
-    "pasajeros": 0,
+    "puertas": 5,
+    "pasajeros": 6,
     "velocidades": 0,
     "traccion": "",
     "tanque_l": 0,
     "rines": 0,
-    "consumo_combinado": 0,
+    "consumo_combinado": 17.7,
     "consumo_ciudad": 0,
     "consumo_carretera": 0,
-    "equipamiento": {},
+    "equipamiento": {
+      "Confort": [
+        "Segunda fila estilo capitán",
+        "Amplia cabina para 6 pasajeros",
+        "Asientos ventilados y calefactables con función de memoria"
+      ],
+      "Audio": [
+        "Display de información frontal (Head-up display)",
+        "Pantalla táctil de 14.6\"",
+        "Luz ambiental inteligente multicolor"
+      ],
+      "Seguridad": [
+        "13 ADAS",
+        "Rendimiento hasta 17.7 km/L"
+      ],
+      "Performance": [
+        "Motor híbrido 2.0TM+GMC2.0",
+        "Hasta 1,000 km de autonomía"
+      ],
+      "Exterior": [
+        "Faros LED automáticos con luces diurnas LED",
+        "Rines de aluminio de 20\" con emblema flotante",
+        "Nueva parrilla HEV"
+      ]
+    },
     "tasa": 0.0999,
     "cxa": 0,
     "descContado": 0,
@@ -1406,17 +1857,18 @@
     "_id_grupo": "GAC||GAC GS8 ALL NEW|GS8 HEV GX AWD GAC|",
     "_modelo_raw": "GAC GS8 ALL NEW",
     "_modelo_normalizado": "GAC GS8 ALL NEW",
-    "_fecha_parse": "2026-05-28T10:14:00.934943"
+    "_fecha_parse": "2026-05-28T10:14:00.934943",
+    "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-07.jpg"
   },
   {
     "id": 3865846035,
-    "name": "GAC Gs8 All New",
+    "name": "GAC GS8 ALL NEW",
     "brand": "GAC",
     "submarca": null,
     "year": 2026,
     "version": "GS8 HEV GX AWD GAC",
     "type": "suv",
-    "price": 781470,
+    "price": 999900,
     "priceType": "msrp",
     "badge": "HEV",
     "loc": "GAC Américas",
@@ -1430,27 +1882,58 @@
     "colores_disponibles": [
       "Gris Titanio"
     ],
-    "img": null,
-    "gallery": [],
-    "photos": 0,
+    "img": "imagenes/oficial/gac/gs8-01.jpg",
+    "gallery": [
+      "imagenes/oficial/gac/gs8-01.jpg",
+      "imagenes/oficial/gac/gs8-02.jpg",
+      "imagenes/oficial/gac/gs8-03.jpg",
+      "imagenes/oficial/gac/gs8-04.jpg",
+      "imagenes/oficial/gac/gs8-05.jpg",
+      "imagenes/oficial/gac/gs8-06.jpg"
+    ],
+    "photos": 6,
     "color": "",
     "color_int": "",
     "km": 0,
-    "engine": "",
+    "engine": "2.0TM + GMC2.0 híbrido",
     "trans": "",
-    "fuel": "",
+    "fuel": "Híbrido (HEV)",
     "cilindros": 0,
     "hp": 0,
-    "puertas": 0,
-    "pasajeros": 0,
+    "puertas": 5,
+    "pasajeros": 6,
     "velocidades": 0,
     "traccion": "",
     "tanque_l": 0,
     "rines": 0,
-    "consumo_combinado": 0,
+    "consumo_combinado": 17.7,
     "consumo_ciudad": 0,
     "consumo_carretera": 0,
-    "equipamiento": {},
+    "equipamiento": {
+      "Confort": [
+        "Segunda fila estilo capitán",
+        "Amplia cabina para 6 pasajeros",
+        "Asientos ventilados y calefactables con función de memoria"
+      ],
+      "Audio": [
+        "Display de información frontal (Head-up display)",
+        "Pantalla táctil de 14.6\"",
+        "Luz ambiental inteligente multicolor"
+      ],
+      "Seguridad": [
+        "13 ADAS",
+        "Rendimiento hasta 17.7 km/L"
+      ],
+      "Performance": [
+        "Motor híbrido 2.0TM+GMC2.0",
+        "Hasta 1,000 km de autonomía"
+      ],
+      "Exterior": [
+        "Faros LED automáticos con luces diurnas LED",
+        "Rines de aluminio de 20\" con emblema flotante",
+        "Nueva parrilla HEV"
+      ]
+    },
     "tasa": 0.0999,
     "cxa": 0,
     "descContado": 0,
@@ -1463,11 +1946,12 @@
     "_id_grupo": "GAC||GAC GS8 ALL NEW|GS8 HEV GX AWD GAC|2026",
     "_modelo_raw": "GAC GS8 ALL NEW",
     "_modelo_normalizado": "GAC GS8 ALL NEW",
-    "_fecha_parse": "2026-05-28T10:14:00.934947"
+    "_fecha_parse": "2026-05-28T10:14:00.934947",
+    "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-07.jpg"
   },
   {
     "id": 207899167,
-    "name": "GAC Aion",
+    "name": "GAC AION",
     "brand": "GAC",
     "submarca": null,
     "year": null,
@@ -1487,17 +1971,24 @@
     "colores_disponibles": [
       "Blanco Metalico"
     ],
-    "img": null,
-    "gallery": [],
-    "photos": 0,
+    "img": "imagenes/oficial/gac/aion-ut-01.jpg",
+    "gallery": [
+      "imagenes/oficial/gac/aion-ut-01.jpg",
+      "imagenes/oficial/gac/aion-ut-02.jpg",
+      "imagenes/oficial/gac/aion-ut-03.jpg",
+      "imagenes/oficial/gac/aion-ut-04.jpg",
+      "imagenes/oficial/gac/aion-ut-05.jpg",
+      "imagenes/oficial/gac/aion-ut-06.jpg"
+    ],
+    "photos": 6,
     "color": "",
     "color_int": "",
     "km": 0,
-    "engine": "",
+    "engine": "Motor eléctrico",
     "trans": "",
-    "fuel": "",
+    "fuel": "Eléctrico (BEV)",
     "cilindros": 0,
-    "hp": 0,
+    "hp": 134,
     "puertas": 0,
     "pasajeros": 0,
     "velocidades": 0,
@@ -1507,7 +1998,27 @@
     "consumo_combinado": 0,
     "consumo_ciudad": 0,
     "consumo_carretera": 0,
-    "equipamiento": {},
+    "equipamiento": {
+      "Confort": [
+        "Asientos cubiertos en piel sintética",
+        "Diseño de techo flotante",
+        "Modo de manejo con pedal inteligente (I-Pedal)"
+      ],
+      "Audio": [
+        "Pantalla de 14.6\""
+      ],
+      "Seguridad": [
+        "Cámara de reversa"
+      ],
+      "Performance": [
+        "Motor eléctrico de 100 kW (134 hp)",
+        "Torque eléctrico de 145 Nm"
+      ],
+      "Exterior": [
+        "Iluminación LED",
+        "Palanca de cambios electrónica al volante"
+      ]
+    },
     "tasa": 0.0999,
     "cxa": 0,
     "descContado": 0,
@@ -1520,11 +2031,12 @@
     "_id_grupo": "GAC||GAC AION|AION ES GL|",
     "_modelo_raw": "GAC AION",
     "_modelo_normalizado": "GAC AION",
-    "_fecha_parse": "2026-05-28T10:14:00.934951"
+    "_fecha_parse": "2026-05-28T10:14:00.934951",
+    "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-02.jpg"
   },
   {
     "id": 3216920295,
-    "name": "GAC Aion",
+    "name": "GAC AION",
     "brand": "GAC",
     "submarca": null,
     "year": 2025,
@@ -1544,17 +2056,24 @@
     "colores_disponibles": [
       "Blanco Metalico"
     ],
-    "img": null,
-    "gallery": [],
-    "photos": 0,
+    "img": "imagenes/oficial/gac/aion-ut-01.jpg",
+    "gallery": [
+      "imagenes/oficial/gac/aion-ut-01.jpg",
+      "imagenes/oficial/gac/aion-ut-02.jpg",
+      "imagenes/oficial/gac/aion-ut-03.jpg",
+      "imagenes/oficial/gac/aion-ut-04.jpg",
+      "imagenes/oficial/gac/aion-ut-05.jpg",
+      "imagenes/oficial/gac/aion-ut-06.jpg"
+    ],
+    "photos": 6,
     "color": "",
     "color_int": "",
     "km": 0,
-    "engine": "",
+    "engine": "Motor eléctrico",
     "trans": "",
-    "fuel": "",
+    "fuel": "Eléctrico (BEV)",
     "cilindros": 0,
-    "hp": 0,
+    "hp": 134,
     "puertas": 0,
     "pasajeros": 0,
     "velocidades": 0,
@@ -1564,7 +2083,27 @@
     "consumo_combinado": 0,
     "consumo_ciudad": 0,
     "consumo_carretera": 0,
-    "equipamiento": {},
+    "equipamiento": {
+      "Confort": [
+        "Asientos cubiertos en piel sintética",
+        "Diseño de techo flotante",
+        "Modo de manejo con pedal inteligente (I-Pedal)"
+      ],
+      "Audio": [
+        "Pantalla de 14.6\""
+      ],
+      "Seguridad": [
+        "Cámara de reversa"
+      ],
+      "Performance": [
+        "Motor eléctrico de 100 kW (134 hp)",
+        "Torque eléctrico de 145 Nm"
+      ],
+      "Exterior": [
+        "Iluminación LED",
+        "Palanca de cambios electrónica al volante"
+      ]
+    },
     "tasa": 0.0999,
     "cxa": 0,
     "descContado": 0,
@@ -1577,11 +2116,12 @@
     "_id_grupo": "GAC||GAC AION|AION ES GL|2025",
     "_modelo_raw": "GAC AION",
     "_modelo_normalizado": "GAC AION",
-    "_fecha_parse": "2026-05-28T10:14:00.934955"
+    "_fecha_parse": "2026-05-28T10:14:00.934955",
+    "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-02.jpg"
   },
   {
     "id": 959485663,
-    "name": "GAC Aion",
+    "name": "GAC AION",
     "brand": "GAC",
     "submarca": null,
     "year": null,
@@ -1601,17 +2141,24 @@
     "colores_disponibles": [
       "Blanco Nevado"
     ],
-    "img": null,
-    "gallery": [],
-    "photos": 0,
+    "img": "imagenes/oficial/gac/aion-y-01.jpg",
+    "gallery": [
+      "imagenes/oficial/gac/aion-y-01.jpg",
+      "imagenes/oficial/gac/aion-y-02.jpg",
+      "imagenes/oficial/gac/aion-y-03.jpg",
+      "imagenes/oficial/gac/aion-y-04.jpg",
+      "imagenes/oficial/gac/aion-y-05.jpg",
+      "imagenes/oficial/gac/aion-y-06.jpg"
+    ],
+    "photos": 6,
     "color": "",
     "color_int": "",
     "km": 0,
-    "engine": "",
+    "engine": "Motor eléctrico",
     "trans": "",
-    "fuel": "",
+    "fuel": "Eléctrico (BEV)",
     "cilindros": 0,
-    "hp": 0,
+    "hp": 134,
     "puertas": 0,
     "pasajeros": 0,
     "velocidades": 0,
@@ -1621,7 +2168,27 @@
     "consumo_combinado": 0,
     "consumo_ciudad": 0,
     "consumo_carretera": 0,
-    "equipamiento": {},
+    "equipamiento": {
+      "Confort": [
+        "Asientos cubiertos en piel sintética",
+        "Diseño de techo flotante",
+        "Modo de manejo con pedal inteligente (I-Pedal)"
+      ],
+      "Audio": [
+        "Pantalla de 14.6\""
+      ],
+      "Seguridad": [
+        "Cámara de reversa"
+      ],
+      "Performance": [
+        "Motor eléctrico de 100 kW (134 hp)",
+        "Torque eléctrico de 145 Nm"
+      ],
+      "Exterior": [
+        "Iluminación LED",
+        "Palanca de cambios electrónica al volante"
+      ]
+    },
     "tasa": 0.0999,
     "cxa": 0,
     "descContado": 0,
@@ -1634,11 +2201,12 @@
     "_id_grupo": "GAC||GAC AION|AION Y GX|",
     "_modelo_raw": "GAC AION",
     "_modelo_normalizado": "GAC AION",
-    "_fecha_parse": "2026-05-28T10:14:00.934960"
+    "_fecha_parse": "2026-05-28T10:14:00.934960",
+    "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-02.jpg"
   },
   {
     "id": 1984429722,
-    "name": "GAC Aion",
+    "name": "GAC AION",
     "brand": "GAC",
     "submarca": null,
     "year": 2025,
@@ -1658,17 +2226,24 @@
     "colores_disponibles": [
       "Blanco Nevado"
     ],
-    "img": null,
-    "gallery": [],
-    "photos": 0,
+    "img": "imagenes/oficial/gac/aion-y-01.jpg",
+    "gallery": [
+      "imagenes/oficial/gac/aion-y-01.jpg",
+      "imagenes/oficial/gac/aion-y-02.jpg",
+      "imagenes/oficial/gac/aion-y-03.jpg",
+      "imagenes/oficial/gac/aion-y-04.jpg",
+      "imagenes/oficial/gac/aion-y-05.jpg",
+      "imagenes/oficial/gac/aion-y-06.jpg"
+    ],
+    "photos": 6,
     "color": "",
     "color_int": "",
     "km": 0,
-    "engine": "",
+    "engine": "Motor eléctrico",
     "trans": "",
-    "fuel": "",
+    "fuel": "Eléctrico (BEV)",
     "cilindros": 0,
-    "hp": 0,
+    "hp": 134,
     "puertas": 0,
     "pasajeros": 0,
     "velocidades": 0,
@@ -1678,7 +2253,27 @@
     "consumo_combinado": 0,
     "consumo_ciudad": 0,
     "consumo_carretera": 0,
-    "equipamiento": {},
+    "equipamiento": {
+      "Confort": [
+        "Asientos cubiertos en piel sintética",
+        "Diseño de techo flotante",
+        "Modo de manejo con pedal inteligente (I-Pedal)"
+      ],
+      "Audio": [
+        "Pantalla de 14.6\""
+      ],
+      "Seguridad": [
+        "Cámara de reversa"
+      ],
+      "Performance": [
+        "Motor eléctrico de 100 kW (134 hp)",
+        "Torque eléctrico de 145 Nm"
+      ],
+      "Exterior": [
+        "Iluminación LED",
+        "Palanca de cambios electrónica al volante"
+      ]
+    },
     "tasa": 0.0999,
     "cxa": 0,
     "descContado": 0,
@@ -1691,17 +2286,18 @@
     "_id_grupo": "GAC||GAC AION|AION Y GX|2025",
     "_modelo_raw": "GAC AION",
     "_modelo_normalizado": "GAC AION",
-    "_fecha_parse": "2026-05-28T10:14:00.934964"
+    "_fecha_parse": "2026-05-28T10:14:00.934964",
+    "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-02.jpg"
   },
   {
     "id": 2929504528,
-    "name": "GAC Gn8",
+    "name": "GAC GN8",
     "brand": "GAC",
     "submarca": null,
     "year": null,
     "version": "GN8 GX LUX",
     "type": "van",
-    "price": 376378,
+    "price": 1028800,
     "priceType": "msrp",
     "badge": "",
     "loc": "GAC Bugambilias",
@@ -1715,19 +2311,22 @@
     "colores_disponibles": [
       "Negro Obsidiana"
     ],
-    "img": null,
-    "gallery": [],
-    "photos": 0,
+    "img": "imagenes/oficial/gac/brochures/brochure-04.jpg",
+    "gallery": [
+      "imagenes/oficial/gac/brochures/brochure-04.jpg",
+      "imagenes/oficial/gac/brochures/brochure-05.jpg"
+    ],
+    "photos": 2,
     "color": "",
     "color_int": "",
     "km": 0,
-    "engine": "",
+    "engine": "2.0L Turbo GDI",
     "trans": "",
-    "fuel": "",
+    "fuel": "Gasolina",
     "cilindros": 0,
     "hp": 0,
-    "puertas": 0,
-    "pasajeros": 0,
+    "puertas": 5,
+    "pasajeros": 7,
     "velocidades": 0,
     "traccion": "",
     "tanque_l": 0,
@@ -1735,7 +2334,30 @@
     "consumo_combinado": 0,
     "consumo_ciudad": 0,
     "consumo_carretera": 0,
-    "equipamiento": {},
+    "equipamiento": {
+      "Confort": [
+        "Segunda fila con asientos capitán de 6 posiciones",
+        "Asientos primera fila ventilados y calefactables",
+        "Cargador inalámbrico"
+      ],
+      "Audio": [
+        "Pantalla multifuncional táctil de 14.6\""
+      ],
+      "Seguridad": [
+        "7 Bolsas de aire 360°",
+        "11 ADAS (ACC, TSR, ISL-ACC, FCW, AEB, LDW, LKA, WELL, ICA, BSD, LCA, DOW, RCW, RCTA, ELKA, FAPA)",
+        "Cámara 360° única del segmento",
+        "Portavaso enfriamiento y calefactable"
+      ],
+      "Performance": [
+        "Transmisión 8 velocidades automática",
+        "Suspensión electromagnética"
+      ],
+      "Exterior": [
+        "Faros delanteros con animación de bienvenida",
+        "Parabrisas insonorizado"
+      ]
+    },
     "tasa": 0.0999,
     "cxa": 0,
     "descContado": 0,
@@ -1748,17 +2370,18 @@
     "_id_grupo": "GAC||GAC GN8|GN8 GX LUX|",
     "_modelo_raw": "GAC GN8",
     "_modelo_normalizado": "GAC GN8",
-    "_fecha_parse": "2026-05-28T10:14:00.934983"
+    "_fecha_parse": "2026-05-28T10:14:00.934983",
+    "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-04.jpg"
   },
   {
     "id": 3841289391,
-    "name": "GAC Gn8",
+    "name": "GAC GN8",
     "brand": "GAC",
     "submarca": null,
     "year": 2024,
     "version": "GN8 GX LUX",
     "type": "van",
-    "price": 376378,
+    "price": 1028800,
     "priceType": "msrp",
     "badge": "",
     "loc": "GAC Bugambilias",
@@ -1772,19 +2395,22 @@
     "colores_disponibles": [
       "Negro Obsidiana"
     ],
-    "img": null,
-    "gallery": [],
-    "photos": 0,
+    "img": "imagenes/oficial/gac/brochures/brochure-04.jpg",
+    "gallery": [
+      "imagenes/oficial/gac/brochures/brochure-04.jpg",
+      "imagenes/oficial/gac/brochures/brochure-05.jpg"
+    ],
+    "photos": 2,
     "color": "",
     "color_int": "",
     "km": 0,
-    "engine": "",
+    "engine": "2.0L Turbo GDI",
     "trans": "",
-    "fuel": "",
+    "fuel": "Gasolina",
     "cilindros": 0,
     "hp": 0,
-    "puertas": 0,
-    "pasajeros": 0,
+    "puertas": 5,
+    "pasajeros": 7,
     "velocidades": 0,
     "traccion": "",
     "tanque_l": 0,
@@ -1792,7 +2418,30 @@
     "consumo_combinado": 0,
     "consumo_ciudad": 0,
     "consumo_carretera": 0,
-    "equipamiento": {},
+    "equipamiento": {
+      "Confort": [
+        "Segunda fila con asientos capitán de 6 posiciones",
+        "Asientos primera fila ventilados y calefactables",
+        "Cargador inalámbrico"
+      ],
+      "Audio": [
+        "Pantalla multifuncional táctil de 14.6\""
+      ],
+      "Seguridad": [
+        "7 Bolsas de aire 360°",
+        "11 ADAS (ACC, TSR, ISL-ACC, FCW, AEB, LDW, LKA, WELL, ICA, BSD, LCA, DOW, RCW, RCTA, ELKA, FAPA)",
+        "Cámara 360° única del segmento",
+        "Portavaso enfriamiento y calefactable"
+      ],
+      "Performance": [
+        "Transmisión 8 velocidades automática",
+        "Suspensión electromagnética"
+      ],
+      "Exterior": [
+        "Faros delanteros con animación de bienvenida",
+        "Parabrisas insonorizado"
+      ]
+    },
     "tasa": 0.0999,
     "cxa": 0,
     "descContado": 0,
@@ -1805,11 +2454,12 @@
     "_id_grupo": "GAC||GAC GN8|GN8 GX LUX|2024",
     "_modelo_raw": "GAC GN8",
     "_modelo_normalizado": "GAC GN8",
-    "_fecha_parse": "2026-05-28T10:14:00.934987"
+    "_fecha_parse": "2026-05-28T10:14:00.934987",
+    "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-04.jpg"
   },
   {
     "id": 3410547558,
-    "name": "GAC Gs7 PHEV",
+    "name": "GAC GS7 PHEV",
     "brand": "GAC",
     "submarca": null,
     "year": null,
@@ -1837,7 +2487,7 @@
     "km": 0,
     "engine": "",
     "trans": "",
-    "fuel": "",
+    "fuel": "Híbrido enchufable (PHEV)",
     "cilindros": 0,
     "hp": 0,
     "puertas": 0,
@@ -1866,7 +2516,7 @@
   },
   {
     "id": 438334307,
-    "name": "GAC Gs7 PHEV",
+    "name": "GAC GS7 PHEV",
     "brand": "GAC",
     "submarca": null,
     "year": 2026,
@@ -1894,7 +2544,7 @@
     "km": 0,
     "engine": "",
     "trans": "",
-    "fuel": "",
+    "fuel": "Híbrido enchufable (PHEV)",
     "cilindros": 0,
     "hp": 0,
     "puertas": 0,
@@ -1923,7 +2573,7 @@
   },
   {
     "id": 3328960709,
-    "name": "GAC Gs7 PHEV",
+    "name": "GAC GS7 PHEV",
     "brand": "GAC",
     "submarca": null,
     "year": null,
@@ -1951,7 +2601,7 @@
     "km": 0,
     "engine": "",
     "trans": "",
-    "fuel": "",
+    "fuel": "Híbrido enchufable (PHEV)",
     "cilindros": 0,
     "hp": 0,
     "puertas": 0,
@@ -1980,7 +2630,7 @@
   },
   {
     "id": 754699696,
-    "name": "GAC Gs7 PHEV",
+    "name": "GAC GS7 PHEV",
     "brand": "GAC",
     "submarca": null,
     "year": 2026,
@@ -2008,7 +2658,7 @@
     "km": 0,
     "engine": "",
     "trans": "",
-    "fuel": "",
+    "fuel": "Híbrido enchufable (PHEV)",
     "cilindros": 0,
     "hp": 0,
     "puertas": 0,
@@ -2037,7 +2687,7 @@
   },
   {
     "id": 1549267532,
-    "name": "GAC Gs8 All New",
+    "name": "GAC GS8 ALL NEW",
     "brand": "GAC",
     "submarca": null,
     "year": null,
@@ -2045,7 +2695,7 @@
     "type": "suv",
     "price": 401758,
     "priceType": "msrp",
-    "badge": "",
+    "badge": "HEV",
     "loc": "GAC Bugambilias",
     "locs": [
       {
@@ -2057,27 +2707,58 @@
     "colores_disponibles": [
       "Negro Obsidiana"
     ],
-    "img": null,
-    "gallery": [],
-    "photos": 0,
+    "img": "imagenes/oficial/gac/gs8-01.jpg",
+    "gallery": [
+      "imagenes/oficial/gac/gs8-01.jpg",
+      "imagenes/oficial/gac/gs8-02.jpg",
+      "imagenes/oficial/gac/gs8-03.jpg",
+      "imagenes/oficial/gac/gs8-04.jpg",
+      "imagenes/oficial/gac/gs8-05.jpg",
+      "imagenes/oficial/gac/gs8-06.jpg"
+    ],
+    "photos": 6,
     "color": "",
     "color_int": "",
     "km": 0,
-    "engine": "",
+    "engine": "2.0TM + GMC2.0 híbrido",
     "trans": "",
-    "fuel": "",
+    "fuel": "Híbrido (HEV)",
     "cilindros": 0,
     "hp": 0,
-    "puertas": 0,
-    "pasajeros": 0,
+    "puertas": 5,
+    "pasajeros": 6,
     "velocidades": 0,
     "traccion": "",
     "tanque_l": 0,
     "rines": 0,
-    "consumo_combinado": 0,
+    "consumo_combinado": 17.7,
     "consumo_ciudad": 0,
     "consumo_carretera": 0,
-    "equipamiento": {},
+    "equipamiento": {
+      "Confort": [
+        "Segunda fila estilo capitán",
+        "Amplia cabina para 6 pasajeros",
+        "Asientos ventilados y calefactables con función de memoria"
+      ],
+      "Audio": [
+        "Display de información frontal (Head-up display)",
+        "Pantalla táctil de 14.6\"",
+        "Luz ambiental inteligente multicolor"
+      ],
+      "Seguridad": [
+        "13 ADAS",
+        "Rendimiento hasta 17.7 km/L"
+      ],
+      "Performance": [
+        "Motor híbrido 2.0TM+GMC2.0",
+        "Hasta 1,000 km de autonomía"
+      ],
+      "Exterior": [
+        "Faros LED automáticos con luces diurnas LED",
+        "Rines de aluminio de 20\" con emblema flotante",
+        "Nueva parrilla HEV"
+      ]
+    },
     "tasa": 0.0999,
     "cxa": 0,
     "descContado": 0,
@@ -2090,11 +2771,12 @@
     "_id_grupo": "GAC||GAC GS8 ALL NEW|GS8 GL FWD|",
     "_modelo_raw": "GAC GS8 ALL NEW",
     "_modelo_normalizado": "GAC GS8 ALL NEW",
-    "_fecha_parse": "2026-05-28T10:14:00.935026"
+    "_fecha_parse": "2026-05-28T10:14:00.935026",
+    "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-07.jpg"
   },
   {
     "id": 4211890439,
-    "name": "GAC Gs8 All New",
+    "name": "GAC GS8 ALL NEW",
     "brand": "GAC",
     "submarca": null,
     "year": 2025,
@@ -2102,7 +2784,7 @@
     "type": "suv",
     "price": 401758,
     "priceType": "msrp",
-    "badge": "",
+    "badge": "HEV",
     "loc": "GAC Bugambilias",
     "locs": [
       {
@@ -2114,27 +2796,58 @@
     "colores_disponibles": [
       "Negro Obsidiana"
     ],
-    "img": null,
-    "gallery": [],
-    "photos": 0,
+    "img": "imagenes/oficial/gac/gs8-01.jpg",
+    "gallery": [
+      "imagenes/oficial/gac/gs8-01.jpg",
+      "imagenes/oficial/gac/gs8-02.jpg",
+      "imagenes/oficial/gac/gs8-03.jpg",
+      "imagenes/oficial/gac/gs8-04.jpg",
+      "imagenes/oficial/gac/gs8-05.jpg",
+      "imagenes/oficial/gac/gs8-06.jpg"
+    ],
+    "photos": 6,
     "color": "",
     "color_int": "",
     "km": 0,
-    "engine": "",
+    "engine": "2.0TM + GMC2.0 híbrido",
     "trans": "",
-    "fuel": "",
+    "fuel": "Híbrido (HEV)",
     "cilindros": 0,
     "hp": 0,
-    "puertas": 0,
-    "pasajeros": 0,
+    "puertas": 5,
+    "pasajeros": 6,
     "velocidades": 0,
     "traccion": "",
     "tanque_l": 0,
     "rines": 0,
-    "consumo_combinado": 0,
+    "consumo_combinado": 17.7,
     "consumo_ciudad": 0,
     "consumo_carretera": 0,
-    "equipamiento": {},
+    "equipamiento": {
+      "Confort": [
+        "Segunda fila estilo capitán",
+        "Amplia cabina para 6 pasajeros",
+        "Asientos ventilados y calefactables con función de memoria"
+      ],
+      "Audio": [
+        "Display de información frontal (Head-up display)",
+        "Pantalla táctil de 14.6\"",
+        "Luz ambiental inteligente multicolor"
+      ],
+      "Seguridad": [
+        "13 ADAS",
+        "Rendimiento hasta 17.7 km/L"
+      ],
+      "Performance": [
+        "Motor híbrido 2.0TM+GMC2.0",
+        "Hasta 1,000 km de autonomía"
+      ],
+      "Exterior": [
+        "Faros LED automáticos con luces diurnas LED",
+        "Rines de aluminio de 20\" con emblema flotante",
+        "Nueva parrilla HEV"
+      ]
+    },
     "tasa": 0.0999,
     "cxa": 0,
     "descContado": 0,
@@ -2147,17 +2860,18 @@
     "_id_grupo": "GAC||GAC GS8 ALL NEW|GS8 GL FWD|2025",
     "_modelo_raw": "GAC GS8 ALL NEW",
     "_modelo_normalizado": "GAC GS8 ALL NEW",
-    "_fecha_parse": "2026-05-28T10:14:00.935030"
+    "_fecha_parse": "2026-05-28T10:14:00.935030",
+    "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-07.jpg"
   },
   {
     "id": 1799801305,
-    "name": "GAC Gs8 All New",
+    "name": "GAC GS8 ALL NEW",
     "brand": "GAC",
     "submarca": null,
     "year": null,
     "version": "GS8 HEV GX AWD",
     "type": "suv",
-    "price": 780559,
+    "price": 999900,
     "priceType": "msrp",
     "badge": "HEV",
     "loc": "GAC Bugambilias",
@@ -2171,27 +2885,58 @@
     "colores_disponibles": [
       "Gris Titanio"
     ],
-    "img": null,
-    "gallery": [],
-    "photos": 0,
+    "img": "imagenes/oficial/gac/gs8-01.jpg",
+    "gallery": [
+      "imagenes/oficial/gac/gs8-01.jpg",
+      "imagenes/oficial/gac/gs8-02.jpg",
+      "imagenes/oficial/gac/gs8-03.jpg",
+      "imagenes/oficial/gac/gs8-04.jpg",
+      "imagenes/oficial/gac/gs8-05.jpg",
+      "imagenes/oficial/gac/gs8-06.jpg"
+    ],
+    "photos": 6,
     "color": "",
     "color_int": "",
     "km": 0,
-    "engine": "",
+    "engine": "2.0TM + GMC2.0 híbrido",
     "trans": "",
-    "fuel": "",
+    "fuel": "Híbrido (HEV)",
     "cilindros": 0,
     "hp": 0,
-    "puertas": 0,
-    "pasajeros": 0,
+    "puertas": 5,
+    "pasajeros": 6,
     "velocidades": 0,
     "traccion": "",
     "tanque_l": 0,
     "rines": 0,
-    "consumo_combinado": 0,
+    "consumo_combinado": 17.7,
     "consumo_ciudad": 0,
     "consumo_carretera": 0,
-    "equipamiento": {},
+    "equipamiento": {
+      "Confort": [
+        "Segunda fila estilo capitán",
+        "Amplia cabina para 6 pasajeros",
+        "Asientos ventilados y calefactables con función de memoria"
+      ],
+      "Audio": [
+        "Display de información frontal (Head-up display)",
+        "Pantalla táctil de 14.6\"",
+        "Luz ambiental inteligente multicolor"
+      ],
+      "Seguridad": [
+        "13 ADAS",
+        "Rendimiento hasta 17.7 km/L"
+      ],
+      "Performance": [
+        "Motor híbrido 2.0TM+GMC2.0",
+        "Hasta 1,000 km de autonomía"
+      ],
+      "Exterior": [
+        "Faros LED automáticos con luces diurnas LED",
+        "Rines de aluminio de 20\" con emblema flotante",
+        "Nueva parrilla HEV"
+      ]
+    },
     "tasa": 0.0999,
     "cxa": 0,
     "descContado": 0,
@@ -2204,17 +2949,18 @@
     "_id_grupo": "GAC||GAC GS8 ALL NEW|GS8 HEV GX AWD|",
     "_modelo_raw": "GAC GS8 ALL NEW",
     "_modelo_normalizado": "GAC GS8 ALL NEW",
-    "_fecha_parse": "2026-05-28T10:14:00.935034"
+    "_fecha_parse": "2026-05-28T10:14:00.935034",
+    "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-07.jpg"
   },
   {
     "id": 1146627640,
-    "name": "GAC Gs8 All New",
+    "name": "GAC GS8 ALL NEW",
     "brand": "GAC",
     "submarca": null,
     "year": 2025,
     "version": "GS8 HEV GX AWD",
     "type": "suv",
-    "price": 780559,
+    "price": 999900,
     "priceType": "msrp",
     "badge": "HEV",
     "loc": "GAC Bugambilias",
@@ -2228,27 +2974,58 @@
     "colores_disponibles": [
       "Gris Titanio"
     ],
-    "img": null,
-    "gallery": [],
-    "photos": 0,
+    "img": "imagenes/oficial/gac/gs8-01.jpg",
+    "gallery": [
+      "imagenes/oficial/gac/gs8-01.jpg",
+      "imagenes/oficial/gac/gs8-02.jpg",
+      "imagenes/oficial/gac/gs8-03.jpg",
+      "imagenes/oficial/gac/gs8-04.jpg",
+      "imagenes/oficial/gac/gs8-05.jpg",
+      "imagenes/oficial/gac/gs8-06.jpg"
+    ],
+    "photos": 6,
     "color": "",
     "color_int": "",
     "km": 0,
-    "engine": "",
+    "engine": "2.0TM + GMC2.0 híbrido",
     "trans": "",
-    "fuel": "",
+    "fuel": "Híbrido (HEV)",
     "cilindros": 0,
     "hp": 0,
-    "puertas": 0,
-    "pasajeros": 0,
+    "puertas": 5,
+    "pasajeros": 6,
     "velocidades": 0,
     "traccion": "",
     "tanque_l": 0,
     "rines": 0,
-    "consumo_combinado": 0,
+    "consumo_combinado": 17.7,
     "consumo_ciudad": 0,
     "consumo_carretera": 0,
-    "equipamiento": {},
+    "equipamiento": {
+      "Confort": [
+        "Segunda fila estilo capitán",
+        "Amplia cabina para 6 pasajeros",
+        "Asientos ventilados y calefactables con función de memoria"
+      ],
+      "Audio": [
+        "Display de información frontal (Head-up display)",
+        "Pantalla táctil de 14.6\"",
+        "Luz ambiental inteligente multicolor"
+      ],
+      "Seguridad": [
+        "13 ADAS",
+        "Rendimiento hasta 17.7 km/L"
+      ],
+      "Performance": [
+        "Motor híbrido 2.0TM+GMC2.0",
+        "Hasta 1,000 km de autonomía"
+      ],
+      "Exterior": [
+        "Faros LED automáticos con luces diurnas LED",
+        "Rines de aluminio de 20\" con emblema flotante",
+        "Nueva parrilla HEV"
+      ]
+    },
     "tasa": 0.0999,
     "cxa": 0,
     "descContado": 0,
@@ -2261,11 +3038,12 @@
     "_id_grupo": "GAC||GAC GS8 ALL NEW|GS8 HEV GX AWD|2025",
     "_modelo_raw": "GAC GS8 ALL NEW",
     "_modelo_normalizado": "GAC GS8 ALL NEW",
-    "_fecha_parse": "2026-05-28T10:14:00.935038"
+    "_fecha_parse": "2026-05-28T10:14:00.935038",
+    "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-07.jpg"
   },
   {
     "id": 2354691265,
-    "name": "GAC Hyptec",
+    "name": "GAC HYPTEC",
     "brand": "GAC",
     "submarca": null,
     "year": null,
@@ -2285,17 +3063,24 @@
     "colores_disponibles": [
       "Blanco"
     ],
-    "img": null,
-    "gallery": [],
-    "photos": 0,
+    "img": "imagenes/oficial/gac/hyptec-01.jpg",
+    "gallery": [
+      "imagenes/oficial/gac/hyptec-01.jpg",
+      "imagenes/oficial/gac/hyptec-02.jpg",
+      "imagenes/oficial/gac/hyptec-03.jpg",
+      "imagenes/oficial/gac/hyptec-04.jpg",
+      "imagenes/oficial/gac/hyptec-05.jpg",
+      "imagenes/oficial/gac/hyptec-06.jpg"
+    ],
+    "photos": 6,
     "color": "",
     "color_int": "",
     "km": 0,
-    "engine": "",
+    "engine": "Motor eléctrico de 180 kW",
     "trans": "",
-    "fuel": "",
+    "fuel": "Eléctrico (BEV)",
     "cilindros": 0,
-    "hp": 0,
+    "hp": 241,
     "puertas": 0,
     "pasajeros": 0,
     "velocidades": 0,
@@ -2305,7 +3090,28 @@
     "consumo_combinado": 0,
     "consumo_ciudad": 0,
     "consumo_carretera": 0,
-    "equipamiento": {},
+    "equipamiento": {
+      "Confort": [
+        "Vestiduras de piel Napa",
+        "Asientos con función de masaje",
+        "Segunda fila reclinable hasta 143°",
+        "Puertas alas de gaviota"
+      ],
+      "Audio": [
+        "Apple CarPlay y Android Auto inalámbricos",
+        "WiFi hotspot y aplicaciones integradas",
+        "Sistema de sonido Dolby Atmos® 7.1.2"
+      ],
+      "Performance": [
+        "180 kW de potencia eléctrica",
+        "Frenado regenerativo",
+        "445 km de autonomía"
+      ],
+      "Exterior": [
+        "Iluminación tridimensional",
+        "Quemacocos polarizado"
+      ]
+    },
     "tasa": 0.0999,
     "cxa": 0,
     "descContado": 0,
@@ -2318,11 +3124,12 @@
     "_id_grupo": "GAC||GAC HYPTEC|HYPTEC HT ULTRA|",
     "_modelo_raw": "GAC HYPTEC",
     "_modelo_normalizado": "GAC HYPTEC",
-    "_fecha_parse": "2026-05-28T10:14:00.935048"
+    "_fecha_parse": "2026-05-28T10:14:00.935048",
+    "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-01.jpg"
   },
   {
     "id": 3440383420,
-    "name": "GAC Hyptec",
+    "name": "GAC HYPTEC",
     "brand": "GAC",
     "submarca": null,
     "year": 2026,
@@ -2342,17 +3149,24 @@
     "colores_disponibles": [
       "Blanco"
     ],
-    "img": null,
-    "gallery": [],
-    "photos": 0,
+    "img": "imagenes/oficial/gac/hyptec-01.jpg",
+    "gallery": [
+      "imagenes/oficial/gac/hyptec-01.jpg",
+      "imagenes/oficial/gac/hyptec-02.jpg",
+      "imagenes/oficial/gac/hyptec-03.jpg",
+      "imagenes/oficial/gac/hyptec-04.jpg",
+      "imagenes/oficial/gac/hyptec-05.jpg",
+      "imagenes/oficial/gac/hyptec-06.jpg"
+    ],
+    "photos": 6,
     "color": "",
     "color_int": "",
     "km": 0,
-    "engine": "",
+    "engine": "Motor eléctrico de 180 kW",
     "trans": "",
-    "fuel": "",
+    "fuel": "Eléctrico (BEV)",
     "cilindros": 0,
-    "hp": 0,
+    "hp": 241,
     "puertas": 0,
     "pasajeros": 0,
     "velocidades": 0,
@@ -2362,7 +3176,28 @@
     "consumo_combinado": 0,
     "consumo_ciudad": 0,
     "consumo_carretera": 0,
-    "equipamiento": {},
+    "equipamiento": {
+      "Confort": [
+        "Vestiduras de piel Napa",
+        "Asientos con función de masaje",
+        "Segunda fila reclinable hasta 143°",
+        "Puertas alas de gaviota"
+      ],
+      "Audio": [
+        "Apple CarPlay y Android Auto inalámbricos",
+        "WiFi hotspot y aplicaciones integradas",
+        "Sistema de sonido Dolby Atmos® 7.1.2"
+      ],
+      "Performance": [
+        "180 kW de potencia eléctrica",
+        "Frenado regenerativo",
+        "445 km de autonomía"
+      ],
+      "Exterior": [
+        "Iluminación tridimensional",
+        "Quemacocos polarizado"
+      ]
+    },
     "tasa": 0.0999,
     "cxa": 0,
     "descContado": 0,
@@ -2375,6 +3210,7 @@
     "_id_grupo": "GAC||GAC HYPTEC|HYPTEC HT ULTRA|2026",
     "_modelo_raw": "GAC HYPTEC",
     "_modelo_normalizado": "GAC HYPTEC",
-    "_fecha_parse": "2026-05-28T10:14:00.935052"
+    "_fecha_parse": "2026-05-28T10:14:00.935052",
+    "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-01.jpg"
   }
 ]
