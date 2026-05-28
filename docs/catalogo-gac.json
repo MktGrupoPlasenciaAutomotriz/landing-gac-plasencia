@@ -1,1237 +1,5 @@
 [
   {
-    "id": 1263074480,
-    "name": "GAC EMZOOM",
-    "brand": "GAC",
-    "submarca": null,
-    "year": null,
-    "version": "EMZOOM GT RACER",
-    "type": "suv",
-    "price": 390998,
-    "priceType": "msrp",
-    "badge": "",
-    "loc": "GAC Américas",
-    "locs": [
-      {
-        "nombre": "GAC Américas",
-        "unidades": 11
-      },
-      {
-        "nombre": "GAC Bugambilias",
-        "unidades": 12
-      }
-    ],
-    "unidades_disponibles": 23,
-    "colores_disponibles": [
-      "Blanco Nevado",
-      "Gris Grafeno Mate",
-      "Gris Magnetico",
-      "Negro Obsidiana",
-      "Plata Polar",
-      "Rojo Extremo"
-    ],
-    "img": "imagenes/oficial/gac/emzoom-01.jpg",
-    "gallery": [
-      "imagenes/oficial/gac/emzoom-01.jpg",
-      "imagenes/oficial/gac/emzoom-02.jpg",
-      "imagenes/oficial/gac/emzoom-03.jpg",
-      "imagenes/oficial/gac/emzoom-04.jpg",
-      "imagenes/oficial/gac/emzoom-05.jpg",
-      "imagenes/oficial/gac/emzoom-06.jpg"
-    ],
-    "photos": 6,
-    "color": "",
-    "color_int": "",
-    "km": 0,
-    "engine": "",
-    "trans": "",
-    "fuel": "Gasolina",
-    "cilindros": 0,
-    "hp": 0,
-    "puertas": 0,
-    "pasajeros": 0,
-    "velocidades": 0,
-    "traccion": "",
-    "tanque_l": 0,
-    "rines": 0,
-    "consumo_combinado": 0,
-    "consumo_ciudad": 0,
-    "consumo_carretera": 0,
-    "equipamiento": {},
-    "tasa": 0.0999,
-    "cxa": 0,
-    "descContado": 0,
-    "descFinanc": 0,
-    "msi": 0,
-    "mantAnios": 0,
-    "programas": [],
-    "vigDesde": "",
-    "vigHasta": "",
-    "_id_grupo": "GAC||GAC EMZOOM|EMZOOM GT RACER|",
-    "_modelo_raw": "GAC EMZOOM",
-    "_modelo_normalizado": "GAC EMZOOM",
-    "_fecha_parse": "2026-05-28T10:14:00.934885"
-  },
-  {
-    "id": 1815686536,
-    "name": "GAC EMZOOM",
-    "brand": "GAC",
-    "submarca": null,
-    "year": 2026,
-    "version": "EMZOOM GT RACER",
-    "type": "suv",
-    "price": 390998,
-    "priceType": "msrp",
-    "badge": "",
-    "loc": "GAC Américas",
-    "locs": [
-      {
-        "nombre": "GAC Américas",
-        "unidades": 11
-      },
-      {
-        "nombre": "GAC Bugambilias",
-        "unidades": 12
-      }
-    ],
-    "unidades_disponibles": 23,
-    "colores_disponibles": [
-      "Blanco Nevado",
-      "Gris Grafeno Mate",
-      "Gris Magnetico",
-      "Negro Obsidiana",
-      "Plata Polar",
-      "Rojo Extremo"
-    ],
-    "img": "imagenes/oficial/gac/emzoom-01.jpg",
-    "gallery": [
-      "imagenes/oficial/gac/emzoom-01.jpg",
-      "imagenes/oficial/gac/emzoom-02.jpg",
-      "imagenes/oficial/gac/emzoom-03.jpg",
-      "imagenes/oficial/gac/emzoom-04.jpg",
-      "imagenes/oficial/gac/emzoom-05.jpg",
-      "imagenes/oficial/gac/emzoom-06.jpg"
-    ],
-    "photos": 6,
-    "color": "",
-    "color_int": "",
-    "km": 0,
-    "engine": "",
-    "trans": "",
-    "fuel": "Gasolina",
-    "cilindros": 0,
-    "hp": 0,
-    "puertas": 0,
-    "pasajeros": 0,
-    "velocidades": 0,
-    "traccion": "",
-    "tanque_l": 0,
-    "rines": 0,
-    "consumo_combinado": 0,
-    "consumo_ciudad": 0,
-    "consumo_carretera": 0,
-    "equipamiento": {},
-    "tasa": 0.0999,
-    "cxa": 0,
-    "descContado": 0,
-    "descFinanc": 0,
-    "msi": 0,
-    "mantAnios": 0,
-    "programas": [],
-    "vigDesde": "",
-    "vigHasta": "",
-    "_id_grupo": "GAC||GAC EMZOOM|EMZOOM GT RACER|2026",
-    "_modelo_raw": "GAC EMZOOM",
-    "_modelo_normalizado": "GAC EMZOOM",
-    "_fecha_parse": "2026-05-28T10:14:00.934896"
-  },
-  {
-    "id": 1577422486,
-    "name": "GAC GS4 ALL NEW",
-    "brand": "GAC",
-    "submarca": null,
-    "year": null,
-    "version": "GAC GS4 GL MAX",
-    "type": "suv",
-    "price": 589900,
-    "priceType": "msrp",
-    "badge": "",
-    "loc": "GAC Américas",
-    "locs": [
-      {
-        "nombre": "GAC Américas",
-        "unidades": 6
-      },
-      {
-        "nombre": "GAC Bugambilias",
-        "unidades": 6
-      }
-    ],
-    "unidades_disponibles": 12,
-    "colores_disponibles": [
-      "Blanco Metalico",
-      "Gris Magnetico",
-      "Negro Obsidiana",
-      "Plata Polar"
-    ],
-    "img": "imagenes/oficial/gac/gs4-max-01.jpg",
-    "gallery": [
-      "imagenes/oficial/gac/gs4-max-01.jpg",
-      "imagenes/oficial/gac/gs4-max-02.jpg",
-      "imagenes/oficial/gac/gs4-max-03.jpg",
-      "imagenes/oficial/gac/gs4-max-04.jpg",
-      "imagenes/oficial/gac/gs4-max-05.jpg",
-      "imagenes/oficial/gac/gs4-max-06.jpg"
-    ],
-    "photos": 6,
-    "color": "",
-    "color_int": "",
-    "km": 0,
-    "engine": "2.0L 4 cilindros ATK",
-    "trans": "",
-    "fuel": "Gasolina",
-    "cilindros": 0,
-    "hp": 140,
-    "puertas": 5,
-    "pasajeros": 5,
-    "velocidades": 0,
-    "traccion": "",
-    "tanque_l": 0,
-    "rines": 0,
-    "consumo_combinado": 0,
-    "consumo_ciudad": 0,
-    "consumo_carretera": 0,
-    "equipamiento": {
-      "Confort": [
-        "Aire acondicionado automático",
-        "Asientos traseros abatibles 40/60",
-        "Techo panorámico LED"
-      ],
-      "Audio": [
-        "Pantalla multimedia táctil de 10\"",
-        "Apple CarPlay™",
-        "Android Auto™"
-      ],
-      "Seguridad": [
-        "6 bolsas de aire",
-        "Frenos ABS + EBD + ESP",
-        "Sistema de control de descenso (HDC)",
-        "Cámara 360°"
-      ],
-      "Exterior": [
-        "Rines de 19\" (225/55)",
-        "Faros LED con ajuste de altura y función Follow Me Home",
-        "Luces de manejo diurno LED"
-      ]
-    },
-    "tasa": 0.0999,
-    "cxa": 0,
-    "descContado": 0,
-    "descFinanc": 0,
-    "msi": 0,
-    "mantAnios": 0,
-    "programas": [],
-    "vigDesde": "",
-    "vigHasta": "",
-    "_id_grupo": "GAC||GAC GS4 ALL NEW|GAC GS4 GL MAX|",
-    "_modelo_raw": "GAC GS4 ALL NEW",
-    "_modelo_normalizado": "GAC GS4 ALL NEW",
-    "_fecha_parse": "2026-05-28T10:14:00.934917",
-    "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-06.jpg"
-  },
-  {
-    "id": 2885992475,
-    "name": "GAC GS4 ALL NEW",
-    "brand": "GAC",
-    "submarca": null,
-    "year": 2026,
-    "version": "GAC GS4 GL MAX",
-    "type": "suv",
-    "price": 589900,
-    "priceType": "msrp",
-    "badge": "",
-    "loc": "GAC Américas",
-    "locs": [
-      {
-        "nombre": "GAC Américas",
-        "unidades": 6
-      },
-      {
-        "nombre": "GAC Bugambilias",
-        "unidades": 6
-      }
-    ],
-    "unidades_disponibles": 12,
-    "colores_disponibles": [
-      "Blanco Metalico",
-      "Gris Magnetico",
-      "Negro Obsidiana",
-      "Plata Polar"
-    ],
-    "img": "imagenes/oficial/gac/gs4-max-01.jpg",
-    "gallery": [
-      "imagenes/oficial/gac/gs4-max-01.jpg",
-      "imagenes/oficial/gac/gs4-max-02.jpg",
-      "imagenes/oficial/gac/gs4-max-03.jpg",
-      "imagenes/oficial/gac/gs4-max-04.jpg",
-      "imagenes/oficial/gac/gs4-max-05.jpg",
-      "imagenes/oficial/gac/gs4-max-06.jpg"
-    ],
-    "photos": 6,
-    "color": "",
-    "color_int": "",
-    "km": 0,
-    "engine": "2.0L 4 cilindros ATK",
-    "trans": "",
-    "fuel": "Gasolina",
-    "cilindros": 0,
-    "hp": 140,
-    "puertas": 5,
-    "pasajeros": 5,
-    "velocidades": 0,
-    "traccion": "",
-    "tanque_l": 0,
-    "rines": 0,
-    "consumo_combinado": 0,
-    "consumo_ciudad": 0,
-    "consumo_carretera": 0,
-    "equipamiento": {
-      "Confort": [
-        "Aire acondicionado automático",
-        "Asientos traseros abatibles 40/60",
-        "Techo panorámico LED"
-      ],
-      "Audio": [
-        "Pantalla multimedia táctil de 10\"",
-        "Apple CarPlay™",
-        "Android Auto™"
-      ],
-      "Seguridad": [
-        "6 bolsas de aire",
-        "Frenos ABS + EBD + ESP",
-        "Sistema de control de descenso (HDC)",
-        "Cámara 360°"
-      ],
-      "Exterior": [
-        "Rines de 19\" (225/55)",
-        "Faros LED con ajuste de altura y función Follow Me Home",
-        "Luces de manejo diurno LED"
-      ]
-    },
-    "tasa": 0.0999,
-    "cxa": 0,
-    "descContado": 0,
-    "descFinanc": 0,
-    "msi": 0,
-    "mantAnios": 0,
-    "programas": [],
-    "vigDesde": "",
-    "vigHasta": "",
-    "_id_grupo": "GAC||GAC GS4 ALL NEW|GAC GS4 GL MAX|2026",
-    "_modelo_raw": "GAC GS4 ALL NEW",
-    "_modelo_normalizado": "GAC GS4 ALL NEW",
-    "_fecha_parse": "2026-05-28T10:14:00.934925",
-    "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-06.jpg"
-  },
-  {
-    "id": 2699336287,
-    "name": "GAC EMZOOM",
-    "brand": "GAC",
-    "submarca": null,
-    "year": null,
-    "version": "EMZOOM GT",
-    "type": "suv",
-    "price": 373409,
-    "priceType": "msrp",
-    "badge": "",
-    "loc": "GAC Américas",
-    "locs": [
-      {
-        "nombre": "GAC Américas",
-        "unidades": 4
-      },
-      {
-        "nombre": "GAC Bugambilias",
-        "unidades": 5
-      }
-    ],
-    "unidades_disponibles": 9,
-    "colores_disponibles": [
-      "Blanco Nevado",
-      "Gris Grafeno Mate",
-      "Negro Obsidiana",
-      "Plata Polar",
-      "Rojo Extremo"
-    ],
-    "img": "imagenes/oficial/gac/emzoom-01.jpg",
-    "gallery": [
-      "imagenes/oficial/gac/emzoom-01.jpg",
-      "imagenes/oficial/gac/emzoom-02.jpg",
-      "imagenes/oficial/gac/emzoom-03.jpg",
-      "imagenes/oficial/gac/emzoom-04.jpg",
-      "imagenes/oficial/gac/emzoom-05.jpg",
-      "imagenes/oficial/gac/emzoom-06.jpg"
-    ],
-    "photos": 6,
-    "color": "",
-    "color_int": "",
-    "km": 0,
-    "engine": "",
-    "trans": "",
-    "fuel": "Gasolina",
-    "cilindros": 0,
-    "hp": 0,
-    "puertas": 0,
-    "pasajeros": 0,
-    "velocidades": 0,
-    "traccion": "",
-    "tanque_l": 0,
-    "rines": 0,
-    "consumo_combinado": 0,
-    "consumo_ciudad": 0,
-    "consumo_carretera": 0,
-    "equipamiento": {},
-    "tasa": 0.0999,
-    "cxa": 0,
-    "descContado": 0,
-    "descFinanc": 0,
-    "msi": 0,
-    "mantAnios": 0,
-    "programas": [],
-    "vigDesde": "",
-    "vigHasta": "",
-    "_id_grupo": "GAC||GAC EMZOOM|EMZOOM GT|",
-    "_modelo_raw": "GAC EMZOOM",
-    "_modelo_normalizado": "GAC EMZOOM",
-    "_fecha_parse": "2026-05-28T10:14:00.934866"
-  },
-  {
-    "id": 4186101128,
-    "name": "GAC EMZOOM",
-    "brand": "GAC",
-    "submarca": null,
-    "year": 2026,
-    "version": "EMZOOM GT",
-    "type": "suv",
-    "price": 373409,
-    "priceType": "msrp",
-    "badge": "",
-    "loc": "GAC Américas",
-    "locs": [
-      {
-        "nombre": "GAC Américas",
-        "unidades": 4
-      },
-      {
-        "nombre": "GAC Bugambilias",
-        "unidades": 5
-      }
-    ],
-    "unidades_disponibles": 9,
-    "colores_disponibles": [
-      "Blanco Nevado",
-      "Gris Grafeno Mate",
-      "Negro Obsidiana",
-      "Plata Polar",
-      "Rojo Extremo"
-    ],
-    "img": "imagenes/oficial/gac/emzoom-01.jpg",
-    "gallery": [
-      "imagenes/oficial/gac/emzoom-01.jpg",
-      "imagenes/oficial/gac/emzoom-02.jpg",
-      "imagenes/oficial/gac/emzoom-03.jpg",
-      "imagenes/oficial/gac/emzoom-04.jpg",
-      "imagenes/oficial/gac/emzoom-05.jpg",
-      "imagenes/oficial/gac/emzoom-06.jpg"
-    ],
-    "photos": 6,
-    "color": "",
-    "color_int": "",
-    "km": 0,
-    "engine": "",
-    "trans": "",
-    "fuel": "Gasolina",
-    "cilindros": 0,
-    "hp": 0,
-    "puertas": 0,
-    "pasajeros": 0,
-    "velocidades": 0,
-    "traccion": "",
-    "tanque_l": 0,
-    "rines": 0,
-    "consumo_combinado": 0,
-    "consumo_ciudad": 0,
-    "consumo_carretera": 0,
-    "equipamiento": {},
-    "tasa": 0.0999,
-    "cxa": 0,
-    "descContado": 0,
-    "descFinanc": 0,
-    "msi": 0,
-    "mantAnios": 0,
-    "programas": [],
-    "vigDesde": "",
-    "vigHasta": "",
-    "_id_grupo": "GAC||GAC EMZOOM|EMZOOM GT|2026",
-    "_modelo_raw": "GAC EMZOOM",
-    "_modelo_normalizado": "GAC EMZOOM",
-    "_fecha_parse": "2026-05-28T10:14:00.934874"
-  },
-  {
-    "id": 3379173129,
-    "name": "GAC EMZOOM",
-    "brand": "GAC",
-    "submarca": null,
-    "year": null,
-    "version": "GAC EMZOOM GL 2026",
-    "type": "suv",
-    "price": 343804,
-    "priceType": "msrp",
-    "badge": "",
-    "loc": "GAC Américas",
-    "locs": [
-      {
-        "nombre": "GAC Américas",
-        "unidades": 6
-      },
-      {
-        "nombre": "GAC Bugambilias",
-        "unidades": 2
-      }
-    ],
-    "unidades_disponibles": 8,
-    "colores_disponibles": [
-      "Blanco Nevado",
-      "Gris Magnetico",
-      "Plata Polar"
-    ],
-    "img": "imagenes/oficial/gac/emzoom-01.jpg",
-    "gallery": [
-      "imagenes/oficial/gac/emzoom-01.jpg",
-      "imagenes/oficial/gac/emzoom-02.jpg",
-      "imagenes/oficial/gac/emzoom-03.jpg",
-      "imagenes/oficial/gac/emzoom-04.jpg",
-      "imagenes/oficial/gac/emzoom-05.jpg",
-      "imagenes/oficial/gac/emzoom-06.jpg"
-    ],
-    "photos": 6,
-    "color": "",
-    "color_int": "",
-    "km": 0,
-    "engine": "",
-    "trans": "",
-    "fuel": "Gasolina",
-    "cilindros": 0,
-    "hp": 0,
-    "puertas": 0,
-    "pasajeros": 0,
-    "velocidades": 0,
-    "traccion": "",
-    "tanque_l": 0,
-    "rines": 0,
-    "consumo_combinado": 0,
-    "consumo_ciudad": 0,
-    "consumo_carretera": 0,
-    "equipamiento": {},
-    "tasa": 0.0999,
-    "cxa": 0,
-    "descContado": 0,
-    "descFinanc": 0,
-    "msi": 0,
-    "mantAnios": 0,
-    "programas": [],
-    "vigDesde": "",
-    "vigHasta": "",
-    "_id_grupo": "GAC||GAC EMZOOM|GAC EMZOOM GL 2026|",
-    "_modelo_raw": "GAC EMZOOM",
-    "_modelo_normalizado": "GAC EMZOOM",
-    "_fecha_parse": "2026-05-28T10:14:00.934903"
-  },
-  {
-    "id": 3333051273,
-    "name": "GAC EMZOOM",
-    "brand": "GAC",
-    "submarca": null,
-    "year": 2026,
-    "version": "GAC EMZOOM GL 2026",
-    "type": "suv",
-    "price": 343804,
-    "priceType": "msrp",
-    "badge": "",
-    "loc": "GAC Américas",
-    "locs": [
-      {
-        "nombre": "GAC Américas",
-        "unidades": 6
-      },
-      {
-        "nombre": "GAC Bugambilias",
-        "unidades": 2
-      }
-    ],
-    "unidades_disponibles": 8,
-    "colores_disponibles": [
-      "Blanco Nevado",
-      "Gris Magnetico",
-      "Plata Polar"
-    ],
-    "img": "imagenes/oficial/gac/emzoom-01.jpg",
-    "gallery": [
-      "imagenes/oficial/gac/emzoom-01.jpg",
-      "imagenes/oficial/gac/emzoom-02.jpg",
-      "imagenes/oficial/gac/emzoom-03.jpg",
-      "imagenes/oficial/gac/emzoom-04.jpg",
-      "imagenes/oficial/gac/emzoom-05.jpg",
-      "imagenes/oficial/gac/emzoom-06.jpg"
-    ],
-    "photos": 6,
-    "color": "",
-    "color_int": "",
-    "km": 0,
-    "engine": "",
-    "trans": "",
-    "fuel": "Gasolina",
-    "cilindros": 0,
-    "hp": 0,
-    "puertas": 0,
-    "pasajeros": 0,
-    "velocidades": 0,
-    "traccion": "",
-    "tanque_l": 0,
-    "rines": 0,
-    "consumo_combinado": 0,
-    "consumo_ciudad": 0,
-    "consumo_carretera": 0,
-    "equipamiento": {},
-    "tasa": 0.0999,
-    "cxa": 0,
-    "descContado": 0,
-    "descFinanc": 0,
-    "msi": 0,
-    "mantAnios": 0,
-    "programas": [],
-    "vigDesde": "",
-    "vigHasta": "",
-    "_id_grupo": "GAC||GAC EMZOOM|GAC EMZOOM GL 2026|2026",
-    "_modelo_raw": "GAC EMZOOM",
-    "_modelo_normalizado": "GAC EMZOOM",
-    "_fecha_parse": "2026-05-28T10:14:00.934909"
-  },
-  {
-    "id": 1059163338,
-    "name": "GAC GN8",
-    "brand": "GAC",
-    "submarca": null,
-    "year": null,
-    "version": "GN8 GT",
-    "type": "van",
-    "price": 888800,
-    "priceType": "msrp",
-    "badge": "",
-    "loc": "GAC Bugambilias",
-    "locs": [
-      {
-        "nombre": "GAC Bugambilias",
-        "unidades": 8
-      }
-    ],
-    "unidades_disponibles": 8,
-    "colores_disponibles": [
-      "Blanco Magnolia",
-      "Negro Obsidiana"
-    ],
-    "img": null,
-    "gallery": [],
-    "photos": 0,
-    "color": "",
-    "color_int": "",
-    "km": 0,
-    "engine": "2.0L Turbo GDI",
-    "trans": "",
-    "fuel": "Gasolina",
-    "cilindros": 0,
-    "hp": 0,
-    "puertas": 5,
-    "pasajeros": 7,
-    "velocidades": 0,
-    "traccion": "",
-    "tanque_l": 0,
-    "rines": 0,
-    "consumo_combinado": 0,
-    "consumo_ciudad": 0,
-    "consumo_carretera": 0,
-    "equipamiento": {
-      "Confort": [
-        "Segunda fila con asientos capitán de 6 posiciones",
-        "Asientos primera fila ventilados y calefactables",
-        "Cargador inalámbrico"
-      ],
-      "Audio": [
-        "Pantalla multifuncional táctil de 14.6\""
-      ],
-      "Seguridad": [
-        "7 Bolsas de aire 360°",
-        "11 ADAS (ACC, TSR, ISL-ACC, FCW, AEB, LDW, LKA, WELL, ICA, BSD, LCA, DOW, RCW, RCTA, ELKA, FAPA)",
-        "Cámara 360° única del segmento",
-        "Portavaso enfriamiento y calefactable"
-      ],
-      "Performance": [
-        "Transmisión 8 velocidades automática",
-        "Suspensión electromagnética"
-      ],
-      "Exterior": [
-        "Faros delanteros con animación de bienvenida",
-        "Parabrisas insonorizado"
-      ]
-    },
-    "tasa": 0.0999,
-    "cxa": 0,
-    "descContado": 0,
-    "descFinanc": 0,
-    "msi": 0,
-    "mantAnios": 0,
-    "programas": [],
-    "vigDesde": "",
-    "vigHasta": "",
-    "_id_grupo": "GAC||GAC GN8|GN8 GT|",
-    "_modelo_raw": "GAC GN8",
-    "_modelo_normalizado": "GAC GN8",
-    "_fecha_parse": "2026-05-28T10:14:00.934970",
-    "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-04.jpg"
-  },
-  {
-    "id": 1944650304,
-    "name": "GAC GN8",
-    "brand": "GAC",
-    "submarca": null,
-    "year": 2024,
-    "version": "GN8 GT",
-    "type": "van",
-    "price": 888800,
-    "priceType": "msrp",
-    "badge": "",
-    "loc": "GAC Bugambilias",
-    "locs": [
-      {
-        "nombre": "GAC Bugambilias",
-        "unidades": 8
-      }
-    ],
-    "unidades_disponibles": 8,
-    "colores_disponibles": [
-      "Blanco Magnolia",
-      "Negro Obsidiana"
-    ],
-    "img": null,
-    "gallery": [],
-    "photos": 0,
-    "color": "",
-    "color_int": "",
-    "km": 0,
-    "engine": "2.0L Turbo GDI",
-    "trans": "",
-    "fuel": "Gasolina",
-    "cilindros": 0,
-    "hp": 0,
-    "puertas": 5,
-    "pasajeros": 7,
-    "velocidades": 0,
-    "traccion": "",
-    "tanque_l": 0,
-    "rines": 0,
-    "consumo_combinado": 0,
-    "consumo_ciudad": 0,
-    "consumo_carretera": 0,
-    "equipamiento": {
-      "Confort": [
-        "Segunda fila con asientos capitán de 6 posiciones",
-        "Asientos primera fila ventilados y calefactables",
-        "Cargador inalámbrico"
-      ],
-      "Audio": [
-        "Pantalla multifuncional táctil de 14.6\""
-      ],
-      "Seguridad": [
-        "7 Bolsas de aire 360°",
-        "11 ADAS (ACC, TSR, ISL-ACC, FCW, AEB, LDW, LKA, WELL, ICA, BSD, LCA, DOW, RCW, RCTA, ELKA, FAPA)",
-        "Cámara 360° única del segmento",
-        "Portavaso enfriamiento y calefactable"
-      ],
-      "Performance": [
-        "Transmisión 8 velocidades automática",
-        "Suspensión electromagnética"
-      ],
-      "Exterior": [
-        "Faros delanteros con animación de bienvenida",
-        "Parabrisas insonorizado"
-      ]
-    },
-    "tasa": 0.0999,
-    "cxa": 0,
-    "descContado": 0,
-    "descFinanc": 0,
-    "msi": 0,
-    "mantAnios": 0,
-    "programas": [],
-    "vigDesde": "",
-    "vigHasta": "",
-    "_id_grupo": "GAC||GAC GN8|GN8 GT|2024",
-    "_modelo_raw": "GAC GN8",
-    "_modelo_normalizado": "GAC GN8",
-    "_fecha_parse": "2026-05-28T10:14:00.934976",
-    "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-04.jpg"
-  },
-  {
-    "id": 2368662886,
-    "name": "GAC AION",
-    "brand": "GAC",
-    "submarca": null,
-    "year": null,
-    "version": "AION UT STANDARD",
-    "type": "suv",
-    "price": 419900,
-    "priceType": "msrp",
-    "badge": "BEV",
-    "loc": "GAC Américas",
-    "locs": [
-      {
-        "nombre": "GAC Américas",
-        "unidades": 2
-      },
-      {
-        "nombre": "GAC Bugambilias",
-        "unidades": 3
-      }
-    ],
-    "unidades_disponibles": 5,
-    "colores_disponibles": [
-      "Beige",
-      "Blanco"
-    ],
-    "img": "imagenes/oficial/gac/aion-ut-01.jpg",
-    "gallery": [
-      "imagenes/oficial/gac/aion-ut-01.jpg",
-      "imagenes/oficial/gac/aion-ut-02.jpg",
-      "imagenes/oficial/gac/aion-ut-03.jpg",
-      "imagenes/oficial/gac/aion-ut-04.jpg",
-      "imagenes/oficial/gac/aion-ut-05.jpg",
-      "imagenes/oficial/gac/aion-ut-06.jpg"
-    ],
-    "photos": 6,
-    "color": "",
-    "color_int": "",
-    "km": 0,
-    "engine": "Motor eléctrico",
-    "trans": "",
-    "fuel": "Eléctrico (BEV)",
-    "cilindros": 0,
-    "hp": 134,
-    "puertas": 0,
-    "pasajeros": 0,
-    "velocidades": 0,
-    "traccion": "",
-    "tanque_l": 0,
-    "rines": 0,
-    "consumo_combinado": 0,
-    "consumo_ciudad": 0,
-    "consumo_carretera": 0,
-    "equipamiento": {
-      "Confort": [
-        "Asientos cubiertos en piel sintética",
-        "Diseño de techo flotante",
-        "Modo de manejo con pedal inteligente (I-Pedal)"
-      ],
-      "Audio": [
-        "Pantalla de 14.6\""
-      ],
-      "Seguridad": [
-        "Cámara de reversa"
-      ],
-      "Performance": [
-        "Motor eléctrico de 100 kW (134 hp)",
-        "Torque eléctrico de 145 Nm"
-      ],
-      "Exterior": [
-        "Iluminación LED",
-        "Palanca de cambios electrónica al volante"
-      ]
-    },
-    "tasa": 0.0999,
-    "cxa": 0,
-    "descContado": 0,
-    "descFinanc": 0,
-    "msi": 0,
-    "mantAnios": 0,
-    "programas": [],
-    "vigDesde": "",
-    "vigHasta": "",
-    "_id_grupo": "GAC||GAC AION|AION UT STANDARD|",
-    "_modelo_raw": "GAC AION",
-    "_modelo_normalizado": "GAC AION",
-    "_fecha_parse": "2026-05-28T10:14:00.934822",
-    "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-02.jpg"
-  },
-  {
-    "id": 2903675631,
-    "name": "GAC AION",
-    "brand": "GAC",
-    "submarca": null,
-    "year": 2026,
-    "version": "AION UT STANDARD",
-    "type": "suv",
-    "price": 419900,
-    "priceType": "msrp",
-    "badge": "BEV",
-    "loc": "GAC Américas",
-    "locs": [
-      {
-        "nombre": "GAC Américas",
-        "unidades": 2
-      },
-      {
-        "nombre": "GAC Bugambilias",
-        "unidades": 3
-      }
-    ],
-    "unidades_disponibles": 5,
-    "colores_disponibles": [
-      "Beige",
-      "Blanco"
-    ],
-    "img": "imagenes/oficial/gac/aion-ut-01.jpg",
-    "gallery": [
-      "imagenes/oficial/gac/aion-ut-01.jpg",
-      "imagenes/oficial/gac/aion-ut-02.jpg",
-      "imagenes/oficial/gac/aion-ut-03.jpg",
-      "imagenes/oficial/gac/aion-ut-04.jpg",
-      "imagenes/oficial/gac/aion-ut-05.jpg",
-      "imagenes/oficial/gac/aion-ut-06.jpg"
-    ],
-    "photos": 6,
-    "color": "",
-    "color_int": "",
-    "km": 0,
-    "engine": "Motor eléctrico",
-    "trans": "",
-    "fuel": "Eléctrico (BEV)",
-    "cilindros": 0,
-    "hp": 134,
-    "puertas": 0,
-    "pasajeros": 0,
-    "velocidades": 0,
-    "traccion": "",
-    "tanque_l": 0,
-    "rines": 0,
-    "consumo_combinado": 0,
-    "consumo_ciudad": 0,
-    "consumo_carretera": 0,
-    "equipamiento": {
-      "Confort": [
-        "Asientos cubiertos en piel sintética",
-        "Diseño de techo flotante",
-        "Modo de manejo con pedal inteligente (I-Pedal)"
-      ],
-      "Audio": [
-        "Pantalla de 14.6\""
-      ],
-      "Seguridad": [
-        "Cámara de reversa"
-      ],
-      "Performance": [
-        "Motor eléctrico de 100 kW (134 hp)",
-        "Torque eléctrico de 145 Nm"
-      ],
-      "Exterior": [
-        "Iluminación LED",
-        "Palanca de cambios electrónica al volante"
-      ]
-    },
-    "tasa": 0.0999,
-    "cxa": 0,
-    "descContado": 0,
-    "descFinanc": 0,
-    "msi": 0,
-    "mantAnios": 0,
-    "programas": [],
-    "vigDesde": "",
-    "vigHasta": "",
-    "_id_grupo": "GAC||GAC AION|AION UT STANDARD|2026",
-    "_modelo_raw": "GAC AION",
-    "_modelo_normalizado": "GAC AION",
-    "_fecha_parse": "2026-05-28T10:14:00.934829",
-    "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-02.jpg"
-  },
-  {
-    "id": 3539697056,
-    "name": "GAC GS4 ALL NEW",
-    "brand": "GAC",
-    "submarca": null,
-    "year": null,
-    "version": "GS4 HEV GL MAX",
-    "type": "suv",
-    "price": 639900,
-    "priceType": "msrp",
-    "badge": "HEV",
-    "loc": "GAC Bugambilias",
-    "locs": [
-      {
-        "nombre": "GAC Bugambilias",
-        "unidades": 5
-      }
-    ],
-    "unidades_disponibles": 5,
-    "colores_disponibles": [
-      "Blanco Metalico",
-      "Gris Magnetico",
-      "Negro Obsidiana",
-      "Plata Polar"
-    ],
-    "img": "imagenes/oficial/gac/gs4-max-01.jpg",
-    "gallery": [
-      "imagenes/oficial/gac/gs4-max-01.jpg",
-      "imagenes/oficial/gac/gs4-max-02.jpg",
-      "imagenes/oficial/gac/gs4-max-03.jpg",
-      "imagenes/oficial/gac/gs4-max-04.jpg",
-      "imagenes/oficial/gac/gs4-max-05.jpg",
-      "imagenes/oficial/gac/gs4-max-06.jpg"
-    ],
-    "photos": 6,
-    "color": "",
-    "color_int": "",
-    "km": 0,
-    "engine": "2.0L 4 cilindros ATK",
-    "trans": "",
-    "fuel": "Gasolina",
-    "cilindros": 0,
-    "hp": 140,
-    "puertas": 5,
-    "pasajeros": 5,
-    "velocidades": 0,
-    "traccion": "",
-    "tanque_l": 0,
-    "rines": 0,
-    "consumo_combinado": 0,
-    "consumo_ciudad": 0,
-    "consumo_carretera": 0,
-    "equipamiento": {
-      "Confort": [
-        "Aire acondicionado automático",
-        "Asientos traseros abatibles 40/60",
-        "Techo panorámico LED"
-      ],
-      "Audio": [
-        "Pantalla multimedia táctil de 10\"",
-        "Apple CarPlay™",
-        "Android Auto™"
-      ],
-      "Seguridad": [
-        "6 bolsas de aire",
-        "Frenos ABS + EBD + ESP",
-        "Sistema de control de descenso (HDC)",
-        "Cámara 360°"
-      ],
-      "Exterior": [
-        "Rines de 19\" (225/55)",
-        "Faros LED con ajuste de altura y función Follow Me Home",
-        "Luces de manejo diurno LED"
-      ]
-    },
-    "tasa": 0.0999,
-    "cxa": 0,
-    "descContado": 0,
-    "descFinanc": 0,
-    "msi": 0,
-    "mantAnios": 0,
-    "programas": [],
-    "vigDesde": "",
-    "vigHasta": "",
-    "_id_grupo": "GAC||GAC GS4 ALL NEW|GS4 HEV GL MAX|",
-    "_modelo_raw": "GAC GS4 ALL NEW",
-    "_modelo_normalizado": "GAC GS4 ALL NEW",
-    "_fecha_parse": "2026-05-28T10:14:00.934998",
-    "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-06.jpg"
-  },
-  {
-    "id": 2207884580,
-    "name": "GAC GS4 ALL NEW",
-    "brand": "GAC",
-    "submarca": null,
-    "year": 2026,
-    "version": "GS4 HEV GL MAX",
-    "type": "suv",
-    "price": 639900,
-    "priceType": "msrp",
-    "badge": "HEV",
-    "loc": "GAC Bugambilias",
-    "locs": [
-      {
-        "nombre": "GAC Bugambilias",
-        "unidades": 5
-      }
-    ],
-    "unidades_disponibles": 5,
-    "colores_disponibles": [
-      "Blanco Metalico",
-      "Gris Magnetico",
-      "Negro Obsidiana",
-      "Plata Polar"
-    ],
-    "img": "imagenes/oficial/gac/gs4-max-01.jpg",
-    "gallery": [
-      "imagenes/oficial/gac/gs4-max-01.jpg",
-      "imagenes/oficial/gac/gs4-max-02.jpg",
-      "imagenes/oficial/gac/gs4-max-03.jpg",
-      "imagenes/oficial/gac/gs4-max-04.jpg",
-      "imagenes/oficial/gac/gs4-max-05.jpg",
-      "imagenes/oficial/gac/gs4-max-06.jpg"
-    ],
-    "photos": 6,
-    "color": "",
-    "color_int": "",
-    "km": 0,
-    "engine": "2.0L 4 cilindros ATK",
-    "trans": "",
-    "fuel": "Gasolina",
-    "cilindros": 0,
-    "hp": 140,
-    "puertas": 5,
-    "pasajeros": 5,
-    "velocidades": 0,
-    "traccion": "",
-    "tanque_l": 0,
-    "rines": 0,
-    "consumo_combinado": 0,
-    "consumo_ciudad": 0,
-    "consumo_carretera": 0,
-    "equipamiento": {
-      "Confort": [
-        "Aire acondicionado automático",
-        "Asientos traseros abatibles 40/60",
-        "Techo panorámico LED"
-      ],
-      "Audio": [
-        "Pantalla multimedia táctil de 10\"",
-        "Apple CarPlay™",
-        "Android Auto™"
-      ],
-      "Seguridad": [
-        "6 bolsas de aire",
-        "Frenos ABS + EBD + ESP",
-        "Sistema de control de descenso (HDC)",
-        "Cámara 360°"
-      ],
-      "Exterior": [
-        "Rines de 19\" (225/55)",
-        "Faros LED con ajuste de altura y función Follow Me Home",
-        "Luces de manejo diurno LED"
-      ]
-    },
-    "tasa": 0.0999,
-    "cxa": 0,
-    "descContado": 0,
-    "descFinanc": 0,
-    "msi": 0,
-    "mantAnios": 0,
-    "programas": [],
-    "vigDesde": "",
-    "vigHasta": "",
-    "_id_grupo": "GAC||GAC GS4 ALL NEW|GS4 HEV GL MAX|2026",
-    "_modelo_raw": "GAC GS4 ALL NEW",
-    "_modelo_normalizado": "GAC GS4 ALL NEW",
-    "_fecha_parse": "2026-05-28T10:14:00.935004",
-    "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-06.jpg"
-  },
-  {
-    "id": 1173819100,
-    "name": "GAC AION",
-    "brand": "GAC",
-    "submarca": null,
-    "year": null,
-    "version": "AION UT ELITE",
-    "type": "suv",
-    "price": 459900,
-    "priceType": "msrp",
-    "badge": "BEV",
-    "loc": "GAC Américas",
-    "locs": [
-      {
-        "nombre": "GAC Américas",
-        "unidades": 2
-      },
-      {
-        "nombre": "GAC Bugambilias",
-        "unidades": 1
-      }
-    ],
-    "unidades_disponibles": 3,
-    "colores_disponibles": [
-      "Rojo Rubi",
-      "Verde Esmeralda"
-    ],
-    "img": "imagenes/oficial/gac/aion-ut-01.jpg",
-    "gallery": [
-      "imagenes/oficial/gac/aion-ut-01.jpg",
-      "imagenes/oficial/gac/aion-ut-02.jpg",
-      "imagenes/oficial/gac/aion-ut-03.jpg",
-      "imagenes/oficial/gac/aion-ut-04.jpg",
-      "imagenes/oficial/gac/aion-ut-05.jpg",
-      "imagenes/oficial/gac/aion-ut-06.jpg"
-    ],
-    "photos": 6,
-    "color": "",
-    "color_int": "",
-    "km": 0,
-    "engine": "Motor eléctrico",
-    "trans": "",
-    "fuel": "Eléctrico (BEV)",
-    "cilindros": 0,
-    "hp": 134,
-    "puertas": 0,
-    "pasajeros": 0,
-    "velocidades": 0,
-    "traccion": "",
-    "tanque_l": 0,
-    "rines": 0,
-    "consumo_combinado": 0,
-    "consumo_ciudad": 0,
-    "consumo_carretera": 0,
-    "equipamiento": {
-      "Confort": [
-        "Asientos cubiertos en piel sintética",
-        "Diseño de techo flotante",
-        "Modo de manejo con pedal inteligente (I-Pedal)"
-      ],
-      "Audio": [
-        "Pantalla de 14.6\""
-      ],
-      "Seguridad": [
-        "Cámara de reversa"
-      ],
-      "Performance": [
-        "Motor eléctrico de 100 kW (134 hp)",
-        "Torque eléctrico de 145 Nm"
-      ],
-      "Exterior": [
-        "Iluminación LED",
-        "Palanca de cambios electrónica al volante"
-      ]
-    },
-    "tasa": 0.0999,
-    "cxa": 0,
-    "descContado": 0,
-    "descFinanc": 0,
-    "msi": 0,
-    "mantAnios": 0,
-    "programas": [],
-    "vigDesde": "",
-    "vigHasta": "",
-    "_id_grupo": "GAC||GAC AION|AION UT ELITE|",
-    "_modelo_raw": "GAC AION",
-    "_modelo_normalizado": "GAC AION",
-    "_fecha_parse": "2026-05-28T10:14:00.934793",
-    "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-02.jpg"
-  },
-  {
     "id": 2961461311,
     "name": "GAC AION",
     "brand": "GAC",
@@ -1239,24 +7,27 @@
     "year": 2026,
     "version": "AION UT ELITE",
     "type": "suv",
-    "price": 459900,
+    "price": 366285,
     "priceType": "msrp",
     "badge": "BEV",
     "loc": "GAC Américas",
     "locs": [
       {
         "nombre": "GAC Américas",
-        "unidades": 2
+        "unidades": 4
       },
       {
         "nombre": "GAC Bugambilias",
-        "unidades": 1
+        "unidades": 2
       }
     ],
-    "unidades_disponibles": 3,
+    "unidades_disponibles": 6,
     "colores_disponibles": [
       "Rojo Rubi",
-      "Verde Esmeralda"
+      "Verde Esmeralda",
+      "Beige Champaña",
+      "Blanco Rococó",
+      "Plata Centella"
     ],
     "img": "imagenes/oficial/gac/aion-ut-01.jpg",
     "gallery": [
@@ -1271,13 +42,13 @@
     "color": "",
     "color_int": "",
     "km": 0,
-    "engine": "Motor eléctrico",
+    "engine": "Motor eléctrico de 100 kW (134 HP)",
     "trans": "",
     "fuel": "Eléctrico (BEV)",
     "cilindros": 0,
     "hp": 134,
-    "puertas": 0,
-    "pasajeros": 0,
+    "puertas": 5,
+    "pasajeros": 5,
     "velocidades": 0,
     "traccion": "",
     "tanque_l": 0,
@@ -1287,7 +58,7 @@
     "consumo_carretera": 0,
     "equipamiento": {
       "Confort": [
-        "Asientos cubiertos en piel sintética",
+        "Asientos en piel sintética",
         "Diseño de techo flotante",
         "Modo de manejo con pedal inteligente (I-Pedal)"
       ],
@@ -1298,7 +69,7 @@
         "Cámara de reversa"
       ],
       "Performance": [
-        "Motor eléctrico de 100 kW (134 hp)",
+        "Motor eléctrico 100 kW (134 hp)",
         "Torque eléctrico de 145 Nm"
       ],
       "Exterior": [
@@ -1318,125 +89,111 @@
     "_id_grupo": "GAC||GAC AION|AION UT ELITE|2026",
     "_modelo_raw": "GAC AION",
     "_modelo_normalizado": "GAC AION",
-    "_fecha_parse": "2026-05-28T10:14:00.934813",
-    "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-02.jpg"
-  },
-  {
-    "id": 1273859906,
-    "name": "GAC EMKOO",
-    "brand": "GAC",
-    "submarca": null,
-    "year": null,
-    "version": "EMKOO HEV GL GAC",
-    "type": "suv",
-    "price": 429604,
-    "priceType": "msrp",
-    "badge": "HEV",
-    "loc": "GAC Américas",
-    "locs": [
+    "_version_norm": "AION UT ELITE",
+    "_dias_inv_avg": null,
+    "_vins_internos": [
       {
-        "nombre": "GAC Américas",
-        "unidades": 1
+        "vin": "HACAAAB27T3F01890",
+        "color_ext": "ROJO RUBI",
+        "color_int": "",
+        "sucursal": "GAC Américas",
+        "dias_inv": null,
+        "precio_dca": 366285
       },
       {
-        "nombre": "GAC Bugambilias",
-        "unidades": 1
+        "vin": "HACAAAB27T3F01890",
+        "color_ext": "ROJO RUBI",
+        "color_int": "",
+        "sucursal": "GAC Américas",
+        "dias_inv": null,
+        "precio_dca": 366285
+      },
+      {
+        "vin": "HACAAAB21T3F01819",
+        "color_ext": "VERDE ESMERALDA",
+        "color_int": "",
+        "sucursal": "GAC Américas",
+        "dias_inv": null,
+        "precio_dca": 366285
+      },
+      {
+        "vin": "HACAAAB21T3F01819",
+        "color_ext": "VERDE ESMERALDA",
+        "color_int": "",
+        "sucursal": "GAC Américas",
+        "dias_inv": null,
+        "precio_dca": 366285
+      },
+      {
+        "vin": "HACAAAB27T3F01887",
+        "color_ext": "ROJO RUBI",
+        "color_int": "",
+        "sucursal": "GAC Bugambilias",
+        "dias_inv": null,
+        "precio_dca": 366285
+      },
+      {
+        "vin": "HACAAAB27T3F01887",
+        "color_ext": "ROJO RUBI",
+        "color_int": "",
+        "sucursal": "GAC Bugambilias",
+        "dias_inv": null,
+        "precio_dca": 366285
       }
     ],
-    "unidades_disponibles": 2,
-    "colores_disponibles": [
-      "Blanco Metalico",
-      "Gris Magnetico"
-    ],
-    "img": "imagenes/oficial/gac/emkoo-01.jpg",
-    "gallery": [
-      "imagenes/oficial/gac/emkoo-01.jpg",
-      "imagenes/oficial/gac/emkoo-02.jpg",
-      "imagenes/oficial/gac/emkoo-03.jpg",
-      "imagenes/oficial/gac/emkoo-04.jpg",
-      "imagenes/oficial/gac/emkoo-05.jpg",
-      "imagenes/oficial/gac/emkoo-06.jpg"
-    ],
-    "photos": 6,
-    "color": "",
-    "color_int": "",
-    "km": 0,
-    "engine": "",
-    "trans": "",
-    "fuel": "Gasolina / Híbrido",
-    "cilindros": 0,
-    "hp": 0,
-    "puertas": 0,
-    "pasajeros": 0,
-    "velocidades": 0,
-    "traccion": "",
-    "tanque_l": 0,
-    "rines": 0,
-    "consumo_combinado": 0,
-    "consumo_ciudad": 0,
-    "consumo_carretera": 0,
-    "equipamiento": {},
-    "tasa": 0.0999,
-    "cxa": 0,
-    "descContado": 0,
-    "descFinanc": 0,
-    "msi": 0,
-    "mantAnios": 0,
-    "programas": [],
-    "vigDesde": "",
-    "vigHasta": "",
-    "_id_grupo": "GAC||GAC EMKOO|EMKOO HEV GL GAC|",
-    "_modelo_raw": "GAC EMKOO",
-    "_modelo_normalizado": "GAC EMKOO",
-    "_fecha_parse": "2026-05-28T10:14:00.934845"
+    "_fecha_parse": "2026-05-28T14:52:32.746604",
+    "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-03.jpg"
   },
   {
-    "id": 219236248,
-    "name": "GAC EMKOO",
+    "id": 2903675631,
+    "name": "GAC AION",
     "brand": "GAC",
     "submarca": null,
     "year": 2026,
-    "version": "EMKOO HEV GL GAC",
+    "version": "AION UT STANDARD",
     "type": "suv",
-    "price": 429604,
+    "price": 338343,
     "priceType": "msrp",
-    "badge": "HEV",
+    "badge": "BEV",
     "loc": "GAC Américas",
     "locs": [
       {
         "nombre": "GAC Américas",
-        "unidades": 1
+        "unidades": 4
       },
       {
         "nombre": "GAC Bugambilias",
-        "unidades": 1
+        "unidades": 6
       }
     ],
-    "unidades_disponibles": 2,
+    "unidades_disponibles": 10,
     "colores_disponibles": [
-      "Blanco Metalico",
-      "Gris Magnetico"
+      "Beige",
+      "Blanco",
+      "Beige Champaña",
+      "Blanco Rococó",
+      "Plata Centella"
     ],
-    "img": "imagenes/oficial/gac/emkoo-01.jpg",
+    "img": "imagenes/oficial/gac/aion-ut-01.jpg",
     "gallery": [
-      "imagenes/oficial/gac/emkoo-01.jpg",
-      "imagenes/oficial/gac/emkoo-02.jpg",
-      "imagenes/oficial/gac/emkoo-03.jpg",
-      "imagenes/oficial/gac/emkoo-04.jpg",
-      "imagenes/oficial/gac/emkoo-05.jpg",
-      "imagenes/oficial/gac/emkoo-06.jpg"
+      "imagenes/oficial/gac/aion-ut-01.jpg",
+      "imagenes/oficial/gac/aion-ut-02.jpg",
+      "imagenes/oficial/gac/aion-ut-03.jpg",
+      "imagenes/oficial/gac/aion-ut-04.jpg",
+      "imagenes/oficial/gac/aion-ut-05.jpg",
+      "imagenes/oficial/gac/aion-ut-06.jpg"
     ],
     "photos": 6,
     "color": "",
     "color_int": "",
     "km": 0,
-    "engine": "",
+    "engine": "Motor eléctrico de 100 kW (134 HP)",
     "trans": "",
-    "fuel": "Gasolina / Híbrido",
+    "fuel": "Eléctrico (BEV)",
     "cilindros": 0,
-    "hp": 0,
-    "puertas": 0,
-    "pasajeros": 0,
+    "hp": 134,
+    "puertas": 5,
+    "pasajeros": 5,
     "velocidades": 0,
     "traccion": "",
     "tanque_l": 0,
@@ -1444,7 +201,27 @@
     "consumo_combinado": 0,
     "consumo_ciudad": 0,
     "consumo_carretera": 0,
-    "equipamiento": {},
+    "equipamiento": {
+      "Confort": [
+        "Asientos en piel sintética",
+        "Diseño de techo flotante",
+        "Modo de manejo con pedal inteligente (I-Pedal)"
+      ],
+      "Audio": [
+        "Pantalla de 14.6\""
+      ],
+      "Seguridad": [
+        "Cámara de reversa"
+      ],
+      "Performance": [
+        "Motor eléctrico 100 kW (134 hp)",
+        "Torque eléctrico de 145 Nm"
+      ],
+      "Exterior": [
+        "Iluminación LED",
+        "Palanca de cambios electrónica al volante"
+      ]
+    },
     "tasa": 0.0999,
     "cxa": 0,
     "descContado": 0,
@@ -1454,74 +231,95 @@
     "programas": [],
     "vigDesde": "",
     "vigHasta": "",
-    "_id_grupo": "GAC||GAC EMKOO|EMKOO HEV GL GAC|2026",
-    "_modelo_raw": "GAC EMKOO",
-    "_modelo_normalizado": "GAC EMKOO",
-    "_fecha_parse": "2026-05-28T10:14:00.934851"
-  },
-  {
-    "id": 2342399839,
-    "name": "GAC EMKOO",
-    "brand": "GAC",
-    "submarca": null,
-    "year": null,
-    "version": "EMKOO GL",
-    "type": "suv",
-    "price": 385974,
-    "priceType": "msrp",
-    "badge": "HEV",
-    "loc": "GAC Américas",
-    "locs": [
+    "_id_grupo": "GAC||GAC AION|AION UT STANDARD|2026",
+    "_modelo_raw": "GAC AION",
+    "_modelo_normalizado": "GAC AION",
+    "_version_norm": "AION UT STANDARD",
+    "_dias_inv_avg": null,
+    "_vins_internos": [
       {
-        "nombre": "GAC Américas",
-        "unidades": 1
+        "vin": "HACAAAB18T3F00478",
+        "color_ext": "BEIGE",
+        "color_int": "",
+        "sucursal": "GAC Américas",
+        "dias_inv": null,
+        "precio_dca": 338343
+      },
+      {
+        "vin": "HACAAAB18T3F00478",
+        "color_ext": "BEIGE",
+        "color_int": "",
+        "sucursal": "GAC Américas",
+        "dias_inv": null,
+        "precio_dca": 338343
+      },
+      {
+        "vin": "HACAAAB1XT3F01065",
+        "color_ext": "BLANCO",
+        "color_int": "",
+        "sucursal": "GAC Américas",
+        "dias_inv": null,
+        "precio_dca": 338343
+      },
+      {
+        "vin": "HACAAAB1XT3F01065",
+        "color_ext": "BLANCO",
+        "color_int": "",
+        "sucursal": "GAC Américas",
+        "dias_inv": null,
+        "precio_dca": 338343
+      },
+      {
+        "vin": "HACAAAB16T3F00480",
+        "color_ext": "BEIGE",
+        "color_int": "",
+        "sucursal": "GAC Bugambilias",
+        "dias_inv": null,
+        "precio_dca": 338343
+      },
+      {
+        "vin": "HACAAAB16T3F00480",
+        "color_ext": "BEIGE",
+        "color_int": "",
+        "sucursal": "GAC Bugambilias",
+        "dias_inv": null,
+        "precio_dca": 338343
+      },
+      {
+        "vin": "HACAAAB18T3F01128",
+        "color_ext": "BLANCO",
+        "color_int": "",
+        "sucursal": "GAC Bugambilias",
+        "dias_inv": null,
+        "precio_dca": 338343
+      },
+      {
+        "vin": "HACAAAB18T3F01128",
+        "color_ext": "BLANCO",
+        "color_int": "",
+        "sucursal": "GAC Bugambilias",
+        "dias_inv": null,
+        "precio_dca": 338343
+      },
+      {
+        "vin": "HACAAAB1XT3F01101",
+        "color_ext": "BLANCO",
+        "color_int": "",
+        "sucursal": "GAC Bugambilias",
+        "dias_inv": null,
+        "precio_dca": 338343
+      },
+      {
+        "vin": "HACAAAB1XT3F01101",
+        "color_ext": "BLANCO",
+        "color_int": "",
+        "sucursal": "GAC Bugambilias",
+        "dias_inv": null,
+        "precio_dca": 338343
       }
     ],
-    "unidades_disponibles": 1,
-    "colores_disponibles": [
-      "Gris Magnetico"
-    ],
-    "img": "imagenes/oficial/gac/emkoo-01.jpg",
-    "gallery": [
-      "imagenes/oficial/gac/emkoo-01.jpg",
-      "imagenes/oficial/gac/emkoo-02.jpg",
-      "imagenes/oficial/gac/emkoo-03.jpg",
-      "imagenes/oficial/gac/emkoo-04.jpg",
-      "imagenes/oficial/gac/emkoo-05.jpg",
-      "imagenes/oficial/gac/emkoo-06.jpg"
-    ],
-    "photos": 6,
-    "color": "",
-    "color_int": "",
-    "km": 0,
-    "engine": "",
-    "trans": "",
-    "fuel": "Gasolina / Híbrido",
-    "cilindros": 0,
-    "hp": 0,
-    "puertas": 0,
-    "pasajeros": 0,
-    "velocidades": 0,
-    "traccion": "",
-    "tanque_l": 0,
-    "rines": 0,
-    "consumo_combinado": 0,
-    "consumo_ciudad": 0,
-    "consumo_carretera": 0,
-    "equipamiento": {},
-    "tasa": 0.0999,
-    "cxa": 0,
-    "descContado": 0,
-    "descFinanc": 0,
-    "msi": 0,
-    "mantAnios": 0,
-    "programas": [],
-    "vigDesde": "",
-    "vigHasta": "",
-    "_id_grupo": "GAC||GAC EMKOO|EMKOO GL|",
-    "_modelo_raw": "GAC EMKOO",
-    "_modelo_normalizado": "GAC EMKOO",
-    "_fecha_parse": "2026-05-28T10:14:00.934835"
+    "_fecha_parse": "2026-05-28T14:52:32.746627",
+    "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-04.jpg"
   },
   {
     "id": 3826184157,
@@ -1538,12 +336,15 @@
     "locs": [
       {
         "nombre": "GAC Américas",
-        "unidades": 1
+        "unidades": 2
       }
     ],
-    "unidades_disponibles": 1,
+    "unidades_disponibles": 2,
     "colores_disponibles": [
-      "Gris Magnetico"
+      "Gris Magnetico",
+      "Blanco",
+      "Negro",
+      "Gris"
     ],
     "img": "imagenes/oficial/gac/emkoo-01.jpg",
     "gallery": [
@@ -1585,80 +386,1094 @@
     "_id_grupo": "GAC||GAC EMKOO|EMKOO GL|2025",
     "_modelo_raw": "GAC EMKOO",
     "_modelo_normalizado": "GAC EMKOO",
-    "_fecha_parse": "2026-05-28T10:14:00.934840"
+    "_version_norm": "EMKOO GL",
+    "_dias_inv_avg": null,
+    "_vins_internos": [
+      {
+        "vin": "LMGAT1L83S1352709",
+        "color_ext": "GRIS MAGNETICO",
+        "color_int": "",
+        "sucursal": "GAC Américas",
+        "dias_inv": null,
+        "precio_dca": 385974
+      },
+      {
+        "vin": "LMGAT1L83S1352709",
+        "color_ext": "GRIS MAGNETICO",
+        "color_int": "",
+        "sucursal": "GAC Américas",
+        "dias_inv": null,
+        "precio_dca": 385974
+      }
+    ],
+    "_fecha_parse": "2026-05-28T14:52:32.746637"
   },
   {
-    "id": 303410495,
-    "name": "GAC GS8 ALL NEW",
+    "id": 219236248,
+    "name": "GAC EMKOO",
     "brand": "GAC",
     "submarca": null,
-    "year": null,
-    "version": "GS8 GT FWD",
+    "year": 2026,
+    "version": "EMKOO HEV GL GAC",
     "type": "suv",
-    "price": 487217,
+    "price": 429604,
     "priceType": "msrp",
     "badge": "HEV",
     "loc": "GAC Américas",
     "locs": [
       {
         "nombre": "GAC Américas",
-        "unidades": 1
+        "unidades": 2
+      },
+      {
+        "nombre": "GAC Bugambilias",
+        "unidades": 2
       }
     ],
-    "unidades_disponibles": 1,
+    "unidades_disponibles": 4,
     "colores_disponibles": [
-      "Blanco Magnolia"
+      "Blanco Metalico",
+      "Gris Magnetico",
+      "Blanco",
+      "Negro",
+      "Gris"
     ],
-    "img": "imagenes/oficial/gac/gs8-01.jpg",
+    "img": "imagenes/oficial/gac/emkoo-01.jpg",
     "gallery": [
-      "imagenes/oficial/gac/gs8-01.jpg",
-      "imagenes/oficial/gac/gs8-02.jpg",
-      "imagenes/oficial/gac/gs8-03.jpg",
-      "imagenes/oficial/gac/gs8-04.jpg",
-      "imagenes/oficial/gac/gs8-05.jpg",
-      "imagenes/oficial/gac/gs8-06.jpg"
+      "imagenes/oficial/gac/emkoo-01.jpg",
+      "imagenes/oficial/gac/emkoo-02.jpg",
+      "imagenes/oficial/gac/emkoo-03.jpg",
+      "imagenes/oficial/gac/emkoo-04.jpg",
+      "imagenes/oficial/gac/emkoo-05.jpg",
+      "imagenes/oficial/gac/emkoo-06.jpg"
     ],
     "photos": 6,
     "color": "",
     "color_int": "",
     "km": 0,
-    "engine": "2.0TM + GMC2.0 híbrido",
+    "engine": "",
     "trans": "",
-    "fuel": "Híbrido (HEV)",
+    "fuel": "Gasolina / Híbrido",
     "cilindros": 0,
     "hp": 0,
-    "puertas": 5,
-    "pasajeros": 6,
+    "puertas": 0,
+    "pasajeros": 0,
     "velocidades": 0,
     "traccion": "",
     "tanque_l": 0,
     "rines": 0,
-    "consumo_combinado": 17.7,
+    "consumo_combinado": 0,
+    "consumo_ciudad": 0,
+    "consumo_carretera": 0,
+    "equipamiento": {},
+    "tasa": 0.0999,
+    "cxa": 0,
+    "descContado": 0,
+    "descFinanc": 0,
+    "msi": 0,
+    "mantAnios": 0,
+    "programas": [],
+    "vigDesde": "",
+    "vigHasta": "",
+    "_id_grupo": "GAC||GAC EMKOO|EMKOO HEV GL GAC|2026",
+    "_modelo_raw": "GAC EMKOO",
+    "_modelo_normalizado": "GAC EMKOO",
+    "_version_norm": "EMKOO HEV GL GAC",
+    "_dias_inv_avg": null,
+    "_vins_internos": [
+      {
+        "vin": "LMGAF1S85T1014335",
+        "color_ext": "BLANCO METALICO",
+        "color_int": "",
+        "sucursal": "GAC Américas",
+        "dias_inv": null,
+        "precio_dca": 429604
+      },
+      {
+        "vin": "LMGAF1S85T1014335",
+        "color_ext": "BLANCO METALICO",
+        "color_int": "",
+        "sucursal": "GAC Américas",
+        "dias_inv": null,
+        "precio_dca": 429604
+      },
+      {
+        "vin": "LMGAF1S86T1014196",
+        "color_ext": "GRIS MAGNETICO",
+        "color_int": "",
+        "sucursal": "GAC Bugambilias",
+        "dias_inv": null,
+        "precio_dca": 483906
+      },
+      {
+        "vin": "LMGAF1S86T1014196",
+        "color_ext": "GRIS MAGNETICO",
+        "color_int": "",
+        "sucursal": "GAC Bugambilias",
+        "dias_inv": null,
+        "precio_dca": 483906
+      }
+    ],
+    "_fecha_parse": "2026-05-28T14:52:32.746650"
+  },
+  {
+    "id": 4186101128,
+    "name": "GAC EMZOOM",
+    "brand": "GAC",
+    "submarca": null,
+    "year": 2026,
+    "version": "EMZOOM GT",
+    "type": "suv",
+    "price": 373409,
+    "priceType": "msrp",
+    "badge": "",
+    "loc": "GAC Américas",
+    "locs": [
+      {
+        "nombre": "GAC Américas",
+        "unidades": 8
+      },
+      {
+        "nombre": "GAC Bugambilias",
+        "unidades": 10
+      }
+    ],
+    "unidades_disponibles": 18,
+    "colores_disponibles": [
+      "Blanco Nevado",
+      "Gris Grafeno Mate",
+      "Negro Obsidiana",
+      "Plata Polar",
+      "Rojo Extremo",
+      "Blanco",
+      "Negro",
+      "Gris",
+      "Rojo"
+    ],
+    "img": "imagenes/oficial/gac/emzoom-01.jpg",
+    "gallery": [
+      "imagenes/oficial/gac/emzoom-01.jpg",
+      "imagenes/oficial/gac/emzoom-02.jpg",
+      "imagenes/oficial/gac/emzoom-03.jpg",
+      "imagenes/oficial/gac/emzoom-04.jpg",
+      "imagenes/oficial/gac/emzoom-05.jpg",
+      "imagenes/oficial/gac/emzoom-06.jpg"
+    ],
+    "photos": 6,
+    "color": "",
+    "color_int": "",
+    "km": 0,
+    "engine": "",
+    "trans": "",
+    "fuel": "Gasolina",
+    "cilindros": 0,
+    "hp": 0,
+    "puertas": 0,
+    "pasajeros": 0,
+    "velocidades": 0,
+    "traccion": "",
+    "tanque_l": 0,
+    "rines": 0,
+    "consumo_combinado": 0,
+    "consumo_ciudad": 0,
+    "consumo_carretera": 0,
+    "equipamiento": {},
+    "tasa": 0.0999,
+    "cxa": 0,
+    "descContado": 0,
+    "descFinanc": 0,
+    "msi": 0,
+    "mantAnios": 0,
+    "programas": [],
+    "vigDesde": "",
+    "vigHasta": "",
+    "_id_grupo": "GAC||GAC EMZOOM|EMZOOM GT|2026",
+    "_modelo_raw": "GAC EMZOOM",
+    "_modelo_normalizado": "GAC EMZOOM",
+    "_version_norm": "EMZOOM GT",
+    "_dias_inv_avg": null,
+    "_vins_internos": [
+      {
+        "vin": "LMGHT1L8XT3214301",
+        "color_ext": "BLANCO NEVADO",
+        "color_int": "",
+        "sucursal": "GAC Américas",
+        "dias_inv": null,
+        "precio_dca": 373409
+      },
+      {
+        "vin": "LMGHT1L8XT3214301",
+        "color_ext": "BLANCO NEVADO",
+        "color_int": "",
+        "sucursal": "GAC Américas",
+        "dias_inv": null,
+        "precio_dca": 373409
+      },
+      {
+        "vin": "LMGHT1L83T3214320",
+        "color_ext": "NEGRO OBSIDIANA",
+        "color_int": "",
+        "sucursal": "GAC Américas",
+        "dias_inv": null,
+        "precio_dca": 373409
+      },
+      {
+        "vin": "LMGHT1L83T3214320",
+        "color_ext": "NEGRO OBSIDIANA",
+        "color_int": "",
+        "sucursal": "GAC Américas",
+        "dias_inv": null,
+        "precio_dca": 373409
+      },
+      {
+        "vin": "LMGHT1L8XT3206716",
+        "color_ext": "PLATA POLAR",
+        "color_int": "",
+        "sucursal": "GAC Américas",
+        "dias_inv": null,
+        "precio_dca": 373409
+      },
+      {
+        "vin": "LMGHT1L8XT3206716",
+        "color_ext": "PLATA POLAR",
+        "color_int": "",
+        "sucursal": "GAC Américas",
+        "dias_inv": null,
+        "precio_dca": 373409
+      },
+      {
+        "vin": "LMGHT1L83T3214348",
+        "color_ext": "ROJO EXTREMO",
+        "color_int": "",
+        "sucursal": "GAC Américas",
+        "dias_inv": null,
+        "precio_dca": 373409
+      },
+      {
+        "vin": "LMGHT1L83T3214348",
+        "color_ext": "ROJO EXTREMO",
+        "color_int": "",
+        "sucursal": "GAC Américas",
+        "dias_inv": null,
+        "precio_dca": 373409
+      },
+      {
+        "vin": "LMGHT1L89T3206710",
+        "color_ext": "GRIS GRAFENO MATE",
+        "color_int": "",
+        "sucursal": "GAC Bugambilias",
+        "dias_inv": null,
+        "precio_dca": 373409
+      },
+      {
+        "vin": "LMGHT1L89T3206710",
+        "color_ext": "GRIS GRAFENO MATE",
+        "color_int": "",
+        "sucursal": "GAC Bugambilias",
+        "dias_inv": null,
+        "precio_dca": 373409
+      },
+      {
+        "vin": "LMGHT1L8XT3214296",
+        "color_ext": "GRIS GRAFENO MATE",
+        "color_int": "",
+        "sucursal": "GAC Bugambilias",
+        "dias_inv": null,
+        "precio_dca": 373579
+      },
+      {
+        "vin": "LMGHT1L8XT3214296",
+        "color_ext": "GRIS GRAFENO MATE",
+        "color_int": "",
+        "sucursal": "GAC Bugambilias",
+        "dias_inv": null,
+        "precio_dca": 373579
+      },
+      {
+        "vin": "LMGHT1L85T3241034",
+        "color_ext": "NEGRO OBSIDIANA",
+        "color_int": "",
+        "sucursal": "GAC Bugambilias",
+        "dias_inv": null,
+        "precio_dca": 373579
+      },
+      {
+        "vin": "LMGHT1L85T3241034",
+        "color_ext": "NEGRO OBSIDIANA",
+        "color_int": "",
+        "sucursal": "GAC Bugambilias",
+        "dias_inv": null,
+        "precio_dca": 373579
+      },
+      {
+        "vin": "LMGHT1L85T3241051",
+        "color_ext": "NEGRO OBSIDIANA",
+        "color_int": "",
+        "sucursal": "GAC Bugambilias",
+        "dias_inv": null,
+        "precio_dca": 373579
+      },
+      {
+        "vin": "LMGHT1L85T3241051",
+        "color_ext": "NEGRO OBSIDIANA",
+        "color_int": "",
+        "sucursal": "GAC Bugambilias",
+        "dias_inv": null,
+        "precio_dca": 373579
+      },
+      {
+        "vin": "LMGHT1L84T3241154",
+        "color_ext": "PLATA POLAR",
+        "color_int": "",
+        "sucursal": "GAC Bugambilias",
+        "dias_inv": null,
+        "precio_dca": 373579
+      },
+      {
+        "vin": "LMGHT1L84T3241154",
+        "color_ext": "PLATA POLAR",
+        "color_int": "",
+        "sucursal": "GAC Bugambilias",
+        "dias_inv": null,
+        "precio_dca": 373579
+      }
+    ],
+    "_fecha_parse": "2026-05-28T14:52:32.746667"
+  },
+  {
+    "id": 1815686536,
+    "name": "GAC EMZOOM",
+    "brand": "GAC",
+    "submarca": null,
+    "year": 2026,
+    "version": "EMZOOM GT RACER",
+    "type": "suv",
+    "price": 390998,
+    "priceType": "msrp",
+    "badge": "",
+    "loc": "GAC Américas",
+    "locs": [
+      {
+        "nombre": "GAC Américas",
+        "unidades": 22
+      },
+      {
+        "nombre": "GAC Bugambilias",
+        "unidades": 24
+      }
+    ],
+    "unidades_disponibles": 46,
+    "colores_disponibles": [
+      "Blanco Nevado",
+      "Gris Grafeno Mate",
+      "Gris Magnetico",
+      "Negro Obsidiana",
+      "Plata Polar",
+      "Rojo Extremo",
+      "Blanco",
+      "Negro",
+      "Gris",
+      "Rojo"
+    ],
+    "img": "imagenes/oficial/gac/emzoom-01.jpg",
+    "gallery": [
+      "imagenes/oficial/gac/emzoom-01.jpg",
+      "imagenes/oficial/gac/emzoom-02.jpg",
+      "imagenes/oficial/gac/emzoom-03.jpg",
+      "imagenes/oficial/gac/emzoom-04.jpg",
+      "imagenes/oficial/gac/emzoom-05.jpg",
+      "imagenes/oficial/gac/emzoom-06.jpg"
+    ],
+    "photos": 6,
+    "color": "",
+    "color_int": "",
+    "km": 0,
+    "engine": "",
+    "trans": "",
+    "fuel": "Gasolina",
+    "cilindros": 0,
+    "hp": 0,
+    "puertas": 0,
+    "pasajeros": 0,
+    "velocidades": 0,
+    "traccion": "",
+    "tanque_l": 0,
+    "rines": 0,
+    "consumo_combinado": 0,
+    "consumo_ciudad": 0,
+    "consumo_carretera": 0,
+    "equipamiento": {},
+    "tasa": 0.0999,
+    "cxa": 0,
+    "descContado": 0,
+    "descFinanc": 0,
+    "msi": 0,
+    "mantAnios": 0,
+    "programas": [],
+    "vigDesde": "",
+    "vigHasta": "",
+    "_id_grupo": "GAC||GAC EMZOOM|EMZOOM GT RACER|2026",
+    "_modelo_raw": "GAC EMZOOM",
+    "_modelo_normalizado": "GAC EMZOOM",
+    "_version_norm": "EMZOOM GT RACER",
+    "_dias_inv_avg": null,
+    "_vins_internos": [
+      {
+        "vin": "LMGHT1L82T3246935",
+        "color_ext": "BLANCO NEVADO",
+        "color_int": "",
+        "sucursal": "GAC Américas",
+        "dias_inv": null,
+        "precio_dca": 395783
+      },
+      {
+        "vin": "LMGHT1L82T3246935",
+        "color_ext": "BLANCO NEVADO",
+        "color_int": "",
+        "sucursal": "GAC Américas",
+        "dias_inv": null,
+        "precio_dca": 395783
+      },
+      {
+        "vin": "LMGHT1L88T3241416",
+        "color_ext": "GRIS GRAFENO MATE",
+        "color_int": "",
+        "sucursal": "GAC Américas",
+        "dias_inv": null,
+        "precio_dca": 395783
+      },
+      {
+        "vin": "LMGHT1L88T3241416",
+        "color_ext": "GRIS GRAFENO MATE",
+        "color_int": "",
+        "sucursal": "GAC Américas",
+        "dias_inv": null,
+        "precio_dca": 395783
+      },
+      {
+        "vin": "LMGHT1L89T3241439",
+        "color_ext": "GRIS GRAFENO MATE",
+        "color_int": "",
+        "sucursal": "GAC Américas",
+        "dias_inv": null,
+        "precio_dca": 395783
+      },
+      {
+        "vin": "LMGHT1L89T3241439",
+        "color_ext": "GRIS GRAFENO MATE",
+        "color_int": "",
+        "sucursal": "GAC Américas",
+        "dias_inv": null,
+        "precio_dca": 395783
+      },
+      {
+        "vin": "LMGHT1L81T3247252",
+        "color_ext": "GRIS MAGNETICO",
+        "color_int": "",
+        "sucursal": "GAC Américas",
+        "dias_inv": null,
+        "precio_dca": 395783
+      },
+      {
+        "vin": "LMGHT1L81T3247252",
+        "color_ext": "GRIS MAGNETICO",
+        "color_int": "",
+        "sucursal": "GAC Américas",
+        "dias_inv": null,
+        "precio_dca": 395783
+      },
+      {
+        "vin": "LMGHT1L83T3247267",
+        "color_ext": "GRIS MAGNETICO",
+        "color_int": "",
+        "sucursal": "GAC Américas",
+        "dias_inv": null,
+        "precio_dca": 395783
+      },
+      {
+        "vin": "LMGHT1L83T3247267",
+        "color_ext": "GRIS MAGNETICO",
+        "color_int": "",
+        "sucursal": "GAC Américas",
+        "dias_inv": null,
+        "precio_dca": 395783
+      },
+      {
+        "vin": "LMGHT1L80T3241961",
+        "color_ext": "NEGRO OBSIDIANA",
+        "color_int": "",
+        "sucursal": "GAC Américas",
+        "dias_inv": null,
+        "precio_dca": 395783
+      },
+      {
+        "vin": "LMGHT1L80T3241961",
+        "color_ext": "NEGRO OBSIDIANA",
+        "color_int": "",
+        "sucursal": "GAC Américas",
+        "dias_inv": null,
+        "precio_dca": 395783
+      },
+      {
+        "vin": "LMGHT1L87T3241956",
+        "color_ext": "NEGRO OBSIDIANA",
+        "color_int": "",
+        "sucursal": "GAC Américas",
+        "dias_inv": null,
+        "precio_dca": 395783
+      },
+      {
+        "vin": "LMGHT1L87T3241956",
+        "color_ext": "NEGRO OBSIDIANA",
+        "color_int": "",
+        "sucursal": "GAC Américas",
+        "dias_inv": null,
+        "precio_dca": 395783
+      },
+      {
+        "vin": "LMGHT1L84T3247987",
+        "color_ext": "PLATA POLAR",
+        "color_int": "",
+        "sucursal": "GAC Américas",
+        "dias_inv": null,
+        "precio_dca": 395783
+      },
+      {
+        "vin": "LMGHT1L84T3247987",
+        "color_ext": "PLATA POLAR",
+        "color_int": "",
+        "sucursal": "GAC Américas",
+        "dias_inv": null,
+        "precio_dca": 395783
+      },
+      {
+        "vin": "LMGTH1L82T3247972",
+        "color_ext": "PLATA POLAR",
+        "color_int": "",
+        "sucursal": "GAC Américas",
+        "dias_inv": null,
+        "precio_dca": 395783
+      },
+      {
+        "vin": "LMGTH1L82T3247972",
+        "color_ext": "PLATA POLAR",
+        "color_int": "",
+        "sucursal": "GAC Américas",
+        "dias_inv": null,
+        "precio_dca": 395783
+      },
+      {
+        "vin": "LMGHT1L80T3246965",
+        "color_ext": "ROJO EXTREMO",
+        "color_int": "",
+        "sucursal": "GAC Américas",
+        "dias_inv": null,
+        "precio_dca": 395783
+      },
+      {
+        "vin": "LMGHT1L80T3246965",
+        "color_ext": "ROJO EXTREMO",
+        "color_int": "",
+        "sucursal": "GAC Américas",
+        "dias_inv": null,
+        "precio_dca": 395783
+      },
+      {
+        "vin": "LMGHT1L89T3246981",
+        "color_ext": "ROJO EXTREMO",
+        "color_int": "",
+        "sucursal": "GAC Américas",
+        "dias_inv": null,
+        "precio_dca": 395783
+      },
+      {
+        "vin": "LMGHT1L89T3246981",
+        "color_ext": "ROJO EXTREMO",
+        "color_int": "",
+        "sucursal": "GAC Américas",
+        "dias_inv": null,
+        "precio_dca": 395783
+      },
+      {
+        "vin": "LMGHT1L81T3246912",
+        "color_ext": "BLANCO NEVADO",
+        "color_int": "",
+        "sucursal": "GAC Bugambilias",
+        "dias_inv": null,
+        "precio_dca": 395783
+      },
+      {
+        "vin": "LMGHT1L81T3246912",
+        "color_ext": "BLANCO NEVADO",
+        "color_int": "",
+        "sucursal": "GAC Bugambilias",
+        "dias_inv": null,
+        "precio_dca": 395783
+      },
+      {
+        "vin": "LMGHT1L82T3215443",
+        "color_ext": "BLANCO NEVADO",
+        "color_int": "",
+        "sucursal": "GAC Bugambilias",
+        "dias_inv": null,
+        "precio_dca": 390998
+      },
+      {
+        "vin": "LMGHT1L82T3215443",
+        "color_ext": "BLANCO NEVADO",
+        "color_int": "",
+        "sucursal": "GAC Bugambilias",
+        "dias_inv": null,
+        "precio_dca": 390998
+      },
+      {
+        "vin": "LMGHT1L88T3241433",
+        "color_ext": "GRIS GRAFENO MATE",
+        "color_int": "",
+        "sucursal": "GAC Bugambilias",
+        "dias_inv": null,
+        "precio_dca": 395783
+      },
+      {
+        "vin": "LMGHT1L88T3241433",
+        "color_ext": "GRIS GRAFENO MATE",
+        "color_int": "",
+        "sucursal": "GAC Bugambilias",
+        "dias_inv": null,
+        "precio_dca": 395783
+      },
+      {
+        "vin": "LMGHT1L8XT3241417",
+        "color_ext": "GRIS GRAFENO MATE",
+        "color_int": "",
+        "sucursal": "GAC Bugambilias",
+        "dias_inv": null,
+        "precio_dca": 395783
+      },
+      {
+        "vin": "LMGHT1L8XT3241417",
+        "color_ext": "GRIS GRAFENO MATE",
+        "color_int": "",
+        "sucursal": "GAC Bugambilias",
+        "dias_inv": null,
+        "precio_dca": 395783
+      },
+      {
+        "vin": "LMGHT1L8XT3241420",
+        "color_ext": "GRIS GRAFENO MATE",
+        "color_int": "",
+        "sucursal": "GAC Bugambilias",
+        "dias_inv": null,
+        "precio_dca": 395783
+      },
+      {
+        "vin": "LMGHT1L8XT3241420",
+        "color_ext": "GRIS GRAFENO MATE",
+        "color_int": "",
+        "sucursal": "GAC Bugambilias",
+        "dias_inv": null,
+        "precio_dca": 395783
+      },
+      {
+        "vin": "LMGHT1L89T3247273",
+        "color_ext": "GRIS MAGNETICO",
+        "color_int": "",
+        "sucursal": "GAC Bugambilias",
+        "dias_inv": null,
+        "precio_dca": 395783
+      },
+      {
+        "vin": "LMGHT1L89T3247273",
+        "color_ext": "GRIS MAGNETICO",
+        "color_int": "",
+        "sucursal": "GAC Bugambilias",
+        "dias_inv": null,
+        "precio_dca": 395783
+      },
+      {
+        "vin": "LMGHT1L80T3241958",
+        "color_ext": "NEGRO OBSIDIANA",
+        "color_int": "",
+        "sucursal": "GAC Bugambilias",
+        "dias_inv": null,
+        "precio_dca": 395783
+      },
+      {
+        "vin": "LMGHT1L80T3241958",
+        "color_ext": "NEGRO OBSIDIANA",
+        "color_int": "",
+        "sucursal": "GAC Bugambilias",
+        "dias_inv": null,
+        "precio_dca": 395783
+      },
+      {
+        "vin": "LMGHT1L84T3241977",
+        "color_ext": "NEGRO OBSIDIANA",
+        "color_int": "",
+        "sucursal": "GAC Bugambilias",
+        "dias_inv": null,
+        "precio_dca": 395783
+      },
+      {
+        "vin": "LMGHT1L84T3241977",
+        "color_ext": "NEGRO OBSIDIANA",
+        "color_int": "",
+        "sucursal": "GAC Bugambilias",
+        "dias_inv": null,
+        "precio_dca": 395783
+      },
+      {
+        "vin": "LMGHT1L84T3241980",
+        "color_ext": "NEGRO OBSIDIANA",
+        "color_int": "",
+        "sucursal": "GAC Bugambilias",
+        "dias_inv": null,
+        "precio_dca": 395783
+      },
+      {
+        "vin": "LMGHT1L84T3241980",
+        "color_ext": "NEGRO OBSIDIANA",
+        "color_int": "",
+        "sucursal": "GAC Bugambilias",
+        "dias_inv": null,
+        "precio_dca": 395783
+      },
+      {
+        "vin": "LMGHT1L84T3247973",
+        "color_ext": "PLATA POLAR",
+        "color_int": "",
+        "sucursal": "GAC Bugambilias",
+        "dias_inv": null,
+        "precio_dca": 395783
+      },
+      {
+        "vin": "LMGHT1L84T3247973",
+        "color_ext": "PLATA POLAR",
+        "color_int": "",
+        "sucursal": "GAC Bugambilias",
+        "dias_inv": null,
+        "precio_dca": 395783
+      },
+      {
+        "vin": "LMGHT1L89T3246950",
+        "color_ext": "ROJO EXTREMO",
+        "color_int": "",
+        "sucursal": "GAC Bugambilias",
+        "dias_inv": null,
+        "precio_dca": 395783
+      },
+      {
+        "vin": "LMGHT1L89T3246950",
+        "color_ext": "ROJO EXTREMO",
+        "color_int": "",
+        "sucursal": "GAC Bugambilias",
+        "dias_inv": null,
+        "precio_dca": 395783
+      },
+      {
+        "vin": "LMGHT1L8XT3246956",
+        "color_ext": "ROJO EXTREMO",
+        "color_int": "",
+        "sucursal": "GAC Bugambilias",
+        "dias_inv": null,
+        "precio_dca": 395783
+      },
+      {
+        "vin": "LMGHT1L8XT3246956",
+        "color_ext": "ROJO EXTREMO",
+        "color_int": "",
+        "sucursal": "GAC Bugambilias",
+        "dias_inv": null,
+        "precio_dca": 395783
+      }
+    ],
+    "_fecha_parse": "2026-05-28T14:52:32.746694"
+  },
+  {
+    "id": 3333051273,
+    "name": "GAC EMZOOM",
+    "brand": "GAC",
+    "submarca": null,
+    "year": 2026,
+    "version": "GAC EMZOOM GL 2026",
+    "type": "suv",
+    "price": 343804,
+    "priceType": "msrp",
+    "badge": "",
+    "loc": "GAC Américas",
+    "locs": [
+      {
+        "nombre": "GAC Américas",
+        "unidades": 12
+      },
+      {
+        "nombre": "GAC Bugambilias",
+        "unidades": 4
+      }
+    ],
+    "unidades_disponibles": 16,
+    "colores_disponibles": [
+      "Blanco Nevado",
+      "Gris Magnetico",
+      "Plata Polar",
+      "Blanco",
+      "Negro",
+      "Gris",
+      "Rojo"
+    ],
+    "img": "imagenes/oficial/gac/emzoom-01.jpg",
+    "gallery": [
+      "imagenes/oficial/gac/emzoom-01.jpg",
+      "imagenes/oficial/gac/emzoom-02.jpg",
+      "imagenes/oficial/gac/emzoom-03.jpg",
+      "imagenes/oficial/gac/emzoom-04.jpg",
+      "imagenes/oficial/gac/emzoom-05.jpg",
+      "imagenes/oficial/gac/emzoom-06.jpg"
+    ],
+    "photos": 6,
+    "color": "",
+    "color_int": "",
+    "km": 0,
+    "engine": "",
+    "trans": "",
+    "fuel": "Gasolina",
+    "cilindros": 0,
+    "hp": 0,
+    "puertas": 0,
+    "pasajeros": 0,
+    "velocidades": 0,
+    "traccion": "",
+    "tanque_l": 0,
+    "rines": 0,
+    "consumo_combinado": 0,
+    "consumo_ciudad": 0,
+    "consumo_carretera": 0,
+    "equipamiento": {},
+    "tasa": 0.0999,
+    "cxa": 0,
+    "descContado": 0,
+    "descFinanc": 0,
+    "msi": 0,
+    "mantAnios": 0,
+    "programas": [],
+    "vigDesde": "",
+    "vigHasta": "",
+    "_id_grupo": "GAC||GAC EMZOOM|GAC EMZOOM GL 2026|2026",
+    "_modelo_raw": "GAC EMZOOM",
+    "_modelo_normalizado": "GAC EMZOOM",
+    "_version_norm": "GAC EMZOOM GL 2026",
+    "_dias_inv_avg": null,
+    "_vins_internos": [
+      {
+        "vin": "LMGHT1L50T3206746",
+        "color_ext": "BLANCO NEVADO",
+        "color_int": "",
+        "sucursal": "GAC Américas",
+        "dias_inv": null,
+        "precio_dca": 343974
+      },
+      {
+        "vin": "LMGHT1L50T3206746",
+        "color_ext": "BLANCO NEVADO",
+        "color_int": "",
+        "sucursal": "GAC Américas",
+        "dias_inv": null,
+        "precio_dca": 343974
+      },
+      {
+        "vin": "LMGHT1L58T3206753",
+        "color_ext": "BLANCO NEVADO",
+        "color_int": "",
+        "sucursal": "GAC Américas",
+        "dias_inv": null,
+        "precio_dca": 343804
+      },
+      {
+        "vin": "LMGHT1L58T3206753",
+        "color_ext": "BLANCO NEVADO",
+        "color_int": "",
+        "sucursal": "GAC Américas",
+        "dias_inv": null,
+        "precio_dca": 343804
+      },
+      {
+        "vin": "LMGHT1L54T3214199",
+        "color_ext": "GRIS MAGNETICO",
+        "color_int": "",
+        "sucursal": "GAC Américas",
+        "dias_inv": null,
+        "precio_dca": 343974
+      },
+      {
+        "vin": "LMGHT1L54T3214199",
+        "color_ext": "GRIS MAGNETICO",
+        "color_int": "",
+        "sucursal": "GAC Américas",
+        "dias_inv": null,
+        "precio_dca": 343974
+      },
+      {
+        "vin": "LMGHT1L5XT3214191",
+        "color_ext": "GRIS MAGNETICO",
+        "color_int": "",
+        "sucursal": "GAC Américas",
+        "dias_inv": null,
+        "precio_dca": 343974
+      },
+      {
+        "vin": "LMGHT1L5XT3214191",
+        "color_ext": "GRIS MAGNETICO",
+        "color_int": "",
+        "sucursal": "GAC Américas",
+        "dias_inv": null,
+        "precio_dca": 343974
+      },
+      {
+        "vin": "LMGHT1L57T3215136",
+        "color_ext": "PLATA POLAR",
+        "color_int": "",
+        "sucursal": "GAC Américas",
+        "dias_inv": null,
+        "precio_dca": 343974
+      },
+      {
+        "vin": "LMGHT1L57T3215136",
+        "color_ext": "PLATA POLAR",
+        "color_int": "",
+        "sucursal": "GAC Américas",
+        "dias_inv": null,
+        "precio_dca": 343974
+      },
+      {
+        "vin": "LMGHT1L58T3215145",
+        "color_ext": "PLATA POLAR",
+        "color_int": "",
+        "sucursal": "GAC Américas",
+        "dias_inv": null,
+        "precio_dca": 343974
+      },
+      {
+        "vin": "LMGHT1L58T3215145",
+        "color_ext": "PLATA POLAR",
+        "color_int": "",
+        "sucursal": "GAC Américas",
+        "dias_inv": null,
+        "precio_dca": 343974
+      },
+      {
+        "vin": "LMGHT1L54T3206748",
+        "color_ext": "BLANCO NEVADO",
+        "color_int": "",
+        "sucursal": "GAC Bugambilias",
+        "dias_inv": null,
+        "precio_dca": 343804
+      },
+      {
+        "vin": "LMGHT1L54T3206748",
+        "color_ext": "BLANCO NEVADO",
+        "color_int": "",
+        "sucursal": "GAC Bugambilias",
+        "dias_inv": null,
+        "precio_dca": 343804
+      },
+      {
+        "vin": "LMGHT1L5XT3215180",
+        "color_ext": "PLATA POLAR",
+        "color_int": "",
+        "sucursal": "GAC Bugambilias",
+        "dias_inv": null,
+        "precio_dca": 343974
+      },
+      {
+        "vin": "LMGHT1L5XT3215180",
+        "color_ext": "PLATA POLAR",
+        "color_int": "",
+        "sucursal": "GAC Bugambilias",
+        "dias_inv": null,
+        "precio_dca": 343974
+      }
+    ],
+    "_fecha_parse": "2026-05-28T14:52:32.746707"
+  },
+  {
+    "id": 2885992475,
+    "name": "GAC GS4 ALL NEW",
+    "brand": "GAC",
+    "submarca": null,
+    "year": 2026,
+    "version": "GAC GS4 GL MAX",
+    "type": "suv",
+    "price": 440522,
+    "priceType": "msrp",
+    "badge": "",
+    "loc": "GAC Américas",
+    "locs": [
+      {
+        "nombre": "GAC Américas",
+        "unidades": 12
+      },
+      {
+        "nombre": "GAC Bugambilias",
+        "unidades": 12
+      }
+    ],
+    "unidades_disponibles": 24,
+    "colores_disponibles": [
+      "Blanco Metalico",
+      "Gris Magnetico",
+      "Negro Obsidiana",
+      "Plata Polar",
+      "Gris Magnético",
+      "Blanco Metálico"
+    ],
+    "img": "imagenes/oficial/gac/gs4-max-01.jpg",
+    "gallery": [
+      "imagenes/oficial/gac/gs4-max-01.jpg",
+      "imagenes/oficial/gac/gs4-max-02.jpg",
+      "imagenes/oficial/gac/gs4-max-03.jpg",
+      "imagenes/oficial/gac/gs4-max-04.jpg",
+      "imagenes/oficial/gac/gs4-max-05.jpg",
+      "imagenes/oficial/gac/gs4-max-06.jpg"
+    ],
+    "photos": 6,
+    "color": "",
+    "color_int": "",
+    "km": 0,
+    "engine": "2.0L 4 cilindros ATK",
+    "trans": "",
+    "fuel": "Gasolina",
+    "cilindros": 0,
+    "hp": 140,
+    "puertas": 5,
+    "pasajeros": 5,
+    "velocidades": 0,
+    "traccion": "",
+    "tanque_l": 0,
+    "rines": 0,
+    "consumo_combinado": 0,
     "consumo_ciudad": 0,
     "consumo_carretera": 0,
     "equipamiento": {
       "Confort": [
-        "Segunda fila estilo capitán",
-        "Amplia cabina para 6 pasajeros",
-        "Asientos ventilados y calefactables con función de memoria"
+        "Aire acondicionado automático",
+        "Asientos traseros abatibles 40/60",
+        "Techo panorámico LED"
       ],
       "Audio": [
-        "Display de información frontal (Head-up display)",
-        "Pantalla táctil de 14.6\"",
-        "Luz ambiental inteligente multicolor"
+        "Pantalla multimedia táctil de 10\"",
+        "Apple CarPlay™",
+        "Android Auto™"
       ],
       "Seguridad": [
-        "13 ADAS",
-        "Rendimiento hasta 17.7 km/L"
-      ],
-      "Performance": [
-        "Motor híbrido 2.0TM+GMC2.0",
-        "Hasta 1,000 km de autonomía"
+        "6 bolsas de aire",
+        "Frenos ABS + EBD + ESP",
+        "Sistema de control de descenso (HDC)",
+        "Cámara 360°"
       ],
       "Exterior": [
-        "Faros LED automáticos con luces diurnas LED",
-        "Rines de aluminio de 20\" con emblema flotante",
-        "Nueva parrilla HEV"
+        "Rines de 19\" (225/55)",
+        "Faros LED con ajuste de altura",
+        "Luces de manejo diurno LED"
       ]
     },
     "tasa": 0.0999,
@@ -1670,10 +1485,206 @@
     "programas": [],
     "vigDesde": "",
     "vigHasta": "",
-    "_id_grupo": "GAC||GAC GS8 ALL NEW|GS8 GT FWD|",
-    "_modelo_raw": "GAC GS8 ALL NEW",
-    "_modelo_normalizado": "GAC GS8 ALL NEW",
-    "_fecha_parse": "2026-05-28T10:14:00.934929",
+    "_id_grupo": "GAC||GAC GS4 ALL NEW|GAC GS4 GL MAX|2026",
+    "_modelo_raw": "GAC GS4 ALL NEW",
+    "_modelo_normalizado": "GAC GS4 ALL NEW",
+    "_version_norm": "GAC GS4 GL MAX",
+    "_dias_inv_avg": null,
+    "_vins_internos": [
+      {
+        "vin": "LMGAT1L80T1368335",
+        "color_ext": "BLANCO METALICO",
+        "color_int": "",
+        "sucursal": "GAC Américas",
+        "dias_inv": null,
+        "precio_dca": 440522
+      },
+      {
+        "vin": "LMGAT1L80T1368335",
+        "color_ext": "BLANCO METALICO",
+        "color_int": "",
+        "sucursal": "GAC Américas",
+        "dias_inv": null,
+        "precio_dca": 440522
+      },
+      {
+        "vin": "LMGAT1L85T1368363",
+        "color_ext": "BLANCO METALICO",
+        "color_int": "",
+        "sucursal": "GAC Américas",
+        "dias_inv": null,
+        "precio_dca": 440522
+      },
+      {
+        "vin": "LMGAT1L85T1368363",
+        "color_ext": "BLANCO METALICO",
+        "color_int": "",
+        "sucursal": "GAC Américas",
+        "dias_inv": null,
+        "precio_dca": 440522
+      },
+      {
+        "vin": "LMGAT1L81T1367856",
+        "color_ext": "GRIS MAGNETICO",
+        "color_int": "",
+        "sucursal": "GAC Américas",
+        "dias_inv": null,
+        "precio_dca": 440522
+      },
+      {
+        "vin": "LMGAT1L81T1367856",
+        "color_ext": "GRIS MAGNETICO",
+        "color_int": "",
+        "sucursal": "GAC Américas",
+        "dias_inv": null,
+        "precio_dca": 440522
+      },
+      {
+        "vin": "LMGAT1L82T1367882",
+        "color_ext": "GRIS MAGNETICO",
+        "color_int": "",
+        "sucursal": "GAC Américas",
+        "dias_inv": null,
+        "precio_dca": 440522
+      },
+      {
+        "vin": "LMGAT1L82T1367882",
+        "color_ext": "GRIS MAGNETICO",
+        "color_int": "",
+        "sucursal": "GAC Américas",
+        "dias_inv": null,
+        "precio_dca": 440522
+      },
+      {
+        "vin": "LMGAT1L85T1368122",
+        "color_ext": "NEGRO OBSIDIANA",
+        "color_int": "",
+        "sucursal": "GAC Américas",
+        "dias_inv": null,
+        "precio_dca": 440522
+      },
+      {
+        "vin": "LMGAT1L85T1368122",
+        "color_ext": "NEGRO OBSIDIANA",
+        "color_int": "",
+        "sucursal": "GAC Américas",
+        "dias_inv": null,
+        "precio_dca": 440522
+      },
+      {
+        "vin": "LMGAT1L85T1368279",
+        "color_ext": "PLATA POLAR",
+        "color_int": "",
+        "sucursal": "GAC Américas",
+        "dias_inv": null,
+        "precio_dca": 440522
+      },
+      {
+        "vin": "LMGAT1L85T1368279",
+        "color_ext": "PLATA POLAR",
+        "color_int": "",
+        "sucursal": "GAC Américas",
+        "dias_inv": null,
+        "precio_dca": 440522
+      },
+      {
+        "vin": "LMGAT1L82T1367946",
+        "color_ext": "NEGRO OBSIDIANA",
+        "color_int": "",
+        "sucursal": "GAC Bugambilias",
+        "dias_inv": null,
+        "precio_dca": 440522
+      },
+      {
+        "vin": "LMGAT1L82T1367946",
+        "color_ext": "NEGRO OBSIDIANA",
+        "color_int": "",
+        "sucursal": "GAC Bugambilias",
+        "dias_inv": null,
+        "precio_dca": 440522
+      },
+      {
+        "vin": "LMGAT1L82T1368109",
+        "color_ext": "NEGRO OBSIDIANA",
+        "color_int": "",
+        "sucursal": "GAC Bugambilias",
+        "dias_inv": null,
+        "precio_dca": 440522
+      },
+      {
+        "vin": "LMGAT1L82T1368109",
+        "color_ext": "NEGRO OBSIDIANA",
+        "color_int": "",
+        "sucursal": "GAC Bugambilias",
+        "dias_inv": null,
+        "precio_dca": 440522
+      },
+      {
+        "vin": "LMGAT1L8XT1368116",
+        "color_ext": "NEGRO OBSIDIANA",
+        "color_int": "",
+        "sucursal": "GAC Bugambilias",
+        "dias_inv": null,
+        "precio_dca": 440522
+      },
+      {
+        "vin": "LMGAT1L8XT1368116",
+        "color_ext": "NEGRO OBSIDIANA",
+        "color_int": "",
+        "sucursal": "GAC Bugambilias",
+        "dias_inv": null,
+        "precio_dca": 440522
+      },
+      {
+        "vin": "LMGAT1L83T1367924",
+        "color_ext": "PLATA POLAR",
+        "color_int": "",
+        "sucursal": "GAC Bugambilias",
+        "dias_inv": null,
+        "precio_dca": 440522
+      },
+      {
+        "vin": "LMGAT1L83T1367924",
+        "color_ext": "PLATA POLAR",
+        "color_int": "",
+        "sucursal": "GAC Bugambilias",
+        "dias_inv": null,
+        "precio_dca": 440522
+      },
+      {
+        "vin": "LMGAT1L87T1367912",
+        "color_ext": "PLATA POLAR",
+        "color_int": "",
+        "sucursal": "GAC Bugambilias",
+        "dias_inv": null,
+        "precio_dca": 440522
+      },
+      {
+        "vin": "LMGAT1L87T1367912",
+        "color_ext": "PLATA POLAR",
+        "color_int": "",
+        "sucursal": "GAC Bugambilias",
+        "dias_inv": null,
+        "precio_dca": 440522
+      },
+      {
+        "vin": "LMGAT1L89T1368320",
+        "color_ext": "PLATA POLAR",
+        "color_int": "",
+        "sucursal": "GAC Bugambilias",
+        "dias_inv": null,
+        "precio_dca": 440522
+      },
+      {
+        "vin": "LMGAT1L89T1368320",
+        "color_ext": "PLATA POLAR",
+        "color_int": "",
+        "sucursal": "GAC Bugambilias",
+        "dias_inv": null,
+        "precio_dca": 440522
+      }
+    ],
+    "_fecha_parse": "2026-05-28T14:52:32.746726",
     "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-07.jpg"
   },
   {
@@ -1691,11 +1702,126 @@
     "locs": [
       {
         "nombre": "GAC Américas",
-        "unidades": 1
+        "unidades": 2
       }
     ],
-    "unidades_disponibles": 1,
+    "unidades_disponibles": 2,
     "colores_disponibles": [
+      "Blanco Magnolia",
+      "Negro Obsidiana",
+      "Gris Titanio",
+      "Plata Iridio"
+    ],
+    "img": "imagenes/oficial/gac/gs8-01.jpg",
+    "gallery": [
+      "imagenes/oficial/gac/gs8-01.jpg",
+      "imagenes/oficial/gac/gs8-02.jpg",
+      "imagenes/oficial/gac/gs8-03.jpg",
+      "imagenes/oficial/gac/gs8-04.jpg",
+      "imagenes/oficial/gac/gs8-05.jpg",
+      "imagenes/oficial/gac/gs8-06.jpg"
+    ],
+    "photos": 6,
+    "color": "",
+    "color_int": "",
+    "km": 0,
+    "engine": "2.0TM + GMC2.0 híbrido",
+    "trans": "",
+    "fuel": "Híbrido (HEV)",
+    "cilindros": 0,
+    "hp": 0,
+    "puertas": 5,
+    "pasajeros": 6,
+    "velocidades": 0,
+    "traccion": "",
+    "tanque_l": 0,
+    "rines": 0,
+    "consumo_combinado": 17.7,
+    "consumo_ciudad": 0,
+    "consumo_carretera": 0,
+    "equipamiento": {
+      "Confort": [
+        "Segunda fila estilo capitán",
+        "Amplia cabina para 6 pasajeros",
+        "Asientos ventilados y calefactables con memoria"
+      ],
+      "Audio": [
+        "Display de información frontal (Head-up display)",
+        "Pantalla táctil de 14.6\"",
+        "Luz ambiental inteligente multicolor"
+      ],
+      "Seguridad": [
+        "13 ADAS",
+        "Rendimiento hasta 17.7 km/L"
+      ],
+      "Performance": [
+        "Motor híbrido 2.0TM+GMC2.0",
+        "Hasta 1,000 km de autonomía"
+      ],
+      "Exterior": [
+        "Faros LED automáticos con luces diurnas LED",
+        "Rines de aluminio 20\" con emblema flotante",
+        "Nueva parrilla HEV"
+      ]
+    },
+    "tasa": 0.0999,
+    "cxa": 0,
+    "descContado": 0,
+    "descFinanc": 0,
+    "msi": 0,
+    "mantAnios": 0,
+    "programas": [],
+    "vigDesde": "",
+    "vigHasta": "",
+    "_id_grupo": "GAC||GAC GS8 ALL NEW|GS8 GT FWD|2026",
+    "_modelo_raw": "GAC GS8 ALL NEW",
+    "_modelo_normalizado": "GAC GS8 ALL NEW",
+    "_version_norm": "GS8 GT FWD",
+    "_dias_inv_avg": null,
+    "_vins_internos": [
+      {
+        "vin": "LMGJU1G83T1109684",
+        "color_ext": "BLANCO MAGNOLIA",
+        "color_int": "",
+        "sucursal": "GAC Américas",
+        "dias_inv": null,
+        "precio_dca": 487217
+      },
+      {
+        "vin": "LMGJU1G83T1109684",
+        "color_ext": "BLANCO MAGNOLIA",
+        "color_int": "",
+        "sucursal": "GAC Américas",
+        "dias_inv": null,
+        "precio_dca": 487217
+      }
+    ],
+    "_fecha_parse": "2026-05-28T14:52:32.746733",
+    "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-08.jpg"
+  },
+  {
+    "id": 3865846035,
+    "name": "GAC GS8 ALL NEW",
+    "brand": "GAC",
+    "submarca": null,
+    "year": 2026,
+    "version": "GS8 HEV GX AWD GAC",
+    "type": "suv",
+    "price": 781470,
+    "priceType": "msrp",
+    "badge": "HEV",
+    "loc": "GAC Américas",
+    "locs": [
+      {
+        "nombre": "GAC Américas",
+        "unidades": 2
+      }
+    ],
+    "unidades_disponibles": 2,
+    "colores_disponibles": [
+      "Gris Titanio",
+      "Negro Obsidiana",
+      "Plata Iridio",
       "Blanco Magnolia"
     ],
     "img": "imagenes/oficial/gac/gs8-01.jpg",
@@ -1729,7 +1855,7 @@
       "Confort": [
         "Segunda fila estilo capitán",
         "Amplia cabina para 6 pasajeros",
-        "Asientos ventilados y calefactables con función de memoria"
+        "Asientos ventilados y calefactables con memoria"
       ],
       "Audio": [
         "Display de información frontal (Head-up display)",
@@ -1746,185 +1872,7 @@
       ],
       "Exterior": [
         "Faros LED automáticos con luces diurnas LED",
-        "Rines de aluminio de 20\" con emblema flotante",
-        "Nueva parrilla HEV"
-      ]
-    },
-    "tasa": 0.0999,
-    "cxa": 0,
-    "descContado": 0,
-    "descFinanc": 0,
-    "msi": 0,
-    "mantAnios": 0,
-    "programas": [],
-    "vigDesde": "",
-    "vigHasta": "",
-    "_id_grupo": "GAC||GAC GS8 ALL NEW|GS8 GT FWD|2026",
-    "_modelo_raw": "GAC GS8 ALL NEW",
-    "_modelo_normalizado": "GAC GS8 ALL NEW",
-    "_fecha_parse": "2026-05-28T10:14:00.934934",
-    "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-07.jpg"
-  },
-  {
-    "id": 3200804831,
-    "name": "GAC GS8 ALL NEW",
-    "brand": "GAC",
-    "submarca": null,
-    "year": null,
-    "version": "GS8 HEV GX AWD GAC",
-    "type": "suv",
-    "price": 999900,
-    "priceType": "msrp",
-    "badge": "HEV",
-    "loc": "GAC Américas",
-    "locs": [
-      {
-        "nombre": "GAC Américas",
-        "unidades": 1
-      }
-    ],
-    "unidades_disponibles": 1,
-    "colores_disponibles": [
-      "Gris Titanio"
-    ],
-    "img": "imagenes/oficial/gac/gs8-01.jpg",
-    "gallery": [
-      "imagenes/oficial/gac/gs8-01.jpg",
-      "imagenes/oficial/gac/gs8-02.jpg",
-      "imagenes/oficial/gac/gs8-03.jpg",
-      "imagenes/oficial/gac/gs8-04.jpg",
-      "imagenes/oficial/gac/gs8-05.jpg",
-      "imagenes/oficial/gac/gs8-06.jpg"
-    ],
-    "photos": 6,
-    "color": "",
-    "color_int": "",
-    "km": 0,
-    "engine": "2.0TM + GMC2.0 híbrido",
-    "trans": "",
-    "fuel": "Híbrido (HEV)",
-    "cilindros": 0,
-    "hp": 0,
-    "puertas": 5,
-    "pasajeros": 6,
-    "velocidades": 0,
-    "traccion": "",
-    "tanque_l": 0,
-    "rines": 0,
-    "consumo_combinado": 17.7,
-    "consumo_ciudad": 0,
-    "consumo_carretera": 0,
-    "equipamiento": {
-      "Confort": [
-        "Segunda fila estilo capitán",
-        "Amplia cabina para 6 pasajeros",
-        "Asientos ventilados y calefactables con función de memoria"
-      ],
-      "Audio": [
-        "Display de información frontal (Head-up display)",
-        "Pantalla táctil de 14.6\"",
-        "Luz ambiental inteligente multicolor"
-      ],
-      "Seguridad": [
-        "13 ADAS",
-        "Rendimiento hasta 17.7 km/L"
-      ],
-      "Performance": [
-        "Motor híbrido 2.0TM+GMC2.0",
-        "Hasta 1,000 km de autonomía"
-      ],
-      "Exterior": [
-        "Faros LED automáticos con luces diurnas LED",
-        "Rines de aluminio de 20\" con emblema flotante",
-        "Nueva parrilla HEV"
-      ]
-    },
-    "tasa": 0.0999,
-    "cxa": 0,
-    "descContado": 0,
-    "descFinanc": 0,
-    "msi": 0,
-    "mantAnios": 0,
-    "programas": [],
-    "vigDesde": "",
-    "vigHasta": "",
-    "_id_grupo": "GAC||GAC GS8 ALL NEW|GS8 HEV GX AWD GAC|",
-    "_modelo_raw": "GAC GS8 ALL NEW",
-    "_modelo_normalizado": "GAC GS8 ALL NEW",
-    "_fecha_parse": "2026-05-28T10:14:00.934943",
-    "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-07.jpg"
-  },
-  {
-    "id": 3865846035,
-    "name": "GAC GS8 ALL NEW",
-    "brand": "GAC",
-    "submarca": null,
-    "year": 2026,
-    "version": "GS8 HEV GX AWD GAC",
-    "type": "suv",
-    "price": 999900,
-    "priceType": "msrp",
-    "badge": "HEV",
-    "loc": "GAC Américas",
-    "locs": [
-      {
-        "nombre": "GAC Américas",
-        "unidades": 1
-      }
-    ],
-    "unidades_disponibles": 1,
-    "colores_disponibles": [
-      "Gris Titanio"
-    ],
-    "img": "imagenes/oficial/gac/gs8-01.jpg",
-    "gallery": [
-      "imagenes/oficial/gac/gs8-01.jpg",
-      "imagenes/oficial/gac/gs8-02.jpg",
-      "imagenes/oficial/gac/gs8-03.jpg",
-      "imagenes/oficial/gac/gs8-04.jpg",
-      "imagenes/oficial/gac/gs8-05.jpg",
-      "imagenes/oficial/gac/gs8-06.jpg"
-    ],
-    "photos": 6,
-    "color": "",
-    "color_int": "",
-    "km": 0,
-    "engine": "2.0TM + GMC2.0 híbrido",
-    "trans": "",
-    "fuel": "Híbrido (HEV)",
-    "cilindros": 0,
-    "hp": 0,
-    "puertas": 5,
-    "pasajeros": 6,
-    "velocidades": 0,
-    "traccion": "",
-    "tanque_l": 0,
-    "rines": 0,
-    "consumo_combinado": 17.7,
-    "consumo_ciudad": 0,
-    "consumo_carretera": 0,
-    "equipamiento": {
-      "Confort": [
-        "Segunda fila estilo capitán",
-        "Amplia cabina para 6 pasajeros",
-        "Asientos ventilados y calefactables con función de memoria"
-      ],
-      "Audio": [
-        "Display de información frontal (Head-up display)",
-        "Pantalla táctil de 14.6\"",
-        "Luz ambiental inteligente multicolor"
-      ],
-      "Seguridad": [
-        "13 ADAS",
-        "Rendimiento hasta 17.7 km/L"
-      ],
-      "Performance": [
-        "Motor híbrido 2.0TM+GMC2.0",
-        "Hasta 1,000 km de autonomía"
-      ],
-      "Exterior": [
-        "Faros LED automáticos con luces diurnas LED",
-        "Rines de aluminio de 20\" con emblema flotante",
+        "Rines de aluminio 20\" con emblema flotante",
         "Nueva parrilla HEV"
       ]
     },
@@ -1940,93 +1888,28 @@
     "_id_grupo": "GAC||GAC GS8 ALL NEW|GS8 HEV GX AWD GAC|2026",
     "_modelo_raw": "GAC GS8 ALL NEW",
     "_modelo_normalizado": "GAC GS8 ALL NEW",
-    "_fecha_parse": "2026-05-28T10:14:00.934947",
-    "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-07.jpg"
-  },
-  {
-    "id": 207899167,
-    "name": "GAC AION",
-    "brand": "GAC",
-    "submarca": null,
-    "year": null,
-    "version": "AION ES GL",
-    "type": "suv",
-    "price": 422440,
-    "priceType": "msrp",
-    "badge": "BEV",
-    "loc": "GAC Bugambilias",
-    "locs": [
+    "_version_norm": "GS8 HEV GX AWD GAC",
+    "_dias_inv_avg": null,
+    "_vins_internos": [
       {
-        "nombre": "GAC Bugambilias",
-        "unidades": 1
+        "vin": "LMGJC3S80T1014327",
+        "color_ext": "GRIS TITANIO",
+        "color_int": "",
+        "sucursal": "GAC Américas",
+        "dias_inv": null,
+        "precio_dca": 781470
+      },
+      {
+        "vin": "LMGJC3S80T1014327",
+        "color_ext": "GRIS TITANIO",
+        "color_int": "",
+        "sucursal": "GAC Américas",
+        "dias_inv": null,
+        "precio_dca": 781470
       }
     ],
-    "unidades_disponibles": 1,
-    "colores_disponibles": [
-      "Blanco Metalico"
-    ],
-    "img": "imagenes/oficial/gac/aion-ut-01.jpg",
-    "gallery": [
-      "imagenes/oficial/gac/aion-ut-01.jpg",
-      "imagenes/oficial/gac/aion-ut-02.jpg",
-      "imagenes/oficial/gac/aion-ut-03.jpg",
-      "imagenes/oficial/gac/aion-ut-04.jpg",
-      "imagenes/oficial/gac/aion-ut-05.jpg",
-      "imagenes/oficial/gac/aion-ut-06.jpg"
-    ],
-    "photos": 6,
-    "color": "",
-    "color_int": "",
-    "km": 0,
-    "engine": "Motor eléctrico",
-    "trans": "",
-    "fuel": "Eléctrico (BEV)",
-    "cilindros": 0,
-    "hp": 134,
-    "puertas": 0,
-    "pasajeros": 0,
-    "velocidades": 0,
-    "traccion": "",
-    "tanque_l": 0,
-    "rines": 0,
-    "consumo_combinado": 0,
-    "consumo_ciudad": 0,
-    "consumo_carretera": 0,
-    "equipamiento": {
-      "Confort": [
-        "Asientos cubiertos en piel sintética",
-        "Diseño de techo flotante",
-        "Modo de manejo con pedal inteligente (I-Pedal)"
-      ],
-      "Audio": [
-        "Pantalla de 14.6\""
-      ],
-      "Seguridad": [
-        "Cámara de reversa"
-      ],
-      "Performance": [
-        "Motor eléctrico de 100 kW (134 hp)",
-        "Torque eléctrico de 145 Nm"
-      ],
-      "Exterior": [
-        "Iluminación LED",
-        "Palanca de cambios electrónica al volante"
-      ]
-    },
-    "tasa": 0.0999,
-    "cxa": 0,
-    "descContado": 0,
-    "descFinanc": 0,
-    "msi": 0,
-    "mantAnios": 0,
-    "programas": [],
-    "vigDesde": "",
-    "vigHasta": "",
-    "_id_grupo": "GAC||GAC AION|AION ES GL|",
-    "_modelo_raw": "GAC AION",
-    "_modelo_normalizado": "GAC AION",
-    "_fecha_parse": "2026-05-28T10:14:00.934951",
-    "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-02.jpg"
+    "_fecha_parse": "2026-05-28T14:52:32.746739",
+    "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-08.jpg"
   },
   {
     "id": 3216920295,
@@ -2043,12 +1926,15 @@
     "locs": [
       {
         "nombre": "GAC Bugambilias",
-        "unidades": 1
+        "unidades": 2
       }
     ],
-    "unidades_disponibles": 1,
+    "unidades_disponibles": 2,
     "colores_disponibles": [
-      "Blanco Metalico"
+      "Blanco Metalico",
+      "Beige Champaña",
+      "Blanco Rococó",
+      "Plata Centella"
     ],
     "img": "imagenes/oficial/gac/aion-ut-01.jpg",
     "gallery": [
@@ -2063,13 +1949,13 @@
     "color": "",
     "color_int": "",
     "km": 0,
-    "engine": "Motor eléctrico",
+    "engine": "Motor eléctrico de 100 kW (134 HP)",
     "trans": "",
     "fuel": "Eléctrico (BEV)",
     "cilindros": 0,
     "hp": 134,
-    "puertas": 0,
-    "pasajeros": 0,
+    "puertas": 5,
+    "pasajeros": 5,
     "velocidades": 0,
     "traccion": "",
     "tanque_l": 0,
@@ -2079,7 +1965,7 @@
     "consumo_carretera": 0,
     "equipamiento": {
       "Confort": [
-        "Asientos cubiertos en piel sintética",
+        "Asientos en piel sintética",
         "Diseño de techo flotante",
         "Modo de manejo con pedal inteligente (I-Pedal)"
       ],
@@ -2090,7 +1976,7 @@
         "Cámara de reversa"
       ],
       "Performance": [
-        "Motor eléctrico de 100 kW (134 hp)",
+        "Motor eléctrico 100 kW (134 hp)",
         "Torque eléctrico de 145 Nm"
       ],
       "Exterior": [
@@ -2110,93 +1996,27 @@
     "_id_grupo": "GAC||GAC AION|AION ES GL|2025",
     "_modelo_raw": "GAC AION",
     "_modelo_normalizado": "GAC AION",
-    "_fecha_parse": "2026-05-28T10:14:00.934955",
-    "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-02.jpg"
-  },
-  {
-    "id": 959485663,
-    "name": "GAC AION",
-    "brand": "GAC",
-    "submarca": null,
-    "year": null,
-    "version": "AION Y GX",
-    "type": "suv",
-    "price": 463366,
-    "priceType": "msrp",
-    "badge": "BEV",
-    "loc": "GAC Bugambilias",
-    "locs": [
+    "_version_norm": "AION ES GL",
+    "_dias_inv_avg": null,
+    "_vins_internos": [
       {
-        "nombre": "GAC Bugambilias",
-        "unidades": 1
+        "vin": "LNAAKAA15S5H00558",
+        "color_ext": "BLANCO METALICO",
+        "color_int": "",
+        "sucursal": "GAC Bugambilias",
+        "dias_inv": null,
+        "precio_dca": 422440
+      },
+      {
+        "vin": "LNAAKAA15S5H00558",
+        "color_ext": "BLANCO METALICO",
+        "color_int": "",
+        "sucursal": "GAC Bugambilias",
+        "dias_inv": null,
+        "precio_dca": 422440
       }
     ],
-    "unidades_disponibles": 1,
-    "colores_disponibles": [
-      "Blanco Nevado"
-    ],
-    "img": "imagenes/oficial/gac/aion-y-01.jpg",
-    "gallery": [
-      "imagenes/oficial/gac/aion-y-01.jpg",
-      "imagenes/oficial/gac/aion-y-02.jpg",
-      "imagenes/oficial/gac/aion-y-03.jpg",
-      "imagenes/oficial/gac/aion-y-04.jpg",
-      "imagenes/oficial/gac/aion-y-05.jpg",
-      "imagenes/oficial/gac/aion-y-06.jpg"
-    ],
-    "photos": 6,
-    "color": "",
-    "color_int": "",
-    "km": 0,
-    "engine": "Motor eléctrico",
-    "trans": "",
-    "fuel": "Eléctrico (BEV)",
-    "cilindros": 0,
-    "hp": 134,
-    "puertas": 0,
-    "pasajeros": 0,
-    "velocidades": 0,
-    "traccion": "",
-    "tanque_l": 0,
-    "rines": 0,
-    "consumo_combinado": 0,
-    "consumo_ciudad": 0,
-    "consumo_carretera": 0,
-    "equipamiento": {
-      "Confort": [
-        "Asientos cubiertos en piel sintética",
-        "Diseño de techo flotante",
-        "Modo de manejo con pedal inteligente (I-Pedal)"
-      ],
-      "Audio": [
-        "Pantalla de 14.6\""
-      ],
-      "Seguridad": [
-        "Cámara de reversa"
-      ],
-      "Performance": [
-        "Motor eléctrico de 100 kW (134 hp)",
-        "Torque eléctrico de 145 Nm"
-      ],
-      "Exterior": [
-        "Iluminación LED",
-        "Palanca de cambios electrónica al volante"
-      ]
-    },
-    "tasa": 0.0999,
-    "cxa": 0,
-    "descContado": 0,
-    "descFinanc": 0,
-    "msi": 0,
-    "mantAnios": 0,
-    "programas": [],
-    "vigDesde": "",
-    "vigHasta": "",
-    "_id_grupo": "GAC||GAC AION|AION Y GX|",
-    "_modelo_raw": "GAC AION",
-    "_modelo_normalizado": "GAC AION",
-    "_fecha_parse": "2026-05-28T10:14:00.934960",
-    "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-02.jpg"
+    "_fecha_parse": "2026-05-28T14:52:32.746745"
   },
   {
     "id": 1984429722,
@@ -2213,12 +2033,15 @@
     "locs": [
       {
         "nombre": "GAC Bugambilias",
-        "unidades": 1
+        "unidades": 2
       }
     ],
-    "unidades_disponibles": 1,
+    "unidades_disponibles": 2,
     "colores_disponibles": [
-      "Blanco Nevado"
+      "Blanco Nevado",
+      "Beige Champaña",
+      "Blanco Rococó",
+      "Plata Centella"
     ],
     "img": "imagenes/oficial/gac/aion-y-01.jpg",
     "gallery": [
@@ -2233,13 +2056,13 @@
     "color": "",
     "color_int": "",
     "km": 0,
-    "engine": "Motor eléctrico",
+    "engine": "Motor eléctrico de 100 kW (134 HP)",
     "trans": "",
     "fuel": "Eléctrico (BEV)",
     "cilindros": 0,
     "hp": 134,
-    "puertas": 0,
-    "pasajeros": 0,
+    "puertas": 5,
+    "pasajeros": 5,
     "velocidades": 0,
     "traccion": "",
     "tanque_l": 0,
@@ -2249,7 +2072,7 @@
     "consumo_carretera": 0,
     "equipamiento": {
       "Confort": [
-        "Asientos cubiertos en piel sintética",
+        "Asientos en piel sintética",
         "Diseño de techo flotante",
         "Modo de manejo con pedal inteligente (I-Pedal)"
       ],
@@ -2260,7 +2083,7 @@
         "Cámara de reversa"
       ],
       "Performance": [
-        "Motor eléctrico de 100 kW (134 hp)",
+        "Motor eléctrico 100 kW (134 hp)",
         "Torque eléctrico de 145 Nm"
       ],
       "Exterior": [
@@ -2280,29 +2103,49 @@
     "_id_grupo": "GAC||GAC AION|AION Y GX|2025",
     "_modelo_raw": "GAC AION",
     "_modelo_normalizado": "GAC AION",
-    "_fecha_parse": "2026-05-28T10:14:00.934964",
-    "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-02.jpg"
+    "_version_norm": "AION Y GX",
+    "_dias_inv_avg": null,
+    "_vins_internos": [
+      {
+        "vin": "LNADHAB34S1E80879",
+        "color_ext": "BLANCO NEVADO",
+        "color_int": "",
+        "sucursal": "GAC Bugambilias",
+        "dias_inv": null,
+        "precio_dca": 463366
+      },
+      {
+        "vin": "LNADHAB34S1E80879",
+        "color_ext": "BLANCO NEVADO",
+        "color_int": "",
+        "sucursal": "GAC Bugambilias",
+        "dias_inv": null,
+        "precio_dca": 463366
+      }
+    ],
+    "_fecha_parse": "2026-05-28T14:52:32.746751"
   },
   {
-    "id": 2929504528,
+    "id": 1944650304,
     "name": "GAC GN8",
     "brand": "GAC",
     "submarca": null,
-    "year": null,
-    "version": "GN8 GX LUX",
+    "year": 2024,
+    "version": "GN8 GT",
     "type": "van",
-    "price": 1028800,
+    "price": 888800,
     "priceType": "msrp",
     "badge": "",
     "loc": "GAC Bugambilias",
     "locs": [
       {
         "nombre": "GAC Bugambilias",
-        "unidades": 1
+        "unidades": 16
       }
     ],
-    "unidades_disponibles": 1,
+    "unidades_disponibles": 16,
     "colores_disponibles": [
+      "Blanco Magnolia",
       "Negro Obsidiana"
     ],
     "img": null,
@@ -2336,9 +2179,8 @@
       ],
       "Seguridad": [
         "7 Bolsas de aire 360°",
-        "11 ADAS (ACC, TSR, ISL-ACC, FCW, AEB, LDW, LKA, WELL, ICA, BSD, LCA, DOW, RCW, RCTA, ELKA, FAPA)",
-        "Cámara 360° única del segmento",
-        "Portavaso enfriamiento y calefactable"
+        "11 ADAS (ACC, TSR, ISL-ACC, FCW, AEB, LDW, LKA, BSD, LCA, DOW, RCW)",
+        "Cámara 360° única del segmento"
       ],
       "Performance": [
         "Transmisión 8 velocidades automática",
@@ -2358,11 +2200,143 @@
     "programas": [],
     "vigDesde": "",
     "vigHasta": "",
-    "_id_grupo": "GAC||GAC GN8|GN8 GX LUX|",
+    "_id_grupo": "GAC||GAC GN8|GN8 GT|2024",
     "_modelo_raw": "GAC GN8",
     "_modelo_normalizado": "GAC GN8",
-    "_fecha_parse": "2026-05-28T10:14:00.934983",
-    "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-04.jpg"
+    "_version_norm": "GN8 GT",
+    "_dias_inv_avg": null,
+    "_vins_internos": [
+      {
+        "vin": "LMGMU1G57R1250379",
+        "color_ext": "BLANCO MAGNOLIA",
+        "color_int": "",
+        "sucursal": "GAC Bugambilias",
+        "dias_inv": null,
+        "precio_dca": 292565
+      },
+      {
+        "vin": "LMGMU1G57R1250379",
+        "color_ext": "BLANCO MAGNOLIA",
+        "color_int": "",
+        "sucursal": "GAC Bugambilias",
+        "dias_inv": null,
+        "precio_dca": 292565
+      },
+      {
+        "vin": "LMGMU1G54R1250372",
+        "color_ext": "NEGRO OBSIDIANA",
+        "color_int": "",
+        "sucursal": "GAC Bugambilias",
+        "dias_inv": null,
+        "precio_dca": 292565
+      },
+      {
+        "vin": "LMGMU1G54R1250372",
+        "color_ext": "NEGRO OBSIDIANA",
+        "color_int": "",
+        "sucursal": "GAC Bugambilias",
+        "dias_inv": null,
+        "precio_dca": 292565
+      },
+      {
+        "vin": "LMGMU1G55R1250381",
+        "color_ext": "NEGRO OBSIDIANA",
+        "color_int": "",
+        "sucursal": "GAC Bugambilias",
+        "dias_inv": null,
+        "precio_dca": 292565
+      },
+      {
+        "vin": "LMGMU1G55R1250381",
+        "color_ext": "NEGRO OBSIDIANA",
+        "color_int": "",
+        "sucursal": "GAC Bugambilias",
+        "dias_inv": null,
+        "precio_dca": 292565
+      },
+      {
+        "vin": "LMGMU1G55R1250395",
+        "color_ext": "NEGRO OBSIDIANA",
+        "color_int": "",
+        "sucursal": "GAC Bugambilias",
+        "dias_inv": null,
+        "precio_dca": 292565
+      },
+      {
+        "vin": "LMGMU1G55R1250395",
+        "color_ext": "NEGRO OBSIDIANA",
+        "color_int": "",
+        "sucursal": "GAC Bugambilias",
+        "dias_inv": null,
+        "precio_dca": 292565
+      },
+      {
+        "vin": "LMGMU1G56R1250373",
+        "color_ext": "NEGRO OBSIDIANA",
+        "color_int": "",
+        "sucursal": "GAC Bugambilias",
+        "dias_inv": null,
+        "precio_dca": 292565
+      },
+      {
+        "vin": "LMGMU1G56R1250373",
+        "color_ext": "NEGRO OBSIDIANA",
+        "color_int": "",
+        "sucursal": "GAC Bugambilias",
+        "dias_inv": null,
+        "precio_dca": 292565
+      },
+      {
+        "vin": "LMGMU1G56R1250390",
+        "color_ext": "NEGRO OBSIDIANA",
+        "color_int": "",
+        "sucursal": "GAC Bugambilias",
+        "dias_inv": null,
+        "precio_dca": 292565
+      },
+      {
+        "vin": "LMGMU1G56R1250390",
+        "color_ext": "NEGRO OBSIDIANA",
+        "color_int": "",
+        "sucursal": "GAC Bugambilias",
+        "dias_inv": null,
+        "precio_dca": 292565
+      },
+      {
+        "vin": "LMGMU1G57R1250401",
+        "color_ext": "NEGRO OBSIDIANA",
+        "color_int": "",
+        "sucursal": "GAC Bugambilias",
+        "dias_inv": null,
+        "precio_dca": 292565
+      },
+      {
+        "vin": "LMGMU1G57R1250401",
+        "color_ext": "NEGRO OBSIDIANA",
+        "color_int": "",
+        "sucursal": "GAC Bugambilias",
+        "dias_inv": null,
+        "precio_dca": 292565
+      },
+      {
+        "vin": "LMGMU1G59R1250402",
+        "color_ext": "NEGRO OBSIDIANA",
+        "color_int": "",
+        "sucursal": "GAC Bugambilias",
+        "dias_inv": null,
+        "precio_dca": 292565
+      },
+      {
+        "vin": "LMGMU1G59R1250402",
+        "color_ext": "NEGRO OBSIDIANA",
+        "color_int": "",
+        "sucursal": "GAC Bugambilias",
+        "dias_inv": null,
+        "precio_dca": 292565
+      }
+    ],
+    "_fecha_parse": "2026-05-28T14:52:32.746764",
+    "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-05.jpg"
   },
   {
     "id": 3841289391,
@@ -2379,12 +2353,13 @@
     "locs": [
       {
         "nombre": "GAC Bugambilias",
-        "unidades": 1
+        "unidades": 2
       }
     ],
-    "unidades_disponibles": 1,
+    "unidades_disponibles": 2,
     "colores_disponibles": [
-      "Negro Obsidiana"
+      "Negro Obsidiana",
+      "Blanco Magnolia"
     ],
     "img": null,
     "gallery": [],
@@ -2417,9 +2392,8 @@
       ],
       "Seguridad": [
         "7 Bolsas de aire 360°",
-        "11 ADAS (ACC, TSR, ISL-ACC, FCW, AEB, LDW, LKA, WELL, ICA, BSD, LCA, DOW, RCW, RCTA, ELKA, FAPA)",
-        "Cámara 360° única del segmento",
-        "Portavaso enfriamiento y calefactable"
+        "11 ADAS (ACC, TSR, ISL-ACC, FCW, AEB, LDW, LKA, BSD, LCA, DOW, RCW)",
+        "Cámara 360° única del segmento"
       ],
       "Performance": [
         "Transmisión 8 velocidades automática",
@@ -2442,44 +2416,76 @@
     "_id_grupo": "GAC||GAC GN8|GN8 GX LUX|2024",
     "_modelo_raw": "GAC GN8",
     "_modelo_normalizado": "GAC GN8",
-    "_fecha_parse": "2026-05-28T10:14:00.934987",
-    "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-04.jpg"
+    "_version_norm": "GN8 GX LUX",
+    "_dias_inv_avg": null,
+    "_vins_internos": [
+      {
+        "vin": "LMGMU1G85R1255185",
+        "color_ext": "NEGRO OBSIDIANA",
+        "color_int": "",
+        "sucursal": "GAC Bugambilias",
+        "dias_inv": null,
+        "precio_dca": 376378
+      },
+      {
+        "vin": "LMGMU1G85R1255185",
+        "color_ext": "NEGRO OBSIDIANA",
+        "color_int": "",
+        "sucursal": "GAC Bugambilias",
+        "dias_inv": null,
+        "precio_dca": 376378
+      }
+    ],
+    "_fecha_parse": "2026-05-28T14:52:32.746769",
+    "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-05.jpg"
   },
   {
-    "id": 3410547558,
-    "name": "GAC GS7 PHEV",
+    "id": 2207884580,
+    "name": "GAC GS4 ALL NEW",
     "brand": "GAC",
     "submarca": null,
-    "year": null,
-    "version": "GS7 PHEV 2WD",
+    "year": 2026,
+    "version": "GS4 HEV GL MAX",
     "type": "suv",
-    "price": 673584,
+    "price": 490480,
     "priceType": "msrp",
-    "badge": "PHEV",
+    "badge": "",
     "loc": "GAC Bugambilias",
     "locs": [
       {
         "nombre": "GAC Bugambilias",
-        "unidades": 1
+        "unidades": 10
       }
     ],
-    "unidades_disponibles": 1,
+    "unidades_disponibles": 10,
     "colores_disponibles": [
-      "Blanco Magnolia"
+      "Blanco Metalico",
+      "Gris Magnetico",
+      "Negro Obsidiana",
+      "Plata Polar",
+      "Gris Magnético",
+      "Blanco Metálico"
     ],
-    "img": null,
-    "gallery": [],
-    "photos": 0,
+    "img": "imagenes/oficial/gac/gs4-max-01.jpg",
+    "gallery": [
+      "imagenes/oficial/gac/gs4-max-01.jpg",
+      "imagenes/oficial/gac/gs4-max-02.jpg",
+      "imagenes/oficial/gac/gs4-max-03.jpg",
+      "imagenes/oficial/gac/gs4-max-04.jpg",
+      "imagenes/oficial/gac/gs4-max-05.jpg",
+      "imagenes/oficial/gac/gs4-max-06.jpg"
+    ],
+    "photos": 6,
     "color": "",
     "color_int": "",
     "km": 0,
-    "engine": "",
+    "engine": "2.0L 4 cilindros ATK",
     "trans": "",
-    "fuel": "Híbrido enchufable (PHEV)",
+    "fuel": "Gasolina",
     "cilindros": 0,
-    "hp": 0,
-    "puertas": 0,
-    "pasajeros": 0,
+    "hp": 140,
+    "puertas": 5,
+    "pasajeros": 5,
     "velocidades": 0,
     "traccion": "",
     "tanque_l": 0,
@@ -2487,7 +2493,29 @@
     "consumo_combinado": 0,
     "consumo_ciudad": 0,
     "consumo_carretera": 0,
-    "equipamiento": {},
+    "equipamiento": {
+      "Confort": [
+        "Aire acondicionado automático",
+        "Asientos traseros abatibles 40/60",
+        "Techo panorámico LED"
+      ],
+      "Audio": [
+        "Pantalla multimedia táctil de 10\"",
+        "Apple CarPlay™",
+        "Android Auto™"
+      ],
+      "Seguridad": [
+        "6 bolsas de aire",
+        "Frenos ABS + EBD + ESP",
+        "Sistema de control de descenso (HDC)",
+        "Cámara 360°"
+      ],
+      "Exterior": [
+        "Rines de 19\" (225/55)",
+        "Faros LED con ajuste de altura",
+        "Luces de manejo diurno LED"
+      ]
+    },
     "tasa": 0.0999,
     "cxa": 0,
     "descContado": 0,
@@ -2497,10 +2525,95 @@
     "programas": [],
     "vigDesde": "",
     "vigHasta": "",
-    "_id_grupo": "GAC||GAC GS7 PHEV|GS7 PHEV 2WD|",
-    "_modelo_raw": "GAC GS7 PHEV",
-    "_modelo_normalizado": "GAC GS7 PHEV",
-    "_fecha_parse": "2026-05-28T10:14:00.935008"
+    "_id_grupo": "GAC||GAC GS4 ALL NEW|GS4 HEV GL MAX|2026",
+    "_modelo_raw": "GAC GS4 ALL NEW",
+    "_modelo_normalizado": "GAC GS4 ALL NEW",
+    "_version_norm": "GS4 HEV GL MAX",
+    "_dias_inv_avg": null,
+    "_vins_internos": [
+      {
+        "vin": "LMGAF1S82T1017001",
+        "color_ext": "BLANCO METALICO",
+        "color_int": "",
+        "sucursal": "GAC Bugambilias",
+        "dias_inv": null,
+        "precio_dca": 491492
+      },
+      {
+        "vin": "LMGAF1S82T1017001",
+        "color_ext": "BLANCO METALICO",
+        "color_int": "",
+        "sucursal": "GAC Bugambilias",
+        "dias_inv": null,
+        "precio_dca": 491492
+      },
+      {
+        "vin": "LMGAF1S80T1015652",
+        "color_ext": "GRIS MAGNETICO",
+        "color_int": "",
+        "sucursal": "GAC Bugambilias",
+        "dias_inv": null,
+        "precio_dca": 491492
+      },
+      {
+        "vin": "LMGAF1S80T1015652",
+        "color_ext": "GRIS MAGNETICO",
+        "color_int": "",
+        "sucursal": "GAC Bugambilias",
+        "dias_inv": null,
+        "precio_dca": 491492
+      },
+      {
+        "vin": "LMGAF1S88T1015981",
+        "color_ext": "GRIS MAGNETICO",
+        "color_int": "",
+        "sucursal": "GAC Bugambilias",
+        "dias_inv": null,
+        "precio_dca": 490480
+      },
+      {
+        "vin": "LMGAF1S88T1015981",
+        "color_ext": "GRIS MAGNETICO",
+        "color_int": "",
+        "sucursal": "GAC Bugambilias",
+        "dias_inv": null,
+        "precio_dca": 490480
+      },
+      {
+        "vin": "LMGAF1S88T1016970",
+        "color_ext": "NEGRO OBSIDIANA",
+        "color_int": "",
+        "sucursal": "GAC Bugambilias",
+        "dias_inv": null,
+        "precio_dca": 491492
+      },
+      {
+        "vin": "LMGAF1S88T1016970",
+        "color_ext": "NEGRO OBSIDIANA",
+        "color_int": "",
+        "sucursal": "GAC Bugambilias",
+        "dias_inv": null,
+        "precio_dca": 491492
+      },
+      {
+        "vin": "LMGAF1S88T1016953",
+        "color_ext": "PLATA POLAR",
+        "color_int": "",
+        "sucursal": "GAC Bugambilias",
+        "dias_inv": null,
+        "precio_dca": 491492
+      },
+      {
+        "vin": "LMGAF1S88T1016953",
+        "color_ext": "PLATA POLAR",
+        "color_int": "",
+        "sucursal": "GAC Bugambilias",
+        "dias_inv": null,
+        "precio_dca": 491492
+      }
+    ],
+    "_fecha_parse": "2026-05-28T14:52:32.746779",
+    "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-09.jpg"
   },
   {
     "id": 438334307,
@@ -2517,10 +2630,10 @@
     "locs": [
       {
         "nombre": "GAC Bugambilias",
-        "unidades": 1
+        "unidades": 2
       }
     ],
-    "unidades_disponibles": 1,
+    "unidades_disponibles": 2,
     "colores_disponibles": [
       "Blanco Magnolia"
     ],
@@ -2557,64 +2670,27 @@
     "_id_grupo": "GAC||GAC GS7 PHEV|GS7 PHEV 2WD|2026",
     "_modelo_raw": "GAC GS7 PHEV",
     "_modelo_normalizado": "GAC GS7 PHEV",
-    "_fecha_parse": "2026-05-28T10:14:00.935012"
-  },
-  {
-    "id": 3328960709,
-    "name": "GAC GS7 PHEV",
-    "brand": "GAC",
-    "submarca": null,
-    "year": null,
-    "version": "GS7 PHEV 4WD",
-    "type": "suv",
-    "price": 747722,
-    "priceType": "msrp",
-    "badge": "PHEV",
-    "loc": "GAC Bugambilias",
-    "locs": [
+    "_version_norm": "GS7 PHEV 2WD",
+    "_dias_inv_avg": null,
+    "_vins_internos": [
       {
-        "nombre": "GAC Bugambilias",
-        "unidades": 1
+        "vin": "LMGNA1S58T1011970",
+        "color_ext": "BLANCO MAGNOLIA",
+        "color_int": "",
+        "sucursal": "GAC Bugambilias",
+        "dias_inv": null,
+        "precio_dca": 673584
+      },
+      {
+        "vin": "LMGNA1S58T1011970",
+        "color_ext": "BLANCO MAGNOLIA",
+        "color_int": "",
+        "sucursal": "GAC Bugambilias",
+        "dias_inv": null,
+        "precio_dca": 673584
       }
     ],
-    "unidades_disponibles": 1,
-    "colores_disponibles": [
-      "Verde Imperial"
-    ],
-    "img": null,
-    "gallery": [],
-    "photos": 0,
-    "color": "",
-    "color_int": "",
-    "km": 0,
-    "engine": "",
-    "trans": "",
-    "fuel": "Híbrido enchufable (PHEV)",
-    "cilindros": 0,
-    "hp": 0,
-    "puertas": 0,
-    "pasajeros": 0,
-    "velocidades": 0,
-    "traccion": "",
-    "tanque_l": 0,
-    "rines": 0,
-    "consumo_combinado": 0,
-    "consumo_ciudad": 0,
-    "consumo_carretera": 0,
-    "equipamiento": {},
-    "tasa": 0.0999,
-    "cxa": 0,
-    "descContado": 0,
-    "descFinanc": 0,
-    "msi": 0,
-    "mantAnios": 0,
-    "programas": [],
-    "vigDesde": "",
-    "vigHasta": "",
-    "_id_grupo": "GAC||GAC GS7 PHEV|GS7 PHEV 4WD|",
-    "_modelo_raw": "GAC GS7 PHEV",
-    "_modelo_normalizado": "GAC GS7 PHEV",
-    "_fecha_parse": "2026-05-28T10:14:00.935016"
+    "_fecha_parse": "2026-05-28T14:52:32.746785"
   },
   {
     "id": 754699696,
@@ -2631,10 +2707,10 @@
     "locs": [
       {
         "nombre": "GAC Bugambilias",
-        "unidades": 1
+        "unidades": 2
       }
     ],
-    "unidades_disponibles": 1,
+    "unidades_disponibles": 2,
     "colores_disponibles": [
       "Verde Imperial"
     ],
@@ -2671,96 +2747,27 @@
     "_id_grupo": "GAC||GAC GS7 PHEV|GS7 PHEV 4WD|2026",
     "_modelo_raw": "GAC GS7 PHEV",
     "_modelo_normalizado": "GAC GS7 PHEV",
-    "_fecha_parse": "2026-05-28T10:14:00.935022"
-  },
-  {
-    "id": 1549267532,
-    "name": "GAC GS8 ALL NEW",
-    "brand": "GAC",
-    "submarca": null,
-    "year": null,
-    "version": "GS8 GL FWD",
-    "type": "suv",
-    "price": 401758,
-    "priceType": "msrp",
-    "badge": "HEV",
-    "loc": "GAC Bugambilias",
-    "locs": [
+    "_version_norm": "GS7 PHEV 4WD",
+    "_dias_inv_avg": null,
+    "_vins_internos": [
       {
-        "nombre": "GAC Bugambilias",
-        "unidades": 1
+        "vin": "LMGNB3S82T1007318",
+        "color_ext": "VERDE IMPERIAL",
+        "color_int": "",
+        "sucursal": "GAC Bugambilias",
+        "dias_inv": null,
+        "precio_dca": 747722
+      },
+      {
+        "vin": "LMGNB3S82T1007318",
+        "color_ext": "VERDE IMPERIAL",
+        "color_int": "",
+        "sucursal": "GAC Bugambilias",
+        "dias_inv": null,
+        "precio_dca": 747722
       }
     ],
-    "unidades_disponibles": 1,
-    "colores_disponibles": [
-      "Negro Obsidiana"
-    ],
-    "img": "imagenes/oficial/gac/gs8-01.jpg",
-    "gallery": [
-      "imagenes/oficial/gac/gs8-01.jpg",
-      "imagenes/oficial/gac/gs8-02.jpg",
-      "imagenes/oficial/gac/gs8-03.jpg",
-      "imagenes/oficial/gac/gs8-04.jpg",
-      "imagenes/oficial/gac/gs8-05.jpg",
-      "imagenes/oficial/gac/gs8-06.jpg"
-    ],
-    "photos": 6,
-    "color": "",
-    "color_int": "",
-    "km": 0,
-    "engine": "2.0TM + GMC2.0 híbrido",
-    "trans": "",
-    "fuel": "Híbrido (HEV)",
-    "cilindros": 0,
-    "hp": 0,
-    "puertas": 5,
-    "pasajeros": 6,
-    "velocidades": 0,
-    "traccion": "",
-    "tanque_l": 0,
-    "rines": 0,
-    "consumo_combinado": 17.7,
-    "consumo_ciudad": 0,
-    "consumo_carretera": 0,
-    "equipamiento": {
-      "Confort": [
-        "Segunda fila estilo capitán",
-        "Amplia cabina para 6 pasajeros",
-        "Asientos ventilados y calefactables con función de memoria"
-      ],
-      "Audio": [
-        "Display de información frontal (Head-up display)",
-        "Pantalla táctil de 14.6\"",
-        "Luz ambiental inteligente multicolor"
-      ],
-      "Seguridad": [
-        "13 ADAS",
-        "Rendimiento hasta 17.7 km/L"
-      ],
-      "Performance": [
-        "Motor híbrido 2.0TM+GMC2.0",
-        "Hasta 1,000 km de autonomía"
-      ],
-      "Exterior": [
-        "Faros LED automáticos con luces diurnas LED",
-        "Rines de aluminio de 20\" con emblema flotante",
-        "Nueva parrilla HEV"
-      ]
-    },
-    "tasa": 0.0999,
-    "cxa": 0,
-    "descContado": 0,
-    "descFinanc": 0,
-    "msi": 0,
-    "mantAnios": 0,
-    "programas": [],
-    "vigDesde": "",
-    "vigHasta": "",
-    "_id_grupo": "GAC||GAC GS8 ALL NEW|GS8 GL FWD|",
-    "_modelo_raw": "GAC GS8 ALL NEW",
-    "_modelo_normalizado": "GAC GS8 ALL NEW",
-    "_fecha_parse": "2026-05-28T10:14:00.935026",
-    "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-07.jpg"
+    "_fecha_parse": "2026-05-28T14:52:32.746791"
   },
   {
     "id": 4211890439,
@@ -2777,12 +2784,15 @@
     "locs": [
       {
         "nombre": "GAC Bugambilias",
-        "unidades": 1
+        "unidades": 2
       }
     ],
-    "unidades_disponibles": 1,
+    "unidades_disponibles": 2,
     "colores_disponibles": [
-      "Negro Obsidiana"
+      "Negro Obsidiana",
+      "Gris Titanio",
+      "Plata Iridio",
+      "Blanco Magnolia"
     ],
     "img": "imagenes/oficial/gac/gs8-01.jpg",
     "gallery": [
@@ -2815,7 +2825,7 @@
       "Confort": [
         "Segunda fila estilo capitán",
         "Amplia cabina para 6 pasajeros",
-        "Asientos ventilados y calefactables con función de memoria"
+        "Asientos ventilados y calefactables con memoria"
       ],
       "Audio": [
         "Display de información frontal (Head-up display)",
@@ -2832,7 +2842,7 @@
       ],
       "Exterior": [
         "Faros LED automáticos con luces diurnas LED",
-        "Rines de aluminio de 20\" con emblema flotante",
+        "Rines de aluminio 20\" con emblema flotante",
         "Nueva parrilla HEV"
       ]
     },
@@ -2848,97 +2858,28 @@
     "_id_grupo": "GAC||GAC GS8 ALL NEW|GS8 GL FWD|2025",
     "_modelo_raw": "GAC GS8 ALL NEW",
     "_modelo_normalizado": "GAC GS8 ALL NEW",
-    "_fecha_parse": "2026-05-28T10:14:00.935030",
-    "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-07.jpg"
-  },
-  {
-    "id": 1799801305,
-    "name": "GAC GS8 ALL NEW",
-    "brand": "GAC",
-    "submarca": null,
-    "year": null,
-    "version": "GS8 HEV GX AWD",
-    "type": "suv",
-    "price": 999900,
-    "priceType": "msrp",
-    "badge": "HEV",
-    "loc": "GAC Bugambilias",
-    "locs": [
+    "_version_norm": "GS8 GL FWD",
+    "_dias_inv_avg": null,
+    "_vins_internos": [
       {
-        "nombre": "GAC Bugambilias",
-        "unidades": 1
+        "vin": "LMGJU1G57S1084700",
+        "color_ext": "NEGRO OBSIDIANA",
+        "color_int": "",
+        "sucursal": "GAC Bugambilias",
+        "dias_inv": null,
+        "precio_dca": 401758
+      },
+      {
+        "vin": "LMGJU1G57S1084700",
+        "color_ext": "NEGRO OBSIDIANA",
+        "color_int": "",
+        "sucursal": "GAC Bugambilias",
+        "dias_inv": null,
+        "precio_dca": 401758
       }
     ],
-    "unidades_disponibles": 1,
-    "colores_disponibles": [
-      "Gris Titanio"
-    ],
-    "img": "imagenes/oficial/gac/gs8-01.jpg",
-    "gallery": [
-      "imagenes/oficial/gac/gs8-01.jpg",
-      "imagenes/oficial/gac/gs8-02.jpg",
-      "imagenes/oficial/gac/gs8-03.jpg",
-      "imagenes/oficial/gac/gs8-04.jpg",
-      "imagenes/oficial/gac/gs8-05.jpg",
-      "imagenes/oficial/gac/gs8-06.jpg"
-    ],
-    "photos": 6,
-    "color": "",
-    "color_int": "",
-    "km": 0,
-    "engine": "2.0TM + GMC2.0 híbrido",
-    "trans": "",
-    "fuel": "Híbrido (HEV)",
-    "cilindros": 0,
-    "hp": 0,
-    "puertas": 5,
-    "pasajeros": 6,
-    "velocidades": 0,
-    "traccion": "",
-    "tanque_l": 0,
-    "rines": 0,
-    "consumo_combinado": 17.7,
-    "consumo_ciudad": 0,
-    "consumo_carretera": 0,
-    "equipamiento": {
-      "Confort": [
-        "Segunda fila estilo capitán",
-        "Amplia cabina para 6 pasajeros",
-        "Asientos ventilados y calefactables con función de memoria"
-      ],
-      "Audio": [
-        "Display de información frontal (Head-up display)",
-        "Pantalla táctil de 14.6\"",
-        "Luz ambiental inteligente multicolor"
-      ],
-      "Seguridad": [
-        "13 ADAS",
-        "Rendimiento hasta 17.7 km/L"
-      ],
-      "Performance": [
-        "Motor híbrido 2.0TM+GMC2.0",
-        "Hasta 1,000 km de autonomía"
-      ],
-      "Exterior": [
-        "Faros LED automáticos con luces diurnas LED",
-        "Rines de aluminio de 20\" con emblema flotante",
-        "Nueva parrilla HEV"
-      ]
-    },
-    "tasa": 0.0999,
-    "cxa": 0,
-    "descContado": 0,
-    "descFinanc": 0,
-    "msi": 0,
-    "mantAnios": 0,
-    "programas": [],
-    "vigDesde": "",
-    "vigHasta": "",
-    "_id_grupo": "GAC||GAC GS8 ALL NEW|GS8 HEV GX AWD|",
-    "_modelo_raw": "GAC GS8 ALL NEW",
-    "_modelo_normalizado": "GAC GS8 ALL NEW",
-    "_fecha_parse": "2026-05-28T10:14:00.935034",
-    "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-07.jpg"
+    "_fecha_parse": "2026-05-28T14:52:32.746797",
+    "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-08.jpg"
   },
   {
     "id": 1146627640,
@@ -2948,19 +2889,22 @@
     "year": 2025,
     "version": "GS8 HEV GX AWD",
     "type": "suv",
-    "price": 999900,
+    "price": 780559,
     "priceType": "msrp",
     "badge": "HEV",
     "loc": "GAC Bugambilias",
     "locs": [
       {
         "nombre": "GAC Bugambilias",
-        "unidades": 1
+        "unidades": 2
       }
     ],
-    "unidades_disponibles": 1,
+    "unidades_disponibles": 2,
     "colores_disponibles": [
-      "Gris Titanio"
+      "Gris Titanio",
+      "Negro Obsidiana",
+      "Plata Iridio",
+      "Blanco Magnolia"
     ],
     "img": "imagenes/oficial/gac/gs8-01.jpg",
     "gallery": [
@@ -2993,7 +2937,7 @@
       "Confort": [
         "Segunda fila estilo capitán",
         "Amplia cabina para 6 pasajeros",
-        "Asientos ventilados y calefactables con función de memoria"
+        "Asientos ventilados y calefactables con memoria"
       ],
       "Audio": [
         "Display de información frontal (Head-up display)",
@@ -3010,7 +2954,7 @@
       ],
       "Exterior": [
         "Faros LED automáticos con luces diurnas LED",
-        "Rines de aluminio de 20\" con emblema flotante",
+        "Rines de aluminio 20\" con emblema flotante",
         "Nueva parrilla HEV"
       ]
     },
@@ -3026,94 +2970,28 @@
     "_id_grupo": "GAC||GAC GS8 ALL NEW|GS8 HEV GX AWD|2025",
     "_modelo_raw": "GAC GS8 ALL NEW",
     "_modelo_normalizado": "GAC GS8 ALL NEW",
-    "_fecha_parse": "2026-05-28T10:14:00.935038",
-    "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-07.jpg"
-  },
-  {
-    "id": 2354691265,
-    "name": "GAC HYPTEC",
-    "brand": "GAC",
-    "submarca": null,
-    "year": null,
-    "version": "HYPTEC HT ULTRA",
-    "type": "suv",
-    "price": 747610,
-    "priceType": "msrp",
-    "badge": "BEV",
-    "loc": "GAC Bugambilias",
-    "locs": [
+    "_version_norm": "GS8 HEV GX AWD",
+    "_dias_inv_avg": null,
+    "_vins_internos": [
       {
-        "nombre": "GAC Bugambilias",
-        "unidades": 1
+        "vin": "LMGJC3S87S1013920",
+        "color_ext": "GRIS TITANIO",
+        "color_int": "",
+        "sucursal": "GAC Bugambilias",
+        "dias_inv": null,
+        "precio_dca": 780559
+      },
+      {
+        "vin": "LMGJC3S87S1013920",
+        "color_ext": "GRIS TITANIO",
+        "color_int": "",
+        "sucursal": "GAC Bugambilias",
+        "dias_inv": null,
+        "precio_dca": 780559
       }
     ],
-    "unidades_disponibles": 1,
-    "colores_disponibles": [
-      "Blanco"
-    ],
-    "img": "imagenes/oficial/gac/hyptec-01.jpg",
-    "gallery": [
-      "imagenes/oficial/gac/hyptec-01.jpg",
-      "imagenes/oficial/gac/hyptec-02.jpg",
-      "imagenes/oficial/gac/hyptec-03.jpg",
-      "imagenes/oficial/gac/hyptec-04.jpg",
-      "imagenes/oficial/gac/hyptec-05.jpg",
-      "imagenes/oficial/gac/hyptec-06.jpg"
-    ],
-    "photos": 6,
-    "color": "",
-    "color_int": "",
-    "km": 0,
-    "engine": "Motor eléctrico de 180 kW",
-    "trans": "",
-    "fuel": "Eléctrico (BEV)",
-    "cilindros": 0,
-    "hp": 241,
-    "puertas": 0,
-    "pasajeros": 0,
-    "velocidades": 0,
-    "traccion": "",
-    "tanque_l": 0,
-    "rines": 0,
-    "consumo_combinado": 0,
-    "consumo_ciudad": 0,
-    "consumo_carretera": 0,
-    "equipamiento": {
-      "Confort": [
-        "Vestiduras de piel Napa",
-        "Asientos con función de masaje",
-        "Segunda fila reclinable hasta 143°",
-        "Puertas alas de gaviota"
-      ],
-      "Audio": [
-        "Apple CarPlay y Android Auto inalámbricos",
-        "WiFi hotspot y aplicaciones integradas",
-        "Sistema de sonido Dolby Atmos® 7.1.2"
-      ],
-      "Performance": [
-        "180 kW de potencia eléctrica",
-        "Frenado regenerativo",
-        "445 km de autonomía"
-      ],
-      "Exterior": [
-        "Iluminación tridimensional",
-        "Quemacocos polarizado"
-      ]
-    },
-    "tasa": 0.0999,
-    "cxa": 0,
-    "descContado": 0,
-    "descFinanc": 0,
-    "msi": 0,
-    "mantAnios": 0,
-    "programas": [],
-    "vigDesde": "",
-    "vigHasta": "",
-    "_id_grupo": "GAC||GAC HYPTEC|HYPTEC HT ULTRA|",
-    "_modelo_raw": "GAC HYPTEC",
-    "_modelo_normalizado": "GAC HYPTEC",
-    "_fecha_parse": "2026-05-28T10:14:00.935048",
-    "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-01.jpg"
+    "_fecha_parse": "2026-05-28T14:52:32.746803",
+    "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-08.jpg"
   },
   {
     "id": 3440383420,
@@ -3130,12 +3008,15 @@
     "locs": [
       {
         "nombre": "GAC Bugambilias",
-        "unidades": 1
+        "unidades": 2
       }
     ],
-    "unidades_disponibles": 1,
+    "unidades_disponibles": 2,
     "colores_disponibles": [
-      "Blanco"
+      "Blanco",
+      "Plata",
+      "Negro",
+      "Vino"
     ],
     "img": "imagenes/oficial/gac/hyptec-01.jpg",
     "gallery": [
@@ -3198,7 +3079,27 @@
     "_id_grupo": "GAC||GAC HYPTEC|HYPTEC HT ULTRA|2026",
     "_modelo_raw": "GAC HYPTEC",
     "_modelo_normalizado": "GAC HYPTEC",
-    "_fecha_parse": "2026-05-28T10:14:00.935052",
-    "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-01.jpg"
+    "_version_norm": "HYPTEC HT ULTRA",
+    "_dias_inv_avg": null,
+    "_vins_internos": [
+      {
+        "vin": "LNASNAB35T5X01140",
+        "color_ext": "BLANCO",
+        "color_int": "",
+        "sucursal": "GAC Bugambilias",
+        "dias_inv": null,
+        "precio_dca": 747610
+      },
+      {
+        "vin": "LNASNAB35T5X01140",
+        "color_ext": "BLANCO",
+        "color_int": "",
+        "sucursal": "GAC Bugambilias",
+        "dias_inv": null,
+        "precio_dca": 747610
+      }
+    ],
+    "_fecha_parse": "2026-05-28T14:52:32.746809",
+    "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-02.jpg"
   }
 ]
