@@ -640,12 +640,9 @@
       "Blanco Magnolia",
       "Negro Obsidiana"
     ],
-    "img": "imagenes/oficial/gac/brochures/brochure-04.jpg",
-    "gallery": [
-      "imagenes/oficial/gac/brochures/brochure-04.jpg",
-      "imagenes/oficial/gac/brochures/brochure-05.jpg"
-    ],
-    "photos": 2,
+    "img": null,
+    "gallery": [],
+    "photos": 0,
     "color": "",
     "color_int": "",
     "km": 0,
@@ -725,12 +722,9 @@
       "Blanco Magnolia",
       "Negro Obsidiana"
     ],
-    "img": "imagenes/oficial/gac/brochures/brochure-04.jpg",
-    "gallery": [
-      "imagenes/oficial/gac/brochures/brochure-04.jpg",
-      "imagenes/oficial/gac/brochures/brochure-05.jpg"
-    ],
-    "photos": 2,
+    "img": null,
+    "gallery": [],
+    "photos": 0,
     "color": "",
     "color_int": "",
     "km": 0,
@@ -2311,12 +2305,9 @@
     "colores_disponibles": [
       "Negro Obsidiana"
     ],
-    "img": "imagenes/oficial/gac/brochures/brochure-04.jpg",
-    "gallery": [
-      "imagenes/oficial/gac/brochures/brochure-04.jpg",
-      "imagenes/oficial/gac/brochures/brochure-05.jpg"
-    ],
-    "photos": 2,
+    "img": null,
+    "gallery": [],
+    "photos": 0,
     "color": "",
     "color_int": "",
     "km": 0,
@@ -2395,12 +2386,9 @@
     "colores_disponibles": [
       "Negro Obsidiana"
     ],
-    "img": "imagenes/oficial/gac/brochures/brochure-04.jpg",
-    "gallery": [
-      "imagenes/oficial/gac/brochures/brochure-04.jpg",
-      "imagenes/oficial/gac/brochures/brochure-05.jpg"
-    ],
-    "photos": 2,
+    "img": null,
+    "gallery": [],
+    "photos": 0,
     "color": "",
     "color_int": "",
     "km": 0,
