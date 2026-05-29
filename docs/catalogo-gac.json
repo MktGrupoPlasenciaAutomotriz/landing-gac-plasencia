@@ -141,7 +141,7 @@
         "precio_dca": 366285
       }
     ],
-    "_fecha_parse": "2026-05-28T23:43:36.330806",
+    "_fecha_parse": "2026-05-29T17:40:19.482788",
     "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-03.jpg"
   },
   {
@@ -318,7 +318,7 @@
         "precio_dca": 338343
       }
     ],
-    "_fecha_parse": "2026-05-28T23:43:36.330863",
+    "_fecha_parse": "2026-05-29T17:40:19.482853",
     "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-04.jpg"
   },
   {
@@ -331,7 +331,7 @@
     "type": "suv",
     "price": 385974,
     "priceType": "msrp",
-    "badge": "HEV",
+    "badge": "GAS",
     "loc": "GAC Américas",
     "locs": [
       {
@@ -406,7 +406,7 @@
         "precio_dca": 385974
       }
     ],
-    "_fecha_parse": "2026-05-28T23:43:36.330888"
+    "_fecha_parse": "2026-05-29T17:40:19.482882"
   },
   {
     "id": 219236248,
@@ -514,7 +514,7 @@
         "precio_dca": 483906
       }
     ],
-    "_fecha_parse": "2026-05-28T23:43:36.330926"
+    "_fecha_parse": "2026-05-29T17:40:19.482924"
   },
   {
     "id": 4186101128,
@@ -526,7 +526,7 @@
     "type": "suv",
     "price": 373409,
     "priceType": "msrp",
-    "badge": "",
+    "badge": "GAS",
     "loc": "GAC Américas",
     "locs": [
       {
@@ -738,7 +738,7 @@
         "precio_dca": 373579
       }
     ],
-    "_fecha_parse": "2026-05-28T23:43:36.330968"
+    "_fecha_parse": "2026-05-29T17:40:19.482970"
   },
   {
     "id": 1815686536,
@@ -750,7 +750,7 @@
     "type": "suv",
     "price": 390998,
     "priceType": "msrp",
-    "badge": "",
+    "badge": "GAS",
     "loc": "GAC Américas",
     "locs": [
       {
@@ -1187,7 +1187,7 @@
         "precio_dca": 395783
       }
     ],
-    "_fecha_parse": "2026-05-28T23:43:36.331070"
+    "_fecha_parse": "2026-05-29T17:40:19.483083"
   },
   {
     "id": 3333051273,
@@ -1199,7 +1199,7 @@
     "type": "suv",
     "price": 343804,
     "priceType": "msrp",
-    "badge": "",
+    "badge": "GAS",
     "loc": "GAC Américas",
     "locs": [
       {
@@ -1393,7 +1393,7 @@
         "precio_dca": 343974
       }
     ],
-    "_fecha_parse": "2026-05-28T23:43:36.331107"
+    "_fecha_parse": "2026-05-29T17:40:19.483130"
   },
   {
     "id": 2885992475,
@@ -1405,7 +1405,7 @@
     "type": "suv",
     "price": 440522,
     "priceType": "dca_real",
-    "badge": "",
+    "badge": "GAS",
     "loc": "GAC Américas",
     "locs": [
       {
@@ -1684,7 +1684,7 @@
         "precio_dca": 440522
       }
     ],
-    "_fecha_parse": "2026-05-28T23:43:36.331162",
+    "_fecha_parse": "2026-05-29T17:40:19.483190",
     "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-07.jpg"
   },
   {
@@ -1697,7 +1697,7 @@
     "type": "suv",
     "price": 487217,
     "priceType": "msrp",
-    "badge": "HEV",
+    "badge": "GAS",
     "loc": "GAC Américas",
     "locs": [
       {
@@ -1796,7 +1796,7 @@
         "precio_dca": 487217
       }
     ],
-    "_fecha_parse": "2026-05-28T23:43:36.331182",
+    "_fecha_parse": "2026-05-29T17:40:19.483216",
     "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-08.jpg"
   },
   {
@@ -1908,7 +1908,7 @@
         "precio_dca": 781470
       }
     ],
-    "_fecha_parse": "2026-05-28T23:43:36.331199",
+    "_fecha_parse": "2026-05-29T17:40:19.483238",
     "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-08.jpg"
   },
   {
@@ -2009,7 +2009,7 @@
         "precio_dca": 422440
       }
     ],
-    "_fecha_parse": "2026-05-28T23:43:36.331216"
+    "_fecha_parse": "2026-05-29T17:40:19.483282"
   },
   {
     "id": 1984429722,
@@ -2116,7 +2116,7 @@
         "precio_dca": 463366
       }
     ],
-    "_fecha_parse": "2026-05-28T23:43:36.331231"
+    "_fecha_parse": "2026-05-29T17:40:19.483307"
   },
   {
     "id": 1944650304,
@@ -2128,7 +2128,7 @@
     "type": "van",
     "price": 888800,
     "priceType": "msrp",
-    "badge": "",
+    "badge": "GAS",
     "loc": "GAC Bugambilias",
     "locs": [
       {
@@ -2328,7 +2328,7 @@
         "precio_dca": 292565
       }
     ],
-    "_fecha_parse": "2026-05-28T23:43:36.331266",
+    "_fecha_parse": "2026-05-29T17:40:19.483348",
     "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-05.jpg"
   },
   {
@@ -2341,7 +2341,7 @@
     "type": "van",
     "price": 1028800,
     "priceType": "msrp",
-    "badge": "",
+    "badge": "GAS",
     "loc": "GAC Bugambilias",
     "locs": [
       {
@@ -2429,7 +2429,7 @@
         "precio_dca": 376378
       }
     ],
-    "_fecha_parse": "2026-05-28T23:43:36.331281",
+    "_fecha_parse": "2026-05-29T17:40:19.483367",
     "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-05.jpg"
   },
   {
@@ -2442,7 +2442,7 @@
     "type": "suv",
     "price": 490480,
     "priceType": "dca_real",
-    "badge": "",
+    "badge": "HEV",
     "loc": "GAC Bugambilias",
     "locs": [
       {
@@ -2605,7 +2605,7 @@
         "precio_dca": 491492
       }
     ],
-    "_fecha_parse": "2026-05-28T23:43:36.331313",
+    "_fecha_parse": "2026-05-29T17:40:19.483404",
     "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-09.jpg"
   },
   {
@@ -2683,7 +2683,7 @@
         "precio_dca": 673584
       }
     ],
-    "_fecha_parse": "2026-05-28T23:43:36.331330"
+    "_fecha_parse": "2026-05-29T17:40:19.483423"
   },
   {
     "id": 754699696,
@@ -2760,7 +2760,7 @@
         "precio_dca": 747722
       }
     ],
-    "_fecha_parse": "2026-05-28T23:43:36.331345"
+    "_fecha_parse": "2026-05-29T17:40:19.483444"
   },
   {
     "id": 4211890439,
@@ -2772,7 +2772,7 @@
     "type": "suv",
     "price": 401758,
     "priceType": "msrp",
-    "badge": "HEV",
+    "badge": "GAS",
     "loc": "GAC Bugambilias",
     "locs": [
       {
@@ -2871,7 +2871,7 @@
         "precio_dca": 401758
       }
     ],
-    "_fecha_parse": "2026-05-28T23:43:36.331360",
+    "_fecha_parse": "2026-05-29T17:40:19.483463",
     "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-08.jpg"
   },
   {
@@ -2983,7 +2983,7 @@
         "precio_dca": 780559
       }
     ],
-    "_fecha_parse": "2026-05-28T23:43:36.331376",
+    "_fecha_parse": "2026-05-29T17:40:19.483482",
     "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-08.jpg"
   },
   {
@@ -3092,7 +3092,7 @@
         "precio_dca": 747610
       }
     ],
-    "_fecha_parse": "2026-05-28T23:43:36.331390",
+    "_fecha_parse": "2026-05-29T17:40:19.483500",
     "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-02.jpg"
   }
 ]
