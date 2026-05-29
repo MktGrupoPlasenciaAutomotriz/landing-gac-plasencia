@@ -2128,6 +2128,46 @@ function updateHeroStats() {
   });
 })();
 
+
+// Open form modal sin currentCar (CTA hero "Quiero cotizar" o FAQ cierre).
+// Crea un currentCar placeholder con price=0 para que calcMonthly no falle.
+// dataLayer event open_form_no_vehicle para tracking GTM v24.
+function openLeadFormNoVehicle() {
+  if (!currentCar) {
+    currentCar = {
+      id: 'general',
+      name: 'GAC Plasencia',
+      year: new Date().getFullYear(),
+      version: 'Sin seleccionar',
+      price: 0,
+      loc: '',
+      tasa: 0.0999,
+      img: null,
+      gallery: [],
+      photos: 0,
+      colores_disponibles: [],
+      equipamiento: {},
+      unidades_disponibles: 0,
+      type: ''
+    };
+  }
+  var modal = document.getElementById('vehicleModal');
+  if (modal) {
+    modal.style.display = 'flex';
+    document.body.style.overflow = 'hidden';
+    if (typeof window.openModal === 'function') {
+      try { window.openModal(currentCar.id); } catch(e) {}
+    }
+    setTimeout(function() {
+      var fForm = document.getElementById('leadForm') || document.querySelector('#vehicleModal form');
+      if (fForm) fForm.scrollIntoView({behavior: 'smooth', block: 'center'});
+    }, 350);
+    if (typeof dataLayer !== 'undefined') {
+      dataLayer.push({event: 'open_form_no_vehicle', source: 'hero_or_faq_cta'});
+    }
+  }
+}
+
 let currentCar = null;
 let selectedTerm = 36;
 let currentFilter = 'all';
