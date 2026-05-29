@@ -1661,6 +1661,30 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <span>Américas</span>
       </button>
     </div>
+
+    <!-- Filtro por TECNOLOGÍA -->
+    <div class="tech-chips type-chips" role="group" aria-label="Filtrar por tecnología">
+      <button type="button" class="tech-chip type-chip active" data-tech="all" onclick="filterByTechChip('all')" aria-pressed="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/></svg>
+        <span>Todas tecnologías</span>
+      </button>
+      <button type="button" class="tech-chip type-chip" data-tech="bev" onclick="filterByTechChip('bev')" aria-pressed="false">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polyline points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+        <span>Eléctrico (BEV)</span>
+      </button>
+      <button type="button" class="tech-chip type-chip" data-tech="hev" onclick="filterByTechChip('hev')" aria-pressed="false">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h2l2-5h10l2 5h2"/><circle cx="7" cy="17" r="2"/><circle cx="17" cy="17" r="2"/></svg>
+        <span>Híbrido (HEV)</span>
+      </button>
+      <button type="button" class="tech-chip type-chip" data-tech="phev" onclick="filterByTechChip('phev')" aria-pressed="false">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 11h14M7 7h10M7 15h10"/></svg>
+        <span>Híbrido enchufable (PHEV)</span>
+      </button>
+      <button type="button" class="tech-chip type-chip" data-tech="gas" onclick="filterByTechChip('gas')" aria-pressed="false">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/></svg>
+        <span>Combustión</span>
+      </button>
+    </div>
     <!-- Hint de sede seleccionada -->
     <div id="locInfo" class="loc-info-card" style="display:none;" role="region" aria-live="polite"></div>
     <div class="filter-bar">
@@ -1678,6 +1702,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <option value="electrico">Electrico</option>
           </select>
         </div>
+        <div class="filter-dropdown-wrap"><select onchange="filterByYearSelect(this.value)" id="filterYear" class="filter-select" aria-label="Año"><option value="all">Todos los años</option><option value="2026">2026</option><option value="2025">2025</option><option value="2024">2024</option></select></div>
         <div class="filter-dropdown-wrap">
           <select onchange="filterByPriceSelect(this.value)" id="filterPrice" class="filter-select">
             <option value="all">Precio</option>
@@ -1882,6 +1907,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
         <!-- FORM 1-STEP LITE (pivote 2026-05-13) -->
         <div class="form-section">
+          <!-- Banner sucursal — visible antes/durante el form (Director 2026-05-29) -->
+          <div id="formSucursalBanner"></div>
           <div class="form-section-head" style="display:flex;align-items:center;gap:12px;margin-bottom:16px;">
             <div class="form-section-head-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg></div>
             <div>
@@ -2177,6 +2204,8 @@ let selectedTerm = 36;
 let currentFilter = 'all';
 let currentPriceFilter = 'all';
 let currentLocFilter = 'all'; // 'all' | 'guadalajara' | 'santa_anita'
+let currentTechFilter = 'all'; // 'all' | 'bev' | 'hev' | 'phev' | 'gas'
+let currentYearFilter = 'all'; // 'all' | '2024' | '2025' | '2026'
 let searchQuery = '';
 
 // Match de un vehiculo contra el filtro de sucursal usando v.locs (array) + fallback a v.loc.
@@ -2360,7 +2389,7 @@ function renderEmptyStateHTML() {
 }
 
 function updateFilterUI() {
-  var hasFilters = currentFilter !== 'all' || currentPriceFilter !== 'all' || searchQuery;
+  var hasFilters = currentFilter !== 'all' || currentPriceFilter !== 'all' || searchQuery || currentTechFilter !== 'all' || currentYearFilter !== 'all';
   document.getElementById('filterClearBtn').style.display = hasFilters ? '' : 'none';
   var pills = document.getElementById('activePills');
   var html = '';
@@ -2374,13 +2403,63 @@ const agenciaFija = 'GAC PLASENCIA';
 
 function fmt(n) { return '$' + n.toLocaleString('es-MX'); }
 
+
+function filterByTechChip(val) {
+  currentTechFilter = val;
+  visibleCount = ITEMS_PER_PAGE;
+  document.querySelectorAll('.tech-chip').forEach(function(c){
+    var on = c.dataset.tech === val;
+    c.classList.toggle('active', on);
+    c.setAttribute('aria-pressed', on?'true':'false');
+  });
+  updateFilters();
+  if (val !== 'all') dataLayer.push({ event: 'filter_tech', filter_value: val, ...getTrackingContext() });
+}
+
+function filterByYearSelect(val) {
+  currentYearFilter = val;
+  visibleCount = ITEMS_PER_PAGE;
+  updateFilters();
+  if (val !== 'all') dataLayer.push({ event: 'filter_year', filter_value: val, ...getTrackingContext() });
+}
+
+function vehicleTech(v) {
+  var b = (v.badge || '').toUpperCase();
+  var f = (v.fuel || '').toLowerCase();
+  if (b === 'BEV' || f.indexOf('bev') !== -1 || f.indexOf('eléctrico') !== -1) return 'bev';
+  if (b === 'PHEV' || f.indexOf('phev') !== -1 || f.indexOf('enchufable') !== -1) return 'phev';
+  if (b === 'HEV' || f.indexOf('hev') !== -1 || f.indexOf('híbrido') !== -1) return 'hev';
+  if (f.indexOf('gasolina') !== -1 || f.indexOf('combust') !== -1) return 'gas';
+  return 'other';
+}
+
+function vehicleMatchesTech(v, t) {
+  if (t === 'all') return true;
+  return vehicleTech(v) === t;
+}
+
+function vehicleMatchesYear(v, y) {
+  if (y === 'all') return true;
+  return String(v.year) === String(y);
+}
+
 function renderCards(filter) {
   const grid = document.getElementById('inventoryGrid');
   let filtered = filter === 'all' ? vehicles.slice() : vehicles.filter(v => v.type === filter);
 
-  // Filtro de sucursal (Plasencia GDL / Santa Anita / all)
+  // Filtro de sucursal (Bugámbilias / Américas / all)
   if (currentLocFilter !== 'all') {
     filtered = filtered.filter(v => vehicleMatchesLoc(v, currentLocFilter));
+  }
+
+  // Filtro de tecnología
+  if (currentTechFilter !== 'all') {
+    filtered = filtered.filter(v => vehicleMatchesTech(v, currentTechFilter));
+  }
+
+  // Filtro de año
+  if (currentYearFilter !== 'all') {
+    filtered = filtered.filter(v => vehicleMatchesYear(v, currentYearFilter));
   }
 
   // Filtro de precio
@@ -2391,6 +2470,14 @@ function renderCards(filter) {
     else if (p === '550-750') filtered = filtered.filter(v => v.price > 550000 && v.price <= 750000);
     else if (p === '750+') filtered = filtered.filter(v => v.price > 750000);
   }
+
+  // Orden por defecto: precio ASC. Tiebreaker año DESC (más nuevo primero).
+  filtered.sort(function(a, b) {
+    var pa = a.price || 999999999;
+    var pb = b.price || 999999999;
+    if (pa !== pb) return pa - pb;
+    return (b.year || 0) - (a.year || 0);
+  });
 
   // Filtro de busqueda
   if (searchQuery) {
@@ -2449,6 +2536,22 @@ function formatSucursalShort(loc, locs) {
 // Bug previo: el regex ^name\s* sobre version="AION UT ELITE" no matcheaba
 // porque name="GAC AION" tiene GAC prefix. Resultado: "GAC AION Aion UT Elite".
 // Fix: strip por palabras — quitar de version cualquier token que ya esté en name.
+
+function buildSucursalBanner(v) {
+  if (!v || v.id === 'general') {
+    return '<div class="modal-suc-banner" style="background:#FEF3F2;border:1px solid #FECDD3;border-radius:8px;padding:10px 14px;margin:0 0 14px;font-size:13px;color:var(--ink-700);"><strong>📍 Disponible en GAC Bugámbilias y GAC Américas.</strong> Tu asesor confirma la sede según la unidad asignada.</div>';
+  }
+  var locs = Array.isArray(v.locs) ? v.locs : [];
+  if (locs.length === 1) {
+    return '<div class="modal-suc-banner" style="background:#EFF6FF;border:1px solid #BFDBFE;border-radius:8px;padding:10px 14px;margin:0 0 14px;font-size:13px;color:var(--ink-700);"><strong>📍 Esta unidad está en: ' + (locs[0].nombre || v.loc || 'GAC Plasencia') + '</strong></div>';
+  }
+  if (locs.length >= 2) {
+    var nombres = locs.map(function(l) { return l.nombre; }).join(' y ');
+    return '<div class="modal-suc-banner" style="background:#FEF3F2;border:1px solid #FECDD3;border-radius:8px;padding:10px 14px;margin:0 0 14px;font-size:13px;color:var(--ink-700);"><strong>📍 Disponible en: ' + nombres + '</strong><br><span style="font-size:11px;color:var(--ink-500);">Tu asesor confirma en qué sede tiene la unidad lista para tu visita.</span></div>';
+  }
+  return '<div class="modal-suc-banner" style="background:#EFF6FF;border:1px solid #BFDBFE;border-radius:8px;padding:10px 14px;margin:0 0 14px;font-size:13px;color:var(--ink-700);"><strong>📍 ' + (v.loc || 'GAC Plasencia') + '</strong></div>';
+}
+
 function formatCardTitle(v) {
   const name = (v.name || '').trim();
   const ver  = (v.version || '').trim();
@@ -2819,6 +2922,10 @@ function openModal(id) {
 
   // Calculadora eliminada (versión lite) — solo reset selectedTerm por compatibilidad
   selectedTerm = 36;
+
+  // Banner de sucursal arriba del form (visible ANTES de llenar)
+  var sucBanner = document.getElementById('formSucursalBanner');
+  if (sucBanner) sucBanner.innerHTML = buildSucursalBanner(currentCar);
 
   // Reset form fields (versión lite — solo datos de contacto)
   document.getElementById('fName').value = '';
@@ -3308,10 +3415,18 @@ function submitForm() {
   const waPhone = ASESOR_ASIGNADO.telefono.replace(/[^0-9]/g, '');
   const waMsg = `Hola, vi el ${currentCar.name} ${currentCar.year} en gac.grupoplasencia.com y me interesa más información. Soy ${nombre}.`;
   document.getElementById('waAsesor').href = `https://api.whatsapp.com/send/?phone=${waPhone}&text=${encodeURIComponent(waMsg)}&type=phone_number&app_absent=0`;
+  var sucConfirm = '';
+  if (currentCar && Array.isArray(currentCar.locs) && currentCar.locs.length === 1) {
+    sucConfirm = currentCar.locs[0].nombre;
+  } else if (currentCar && Array.isArray(currentCar.locs) && currentCar.locs.length > 1) {
+    sucConfirm = currentCar.locs.map(function(l){ return l.nombre; }).join(' o ') + ' (tu asesor confirma)';
+  } else {
+    sucConfirm = (currentCar && currentCar.loc) ? currentCar.loc : agenciaFija;
+  }
   document.getElementById('confirmDetails').innerHTML = `
     <p><strong>Vehículo:</strong> ${currentCar.name} ${currentCar.year} ${currentCar.version}</p>
     <p><strong>Precio:</strong> ${fmt(currentCar.price)}</p>
-    <p><strong>Agencia:</strong> ${agenciaFija}</p>
+    <p><strong>📍 Sucursal:</strong> ${sucConfirm}</p>
     <p><strong>Nombre:</strong> ${name}</p>
     <p><strong>Teléfono:</strong> +52 ${phone}</p>
     <p><strong>Email:</strong> ${email}</p>
