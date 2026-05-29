@@ -272,7 +272,8 @@ button, a, .v-card, .filter-chip, .filter-select, .filter-clear, .calc-term-btn 
   overflow-wrap: anywhere;
   hyphens: auto;
 }
-@media (max-width: 480px) { .hero h1 { font-size: 30px; line-height: 1.06; } }
+@media (max-width: 480px) { .hero h1 { font-size: 28px; line-height: 1.08; letter-spacing: -0.02em; word-spacing: -0.5px; } }
+@media (max-width: 360px) { .hero h1 { font-size: 24px; line-height: 1.1; } }
 .hero h1 .accent {
   /* GAC brand accent: rojo oficial. Antes cyan (#00AAD2) heredado de Hyundai. */
   background: linear-gradient(135deg, #FF4257 0%, var(--brand-accent, #EB0A1E) 100%);
@@ -353,6 +354,18 @@ button, a, .v-card, .filter-chip, .filter-select, .filter-clear, .calc-term-btn 
 }
 @media(min-width:768px){ .filters-section { top: 72px; } }
 @media(max-width:600px){ .filters-section { padding: 12px 0; } }
+
+@media (max-width: 480px) {
+  .hero-vp { font-size: 10px; letter-spacing: 0.08em; line-height: 1.4; max-width: 100%; }
+  .hero-stat-num { font-size: clamp(20px, 5.5vw, 28px); }
+  .hero-bono-strip { font-size: 11.5px !important; padding: 9px 14px !important; line-height: 1.45 !important; }
+  .hero-bono-strip svg { width: 16px !important; height: 16px !important; }
+  .hero-stat { padding: 12px 14px; }
+  /* Trust badges +75/+15/+35: que se acomoden en 1 fila con scroll horizontal */
+  .hero-legacy-strip { flex-wrap: wrap; gap: 8px 12px; }
+  .hero-legacy-strip b { font-size: 14px !important; margin-right: 2px; }
+}
+
 /* Hide-on-scroll mobile: header + filtros se ocultan al scroll-down,
    reaparecen con scroll-up. Recupera ~256px de viewport util. */
 .header, .filters-section { transition: transform 220ms cubic-bezier(0.4, 0, 0.2, 1); will-change: transform; }
@@ -1576,7 +1589,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="step-num">01</div>
         <div class="step-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="M21 21l-5-5"/></svg></div>
         <h3 class="step-title">Elige tu GAC</h3>
-        <div class="step-desc">8 modelos en piso: SUVs, sedanes, combustión, híbridos y eléctricos. Filtra por tipo, precio o sucursal. Cada card te muestra precio, mensualidad y fotos reales del piso de venta.</div>
+        <div class="step-desc">8 modelos GAC en piso: SUVs y Van entre combustión, híbridos y eléctricos. Filtra por tipo, sede, tecnología, año o precio. Cada card muestra precio, mensualidad estimada y fotos reales.</div>
       </div>
       <div class="step-card">
         <div class="step-num">02</div>
@@ -2898,7 +2911,14 @@ function openModal(id) {
 
   document.getElementById('modalName').textContent = `${currentCar.name} ${currentCar.year}`;
   document.getElementById('modalPrice').textContent = fmt(currentCar.price);
-  document.getElementById('modalBadge').textContent = currentCar.badge;
+  // Usar techDisplayBadge para que el modal hero badge muestre 'BEV · Eléctrico'
+  // en lugar de solo 'BEV' (consistente con las cards).
+  var modalBadgeEl = document.getElementById('modalBadge');
+  if (modalBadgeEl) {
+    var tdb = (typeof techDisplayBadge === 'function') ? techDisplayBadge(currentCar) : {label: currentCar.badge || '', tip: ''};
+    modalBadgeEl.textContent = tdb.label || currentCar.badge || '';
+    if (tdb.tip) modalBadgeEl.title = tdb.tip;
+  }
   document.getElementById('modalVersion').textContent = currentCar.version;
 
   document.getElementById('modalSpecs').innerHTML = [
