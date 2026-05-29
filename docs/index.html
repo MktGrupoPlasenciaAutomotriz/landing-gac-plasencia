@@ -2819,7 +2819,7 @@ function openModal(id) {
   // Reset form fields (versión lite — solo datos de contacto)
   document.getElementById('fName').value = '';
   document.getElementById('fLastName1').value = '';
-  document.getElementById('fLastName2').value = '';
+  // fLastName2 eliminado en Batch C UX/CRO (apellidos merged en fLastName1)
   document.getElementById('fPhone').value = '';
   document.getElementById('fEmail').value = '';
   var privBox = document.getElementById('fPrivacy'); if (privBox) privBox.checked = false;
