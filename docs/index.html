@@ -1876,10 +1876,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <div class="modal-ficha-grid" id="modalFichaGrid"></div>
         </div>
 
-        <!-- Colores disponibles oficiales (extraídos de los brochures GAC) -->
+        <!-- Colores REFERENCIALES (la landing capta intención — el asesor confirma colores reales en stock) -->
         <div class="modal-colores" id="modalColores" style="display:none;">
-          <div class="modal-colores-title">Colores disponibles</div>
+          <div class="modal-colores-title" style="display:flex;align-items:center;justify-content:space-between;gap:8px;flex-wrap:wrap;">
+            <span>Colores de la gama oficial</span>
+            <span style="font-size:9px;font-weight:600;color:#92400E;background:#FEF3C7;border:1px solid #FCD34D;padding:2px 8px;border-radius:9999px;letter-spacing:0.4px;">REFERENCIAL</span>
+          </div>
           <div class="modal-colores-list" id="modalColoresList"></div>
+          <div style="font-size:11px;color:var(--ink-500);margin-top:8px;line-height:1.45;font-style:italic;">
+            Estos son los colores de la <strong>gama del fabricante GAC</strong>. La disponibilidad real por VIN en piso la confirma tu asesor por WhatsApp.
+          </div>
         </div>
 
         <!-- Botón descarga ficha técnica PDF (brochure oficial GAC) -->
@@ -1888,12 +1894,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           Descargar ficha técnica oficial
         </a>
 
-        <!-- Equipamiento por categoría (Confort/Audio/Seguridad/Performance/Exterior) — colapsable -->
+        <!-- Equipamiento REFERENCIAL — listado del brochure oficial (no garantiza por VIN específico) -->
         <details class="modal-equipamiento" id="modalEquipamiento" style="display:none;">
           <summary>
-            <span class="me-summary-label">Equipamiento incluido</span>
+            <span class="me-summary-label" style="display:flex;align-items:center;gap:8px;">Equipamiento de la gama <span style="font-size:9px;font-weight:600;color:#92400E;background:#FEF3C7;border:1px solid #FCD34D;padding:2px 7px;border-radius:9999px;letter-spacing:0.4px;">REFERENCIAL</span></span>
             <span class="me-summary-arrow" aria-hidden="true">▾</span>
           </summary>
+          <div style="padding:10px 16px 0;font-size:11px;color:var(--ink-500);line-height:1.45;font-style:italic;border-bottom:1px solid var(--ink-100);margin-bottom:10px;padding-bottom:10px;">
+            Equipamiento del brochure oficial GAC para esta gama. <strong>El equipamiento específico de la unidad que verás en piso lo confirma tu asesor</strong> según versión, año y campañas vigentes.
+          </div>
           <div class="me-body" id="modalEquipamientoBody"></div>
         </details>
 
@@ -1905,6 +1914,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
         <!-- FORM 1-STEP LITE (pivote 2026-05-13) -->
         <div class="form-section">
+          <!-- Disclaimer global: la landing CAPTA INTENCIÓN. El asesor cierra detalles.  -->
+          <div style="background:#F1F5F9;border-left:4px solid var(--brand-accent,#EB0A1E);padding:12px 14px;margin:0 0 12px;border-radius:6px;font-size:12px;color:var(--ink-700,#475569);line-height:1.5;">
+            <strong style="display:block;font-size:13px;color:var(--ink-900,#0F172A);margin-bottom:4px;">¿Cómo funciona este registro?</strong>
+            Esta landing captura tu interés en un modelo GAC. <strong>Tu asesor</strong> te llama por WhatsApp en menos de 2 horas para confirmar contigo: <strong>colores reales en stock, gama exacta de la unidad, mensualidad con tu enganche y plazo, bonos vigentes y fecha de visita.</strong>
+          </div>
           <!-- Banner sucursal — visible antes/durante el form (Director 2026-05-29) -->
           <div id="formSucursalBanner"></div>
           <div class="form-section-head" style="display:flex;align-items:center;gap:12px;margin-bottom:16px;">
