@@ -1548,7 +1548,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <div class="hero-eyebrow"><span class="heb-dot"></span>DESDE 1947 · GRUPO PLASENCIA AUTOMOTRIZ</div>
       
       <div class="hero-vp">Distribuidor oficial GAC en Guadalajara · 2 sedes</div>
-      <h1>Estrena tu <span class="accent">GAC</span><br>desde $398,900 en Guadalajara</h1>
+      <h1>Estrena tu <span class="accent">GAC</span><br>desde <span id="heroH1Price">$419,900</span> en Guadalajara</h1>
       <p class="hero-sub">8 modelos GAC entre combustión, híbridos y eléctricos. Garantía 5 años / 100,000 km. Registro 30s, asesor por WhatsApp en menos de 2 horas.</p>
       <div class="hero-legacy-strip">
         <span><b>+75</b>años de experiencia</span><span class="leg-sep">·</span>
@@ -2202,25 +2202,32 @@ fetch('catalogo-gac.json')
   });
 
 // ── Stat cards dinámicos del hero ──
-// Calcula del catálogo cargado: modelos únicos y precio mínimo.
-// Override fijo del precio mínimo del hero: $398,900 (Director confirmó 2026-05-29).
-// El cálculo dinámico via min(v.price) daría $338K (AION UT STANDARD priceType=dca_real)
-// pero el equipo comercial promociona $398,900 como precio público de entrada
-// (excluye AION u otras condiciones especiales). Cuando se quiera volver al
-// cálculo dinámico, sustituir esta línea por el min(price) anterior.
-var HERO_PRICE_OVERRIDE = '$398,900';
+// Política Chucho 2026-06-02: el hero debe ser CONSISTENTE con las fuentes
+// de información reales del catálogo (post gate lista oficial MAY26). Eliminado
+// el override hardcoded ($398,900) que prometía un SKU inexistente — PROFECO
+// + OEM compliance. Ahora se calcula dinámicamente del catálogo cargado:
+//   - modelos únicos
+//   - precio mínimo real (priceType=lista_oficial, source of truth Excel Elia)
+// Se actualiza el <h1> + stat card + meta description.
 function updateHeroStats() {
   if (!Array.isArray(vehicles) || !vehicles.length) return;
   var uniqueModels = new Set();
+  var minPrice = Infinity;
   vehicles.forEach(function(v) {
     if (v.name) uniqueModels.add(v.name);
+    if (typeof v.price === 'number' && v.price > 0 && v.price < minPrice) {
+      minPrice = v.price;
+    }
   });
   var elModels = document.getElementById('heroStatModels');
   if (elModels) elModels.textContent = uniqueModels.size;
+  var priceFormatted = isFinite(minPrice)
+    ? '$' + minPrice.toLocaleString('es-MX')
+    : '$—';
   var elPrice = document.getElementById('heroStatPrice');
-  if (elPrice) {
-    elPrice.textContent = 'Desde ' + HERO_PRICE_OVERRIDE;
-  }
+  if (elPrice) elPrice.textContent = 'Desde ' + priceFormatted;
+  var elH1Price = document.getElementById('heroH1Price');
+  if (elH1Price) elH1Price.textContent = priceFormatted;
 }
 
 // ── Enriquecimiento por modelo (futuro: tabulador GAC) ──
