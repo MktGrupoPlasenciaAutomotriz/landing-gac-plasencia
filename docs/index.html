@@ -1574,9 +1574,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="13" rx="2"/><path d="M8 7V5a2 2 0 012-2h4a2 2 0 012 2v2"/><line x1="12" y1="13" x2="12" y2="15"/></svg>
         <span>Compra como prefieras: <strong>Contado</strong> · <strong>Crédito Santander</strong> · <strong>Arrendamiento</strong> · <strong>Flotillas</strong></span>
       </div>
-      <button class="hero-cta hero-cta-primary" onclick="openLeadFormNoVehicle()" style="background:var(--brand-accent,#EB0A1E);">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
-        Quiero cotizar
+      <button class="hero-cta hero-cta-primary" onclick="document.querySelector('.inventory-section').scrollIntoView({behavior:'smooth'}); if(typeof dataLayer!=='undefined') dataLayer.push({event:'hero_cta_browse'});" style="background:var(--brand-accent,#EB0A1E);">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        Ver modelos GAC
       </button>
     </div>
   </div>
@@ -1846,10 +1846,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       </details>
     </div>
     <div style="text-align:center;margin-top:32px;">
-      <button onclick="openLeadFormNoVehicle()" style="padding:16px 32px;min-height:52px;background:var(--brand-accent,#EB0A1E);color:#fff;border:none;border-radius:9999px;font-family:var(--font-display);font-weight:700;font-size:15px;cursor:pointer;letter-spacing:0.2px;box-shadow:0 8px 24px -8px rgba(235,10,30,0.4);transition:transform 0.15s;" onmouseover="this.style.transform='translateY(-2px)'" onmouseout="this.style.transform=''">
-        Resuelvo dudas con un asesor →
+      <button onclick="document.querySelector('.inventory-section').scrollIntoView({behavior:'smooth'}); if(typeof dataLayer!=='undefined') dataLayer.push({event:'faq_cta_browse'});" style="padding:16px 32px;min-height:52px;background:var(--brand-accent,#EB0A1E);color:#fff;border:none;border-radius:9999px;font-family:var(--font-display);font-weight:700;font-size:15px;cursor:pointer;letter-spacing:0.2px;box-shadow:0 8px 24px -8px rgba(235,10,30,0.4);transition:transform 0.15s;" onmouseover="this.style.transform='translateY(-2px)'" onmouseout="this.style.transform=''">
+        Ver modelos disponibles →
       </button>
-      <p style="font-size:12px;color:var(--ink-500);margin-top:10px;">Respuesta por WhatsApp en menos de 2 horas. Sin compromiso.</p>
+      <p style="font-size:12px;color:var(--ink-500);margin-top:10px;">Elige tu modelo, déjanos tus datos, te llamamos en menos de 2 horas.</p>
     </div>
   </div>
 </section>
@@ -2211,45 +2211,6 @@ function updateHeroStats() {
   });
 })();
 
-
-// Open form modal sin currentCar (CTA hero "Quiero cotizar" o FAQ cierre).
-// Crea un currentCar placeholder con price=0 para que calcMonthly no falle.
-// dataLayer event open_form_no_vehicle para tracking GTM v24.
-function openLeadFormNoVehicle() {
-  if (!currentCar) {
-    currentCar = {
-      id: 'general',
-      name: 'GAC Plasencia',
-      year: new Date().getFullYear(),
-      version: 'Sin seleccionar',
-      price: 0,
-      loc: '',
-      tasa: 0.0999,
-      img: null,
-      gallery: [],
-      photos: 0,
-      colores_disponibles: [],
-      equipamiento: {},
-      unidades_disponibles: 0,
-      type: ''
-    };
-  }
-  var modal = document.getElementById('vehicleModal');
-  if (modal) {
-    modal.style.display = 'flex';
-    document.body.style.overflow = 'hidden';
-    if (typeof window.openModal === 'function') {
-      try { window.openModal(currentCar.id); } catch(e) {}
-    }
-    setTimeout(function() {
-      var fForm = document.getElementById('leadForm') || document.querySelector('#vehicleModal form');
-      if (fForm) fForm.scrollIntoView({behavior: 'smooth', block: 'center'});
-    }, 350);
-    if (typeof dataLayer !== 'undefined') {
-      dataLayer.push({event: 'open_form_no_vehicle', source: 'hero_or_faq_cta'});
-    }
-  }
-}
 
 let currentCar = null;
 let selectedTerm = 36;
