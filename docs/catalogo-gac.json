@@ -327,7 +327,7 @@
     "brand": "GAC",
     "submarca": null,
     "year": 2025,
-    "version": "EMKOO GL",
+    "version": "GL",
     "type": "suv",
     "price": 569900,
     "priceType": "lista_oficial",
@@ -406,7 +406,8 @@
         "precio_dca": 385974
       }
     ],
-    "_fecha_parse": "2026-05-28T14:52:32.746637"
+    "_fecha_parse": "2026-05-28T14:52:32.746637",
+    "_version_dca_raw": "EMKOO GL"
   },
   {
     "id": 219236248,
@@ -414,7 +415,7 @@
     "brand": "GAC",
     "submarca": null,
     "year": 2026,
-    "version": "EMKOO HEV GL GAC",
+    "version": "GL HEV",
     "type": "suv",
     "price": 629900,
     "priceType": "lista_oficial",
@@ -514,7 +515,8 @@
         "precio_dca": 483906
       }
     ],
-    "_fecha_parse": "2026-05-28T14:52:32.746650"
+    "_fecha_parse": "2026-05-28T14:52:32.746650",
+    "_version_dca_raw": "EMKOO HEV GL GAC"
   },
   {
     "id": 4186101128,
@@ -522,7 +524,7 @@
     "brand": "GAC",
     "submarca": null,
     "year": 2026,
-    "version": "EMZOOM GT",
+    "version": "GT",
     "type": "suv",
     "price": 489900,
     "priceType": "lista_oficial",
@@ -738,7 +740,8 @@
         "precio_dca": 373579
       }
     ],
-    "_fecha_parse": "2026-05-28T14:52:32.746667"
+    "_fecha_parse": "2026-05-28T14:52:32.746667",
+    "_version_dca_raw": "EMZOOM GT"
   },
   {
     "id": 1815686536,
@@ -746,7 +749,7 @@
     "brand": "GAC",
     "submarca": null,
     "year": 2026,
-    "version": "EMZOOM GT RACER",
+    "version": "GT RACER",
     "type": "suv",
     "price": 519900,
     "priceType": "lista_oficial",
@@ -1187,7 +1190,8 @@
         "precio_dca": 395783
       }
     ],
-    "_fecha_parse": "2026-05-28T14:52:32.746694"
+    "_fecha_parse": "2026-05-28T14:52:32.746694",
+    "_version_dca_raw": "EMZOOM GT RACER"
   },
   {
     "id": 3333051273,
@@ -1195,7 +1199,7 @@
     "brand": "GAC",
     "submarca": null,
     "year": 2026,
-    "version": "GAC EMZOOM GL 2026",
+    "version": "GL",
     "type": "suv",
     "price": 449900,
     "priceType": "lista_oficial",
@@ -1393,7 +1397,8 @@
         "precio_dca": 343974
       }
     ],
-    "_fecha_parse": "2026-05-28T14:52:32.746707"
+    "_fecha_parse": "2026-05-28T14:52:32.746707",
+    "_version_dca_raw": "GAC EMZOOM GL 2026"
   },
   {
     "id": 2885992475,
@@ -1401,7 +1406,7 @@
     "brand": "GAC",
     "submarca": null,
     "year": 2026,
-    "version": "GAC GS4 GL MAX",
+    "version": "GL",
     "type": "suv",
     "price": 589900,
     "priceType": "lista_oficial",
@@ -1685,6 +1690,7 @@
       }
     ],
     "_fecha_parse": "2026-05-28T14:52:32.746726",
+    "_version_dca_raw": "GAC GS4 GL MAX",
     "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-07.jpg"
   },
   {
@@ -1805,7 +1811,7 @@
     "brand": "GAC",
     "submarca": null,
     "year": 2026,
-    "version": "GS8 HEV GX AWD GAC",
+    "version": "GS8 GX AWD",
     "type": "suv",
     "price": 869900,
     "priceType": "lista_oficial",
@@ -1909,6 +1915,7 @@
       }
     ],
     "_fecha_parse": "2026-05-28T14:52:32.746739",
+    "_version_dca_raw": "GS8 HEV GX AWD GAC",
     "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-08.jpg"
   },
   {
@@ -2438,7 +2445,7 @@
     "brand": "GAC",
     "submarca": null,
     "year": 2026,
-    "version": "GS4 HEV GL MAX",
+    "version": "GL HEV",
     "type": "suv",
     "price": 639900,
     "priceType": "lista_oficial",
@@ -2606,6 +2613,7 @@
       }
     ],
     "_fecha_parse": "2026-05-28T14:52:32.746779",
+    "_version_dca_raw": "GS4 HEV GL MAX",
     "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-09.jpg"
   },
   {
@@ -2614,7 +2622,7 @@
     "brand": "GAC",
     "submarca": null,
     "year": 2026,
-    "version": "GS7 PHEV 2WD",
+    "version": "2WD",
     "type": "suv",
     "price": 899900,
     "priceType": "lista_oficial",
@@ -2683,7 +2691,8 @@
         "precio_dca": 673584
       }
     ],
-    "_fecha_parse": "2026-05-28T14:52:32.746785"
+    "_fecha_parse": "2026-05-28T14:52:32.746785",
+    "_version_dca_raw": "GS7 PHEV 2WD"
   },
   {
     "id": 754699696,
@@ -2691,7 +2700,7 @@
     "brand": "GAC",
     "submarca": null,
     "year": 2026,
-    "version": "GS7 PHEV 4WD",
+    "version": "4WD",
     "type": "suv",
     "price": 999900,
     "priceType": "lista_oficial",
@@ -2760,7 +2769,8 @@
         "precio_dca": 747722
       }
     ],
-    "_fecha_parse": "2026-05-28T14:52:32.746791"
+    "_fecha_parse": "2026-05-28T14:52:32.746791",
+    "_version_dca_raw": "GS7 PHEV 4WD"
   },
   {
     "id": 4211890439,
@@ -2880,7 +2890,7 @@
     "brand": "GAC",
     "submarca": null,
     "year": 2025,
-    "version": "GS8 HEV GX AWD",
+    "version": "GS8 GX HEV",
     "type": "suv",
     "price": 999900,
     "priceType": "lista_oficial",
@@ -2984,6 +2994,7 @@
       }
     ],
     "_fecha_parse": "2026-05-28T14:52:32.746803",
+    "_version_dca_raw": "GS8 HEV GX AWD",
     "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-08.jpg"
   },
   {
@@ -2992,7 +3003,7 @@
     "brand": "GAC",
     "submarca": null,
     "year": 2026,
-    "version": "HYPTEC HT ULTRA",
+    "version": "HYPTEC HT",
     "type": "suv",
     "price": 999900,
     "priceType": "lista_oficial",
@@ -3093,6 +3104,7 @@
       }
     ],
     "_fecha_parse": "2026-05-28T14:52:32.746809",
+    "_version_dca_raw": "HYPTEC HT ULTRA",
     "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-02.jpg"
   }
 ]
