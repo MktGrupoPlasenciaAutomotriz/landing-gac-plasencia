@@ -747,7 +747,11 @@ body.is-drawer-open { overflow: hidden; }
 }
 .v-card-badge.promo { background: #008FAF; color: #fff; }
 .v-card-photos {
-  position: absolute; bottom: 12px; right: 12px;
+  /* Pre-2026-06-02: bottom-right colisionaba con .v-card-loc-chip (sucursal).
+     Movido a top-right para evitar overlap. Quedaron 4 esquinas limpias:
+     top-left=tech badge / top-right=photos / bottom-left=imagen referencial /
+     bottom-right=sucursal. */
+  position: absolute; top: 12px; right: 12px;
   background: rgba(15,23,42,0.7); backdrop-filter: blur(10px); color: #fff;
   font-size: 11px; font-weight: 600; padding: 4px 10px; border-radius: var(--radius-full);
 }
