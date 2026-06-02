@@ -2881,7 +2881,7 @@ function openModal(id) {
   currentCar = vehicles.find(v => v.id === id);
   if (!currentCar) return;
   setView('vehiculo', id);
-  dataLayer.push({ event: 'view_item', item_name: currentCar.name + ' ' + currentCar.year, item_price: currentCar.price, item_brand: currentCar.brand || '', vehicle_year: currentCar.year, sede: currentCar.loc || '', ...getTrackingContext() });
+  dataLayer.push({ event: 'view_item', item_id: (currentCar.id || '').toString(), item_name: currentCar.name + ' ' + currentCar.year, item_price: currentCar.price, item_brand: currentCar.brand || '', vehicle_year: currentCar.year, sede: currentCar.loc || '', ...getTrackingContext() });
 
   // Inicialización galería: prefiere gallery[], fallback a [img], sino vacío
   galleryIdx = 0;
@@ -3489,6 +3489,7 @@ function submitForm() {
     folio: folio,
     currency: 'MXN',
     value: currentCar.price,
+    item_id: (currentCar.id || '').toString(),   // paridad SEM canon — atribución product-level GA4/Meta
     item_name: currentCar.name + ' ' + currentCar.year,
     item_price: currentCar.price,
     lead_value: currentCar.price,
