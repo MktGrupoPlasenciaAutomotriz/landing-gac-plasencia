@@ -2767,15 +2767,32 @@ function renderCards(filter) {
 // Card template unificado — usado por renderCards y por sugerencias en empty state
 // Abrevia el nombre de sucursal GAC para los badges (Bugámbilias / Américas)
 function formatSucursalShort(loc, locs) {
-  // Si está en ambas sucursales, devuelve marker para que renderCards
-  // muestre 2 badges separados. Si está en 1 sola, devuelve el nombre.
-  if (Array.isArray(locs) && locs.length > 1) return '__MULTI__';
-  var raw = (locs && locs.length === 1 ? locs[0].nombre : loc) || '';
-  raw = String(raw)
-    .replace(/^GAC\s+/i, '')
-    .replace(/^Guadalajara$/i, 'Bugámbilias')
-    .trim();
-  return raw ? '📍 ' + raw : '';
+  // Devuelve { label, title } para un único badge consolidado.
+  // - 1 sede:  "📍 Bugámbilias"
+  // - 2 sedes: "📍 Bugámbilias · Américas"
+  // - N>2:     "📍 N sedes"  (con tooltip listando todas)
+  // El title siempre lleva los nombres completos para usuarios con hover.
+  function clean(name) {
+    return String(name || '')
+      .replace(/^GAC\s+/i, '')
+      .replace(/^Guadalajara$/i, 'Bugámbilias')
+      .replace(/^Bugambilias$/i, 'Bugámbilias')   // feed sin acento → forzar acento (consistencia con filter chips)
+      .trim();
+  }
+  var arr = Array.isArray(locs) ? locs : [];
+  var names = arr.map(function(l){ return clean(l.nombre); }).filter(Boolean);
+  if (names.length === 0) {
+    var single = clean(loc);
+    return single ? { label: '📍 ' + single, title: 'Disponible en: GAC ' + single } : { label: '', title: '' };
+  }
+  if (names.length === 1) {
+    return { label: '📍 ' + names[0], title: 'Disponible en: ' + arr[0].nombre };
+  }
+  var fullList = arr.map(function(l){ return l.nombre; }).join(', ');
+  if (names.length === 2) {
+    return { label: '📍 ' + names.join(' · '), title: 'Disponible en: ' + fullList };
+  }
+  return { label: '📍 ' + names.length + ' sedes', title: 'Disponible en: ' + fullList };
 }
 
 // Construye el título de la card incluyendo trim/version (necesario para
@@ -2853,7 +2870,7 @@ function formatCardTitle(v) {
 function buildVCardHTML(v) {
     const monthly = calcMonthly(v.price, 20, 36, v.tasa);
     const hasImg = v.img && v.img.length > 0;
-    const sucursalLabel = formatSucursalShort(v.loc, v.locs);
+    const locBadge = formatSucursalShort(v.loc, v.locs);
     return `
     <div class="v-card" onclick="openModal(${v.id})">
       <div class="v-card-img-wrap">
@@ -2869,15 +2886,7 @@ function buildVCardHTML(v) {
         ${(function(){ var tdb = techDisplayBadge(v); return tdb.label ? `<div class="v-card-badge" title="${tdb.tip}">${tdb.label}</div>` : ''; })()}
         ${v.photos > 0 ? `<div class="v-card-photos">${v.photos} foto${v.photos===1?'':'s'}</div>` : ''}
         <div class="img-ref-chip" style="position:absolute;bottom:6px;left:6px;background:rgba(0,0,0,0.65);color:#fff;font-size:9px;padding:3px 8px;border-radius:4px;font-weight:500;letter-spacing:0.3px;">Imagen referencial</div>
-        ${(function(){
-          if (sucursalLabel === '__MULTI__' && Array.isArray(v.locs)) {
-            return v.locs.map(function(l, idx){
-              var bottom = 6 + (idx * 24);
-              return '<div class="v-card-loc-chip" style="position:absolute;bottom:'+bottom+'px;right:6px;background:rgba(15,26,46,0.85);color:#fff;font-size:10px;padding:3px 8px;border-radius:4px;font-weight:600;letter-spacing:0.2px;">📍 ' + l.nombre.replace(/^GAC\s+/i,'') + '</div>';
-            }).join('');
-          }
-          return sucursalLabel ? '<div class="v-card-loc-chip" style="position:absolute;bottom:6px;right:6px;background:rgba(15,26,46,0.85);color:#fff;font-size:10px;padding:3px 8px;border-radius:4px;font-weight:600;letter-spacing:0.2px;">'+sucursalLabel+'</div>' : '';
-        })()}
+        ${locBadge.label ? '<div class="v-card-loc-chip" title="'+locBadge.title.replace(/"/g,'&quot;')+'" style="position:absolute;bottom:6px;right:6px;max-width:calc(100% - 130px);background:rgba(15,26,46,0.85);color:#fff;font-size:10px;padding:3px 8px;border-radius:4px;font-weight:600;letter-spacing:0.2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">'+locBadge.label+'</div>' : ''}
       </div>
       <div class="v-card-body">
         <div class="v-card-brand-row">
