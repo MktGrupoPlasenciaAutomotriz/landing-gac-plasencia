@@ -7,8 +7,8 @@
     "year": 2026,
     "version": "AION UT ELITE",
     "type": "suv",
-    "price": 366285,
-    "priceType": "dca_real",
+    "price": 459900,
+    "priceType": "lista_oficial",
     "badge": "BEV",
     "loc": "GAC Américas",
     "locs": [
@@ -141,7 +141,7 @@
         "precio_dca": 366285
       }
     ],
-    "_fecha_parse": "2026-05-29T17:40:19.482788",
+    "_fecha_parse": "2026-06-02T15:40:13.278950",
     "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-03.jpg"
   },
   {
@@ -152,8 +152,8 @@
     "year": 2026,
     "version": "AION UT STANDARD",
     "type": "suv",
-    "price": 338343,
-    "priceType": "dca_real",
+    "price": 419900,
+    "priceType": "lista_oficial",
     "badge": "BEV",
     "loc": "GAC Américas",
     "locs": [
@@ -318,7 +318,7 @@
         "precio_dca": 338343
       }
     ],
-    "_fecha_parse": "2026-05-29T17:40:19.482853",
+    "_fecha_parse": "2026-06-02T15:40:13.279007",
     "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-04.jpg"
   },
   {
@@ -329,8 +329,8 @@
     "year": 2025,
     "version": "EMKOO GL",
     "type": "suv",
-    "price": 385974,
-    "priceType": "msrp",
+    "price": 569900,
+    "priceType": "lista_oficial",
     "badge": "GAS",
     "loc": "GAC Américas",
     "locs": [
@@ -406,7 +406,7 @@
         "precio_dca": 385974
       }
     ],
-    "_fecha_parse": "2026-05-29T17:40:19.482882"
+    "_fecha_parse": "2026-06-02T15:40:13.279032"
   },
   {
     "id": 219236248,
@@ -416,8 +416,8 @@
     "year": 2026,
     "version": "EMKOO HEV GL GAC",
     "type": "suv",
-    "price": 429604,
-    "priceType": "msrp",
+    "price": 629900,
+    "priceType": "lista_oficial",
     "badge": "HEV",
     "loc": "GAC Américas",
     "locs": [
@@ -514,7 +514,7 @@
         "precio_dca": 483906
       }
     ],
-    "_fecha_parse": "2026-05-29T17:40:19.482924"
+    "_fecha_parse": "2026-06-02T15:40:13.279089"
   },
   {
     "id": 4186101128,
@@ -524,8 +524,8 @@
     "year": 2026,
     "version": "EMZOOM GT",
     "type": "suv",
-    "price": 373409,
-    "priceType": "msrp",
+    "price": 489900,
+    "priceType": "lista_oficial",
     "badge": "GAS",
     "loc": "GAC Américas",
     "locs": [
@@ -738,7 +738,7 @@
         "precio_dca": 373579
       }
     ],
-    "_fecha_parse": "2026-05-29T17:40:19.482970"
+    "_fecha_parse": "2026-06-02T15:40:13.279131"
   },
   {
     "id": 1815686536,
@@ -748,8 +748,8 @@
     "year": 2026,
     "version": "EMZOOM GT RACER",
     "type": "suv",
-    "price": 390998,
-    "priceType": "msrp",
+    "price": 519900,
+    "priceType": "lista_oficial",
     "badge": "GAS",
     "loc": "GAC Américas",
     "locs": [
@@ -1187,7 +1187,7 @@
         "precio_dca": 395783
       }
     ],
-    "_fecha_parse": "2026-05-29T17:40:19.483083"
+    "_fecha_parse": "2026-06-02T15:40:13.279230"
   },
   {
     "id": 3333051273,
@@ -1197,8 +1197,8 @@
     "year": 2026,
     "version": "GAC EMZOOM GL 2026",
     "type": "suv",
-    "price": 343804,
-    "priceType": "msrp",
+    "price": 449900,
+    "priceType": "lista_oficial",
     "badge": "GAS",
     "loc": "GAC Américas",
     "locs": [
@@ -1393,7 +1393,7 @@
         "precio_dca": 343974
       }
     ],
-    "_fecha_parse": "2026-05-29T17:40:19.483130"
+    "_fecha_parse": "2026-06-02T15:40:13.279271"
   },
   {
     "id": 2885992475,
@@ -1403,8 +1403,8 @@
     "year": 2026,
     "version": "GAC GS4 GL MAX",
     "type": "suv",
-    "price": 440522,
-    "priceType": "dca_real",
+    "price": 589900,
+    "priceType": "lista_oficial",
     "badge": "GAS",
     "loc": "GAC Américas",
     "locs": [
@@ -1684,7 +1684,7 @@
         "precio_dca": 440522
       }
     ],
-    "_fecha_parse": "2026-05-29T17:40:19.483190",
+    "_fecha_parse": "2026-06-02T15:40:13.279322",
     "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-07.jpg"
   },
   {
@@ -1695,8 +1695,8 @@
     "year": 2026,
     "version": "GS8 GT FWD",
     "type": "suv",
-    "price": 487217,
-    "priceType": "msrp",
+    "price": 759900,
+    "priceType": "lista_oficial",
     "badge": "GAS",
     "loc": "GAC Américas",
     "locs": [
@@ -1796,7 +1796,7 @@
         "precio_dca": 487217
       }
     ],
-    "_fecha_parse": "2026-05-29T17:40:19.483216",
+    "_fecha_parse": "2026-06-02T15:40:13.279341",
     "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-08.jpg"
   },
   {
@@ -1807,8 +1807,8 @@
     "year": 2026,
     "version": "GS8 HEV GX AWD GAC",
     "type": "suv",
-    "price": 781470,
-    "priceType": "dca_real",
+    "price": 869900,
+    "priceType": "lista_oficial",
     "badge": "HEV",
     "loc": "GAC Américas",
     "locs": [
@@ -1908,7 +1908,7 @@
         "precio_dca": 781470
       }
     ],
-    "_fecha_parse": "2026-05-29T17:40:19.483238",
+    "_fecha_parse": "2026-06-02T15:40:13.279364",
     "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-08.jpg"
   },
   {
@@ -1919,8 +1919,8 @@
     "year": 2025,
     "version": "AION ES GL",
     "type": "suv",
-    "price": 422440,
-    "priceType": "msrp",
+    "price": 599900,
+    "priceType": "lista_oficial",
     "badge": "BEV",
     "loc": "GAC Bugambilias",
     "locs": [
@@ -2009,7 +2009,7 @@
         "precio_dca": 422440
       }
     ],
-    "_fecha_parse": "2026-05-29T17:40:19.483282"
+    "_fecha_parse": "2026-06-02T15:40:13.279379"
   },
   {
     "id": 1984429722,
@@ -2019,8 +2019,8 @@
     "year": 2025,
     "version": "AION Y GX",
     "type": "suv",
-    "price": 463366,
-    "priceType": "msrp",
+    "price": 589900,
+    "priceType": "lista_oficial",
     "badge": "BEV",
     "loc": "GAC Bugambilias",
     "locs": [
@@ -2116,7 +2116,7 @@
         "precio_dca": 463366
       }
     ],
-    "_fecha_parse": "2026-05-29T17:40:19.483307"
+    "_fecha_parse": "2026-06-02T15:40:13.279394"
   },
   {
     "id": 1944650304,
@@ -2127,7 +2127,7 @@
     "version": "GN8 GT",
     "type": "van",
     "price": 888800,
-    "priceType": "msrp",
+    "priceType": "lista_oficial",
     "badge": "GAS",
     "loc": "GAC Bugambilias",
     "locs": [
@@ -2328,7 +2328,7 @@
         "precio_dca": 292565
       }
     ],
-    "_fecha_parse": "2026-05-29T17:40:19.483348",
+    "_fecha_parse": "2026-06-02T15:40:13.279428",
     "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-05.jpg"
   },
   {
@@ -2340,7 +2340,7 @@
     "version": "GN8 GX LUX",
     "type": "van",
     "price": 1028800,
-    "priceType": "msrp",
+    "priceType": "lista_oficial",
     "badge": "GAS",
     "loc": "GAC Bugambilias",
     "locs": [
@@ -2429,7 +2429,7 @@
         "precio_dca": 376378
       }
     ],
-    "_fecha_parse": "2026-05-29T17:40:19.483367",
+    "_fecha_parse": "2026-06-02T15:40:13.279445",
     "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-05.jpg"
   },
   {
@@ -2440,8 +2440,8 @@
     "year": 2026,
     "version": "GS4 HEV GL MAX",
     "type": "suv",
-    "price": 490480,
-    "priceType": "dca_real",
+    "price": 639900,
+    "priceType": "lista_oficial",
     "badge": "HEV",
     "loc": "GAC Bugambilias",
     "locs": [
@@ -2605,7 +2605,7 @@
         "precio_dca": 491492
       }
     ],
-    "_fecha_parse": "2026-05-29T17:40:19.483404",
+    "_fecha_parse": "2026-06-02T15:40:13.279476",
     "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-09.jpg"
   },
   {
@@ -2616,8 +2616,8 @@
     "year": 2026,
     "version": "GS7 PHEV 2WD",
     "type": "suv",
-    "price": 673584,
-    "priceType": "msrp",
+    "price": 899900,
+    "priceType": "lista_oficial",
     "badge": "PHEV",
     "loc": "GAC Bugambilias",
     "locs": [
@@ -2683,7 +2683,7 @@
         "precio_dca": 673584
       }
     ],
-    "_fecha_parse": "2026-05-29T17:40:19.483423"
+    "_fecha_parse": "2026-06-02T15:40:13.279491"
   },
   {
     "id": 754699696,
@@ -2693,8 +2693,8 @@
     "year": 2026,
     "version": "GS7 PHEV 4WD",
     "type": "suv",
-    "price": 747722,
-    "priceType": "msrp",
+    "price": 999900,
+    "priceType": "lista_oficial",
     "badge": "PHEV",
     "loc": "GAC Bugambilias",
     "locs": [
@@ -2760,7 +2760,7 @@
         "precio_dca": 747722
       }
     ],
-    "_fecha_parse": "2026-05-29T17:40:19.483444"
+    "_fecha_parse": "2026-06-02T15:40:13.279508"
   },
   {
     "id": 4211890439,
@@ -2770,8 +2770,8 @@
     "year": 2025,
     "version": "GS8 GL FWD",
     "type": "suv",
-    "price": 401758,
-    "priceType": "msrp",
+    "price": 699900,
+    "priceType": "lista_oficial",
     "badge": "GAS",
     "loc": "GAC Bugambilias",
     "locs": [
@@ -2871,7 +2871,7 @@
         "precio_dca": 401758
       }
     ],
-    "_fecha_parse": "2026-05-29T17:40:19.483463",
+    "_fecha_parse": "2026-06-02T15:40:13.279526",
     "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-08.jpg"
   },
   {
@@ -2882,8 +2882,8 @@
     "year": 2025,
     "version": "GS8 HEV GX AWD",
     "type": "suv",
-    "price": 780559,
-    "priceType": "dca_real",
+    "price": 999900,
+    "priceType": "lista_oficial",
     "badge": "HEV",
     "loc": "GAC Bugambilias",
     "locs": [
@@ -2983,7 +2983,7 @@
         "precio_dca": 780559
       }
     ],
-    "_fecha_parse": "2026-05-29T17:40:19.483482",
+    "_fecha_parse": "2026-06-02T15:40:13.279542",
     "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-08.jpg"
   },
   {
@@ -2994,8 +2994,8 @@
     "year": 2026,
     "version": "HYPTEC HT ULTRA",
     "type": "suv",
-    "price": 747610,
-    "priceType": "msrp",
+    "price": 999900,
+    "priceType": "lista_oficial",
     "badge": "BEV",
     "loc": "GAC Bugambilias",
     "locs": [
@@ -3092,7 +3092,7 @@
         "precio_dca": 747610
       }
     ],
-    "_fecha_parse": "2026-05-29T17:40:19.483500",
+    "_fecha_parse": "2026-06-02T15:40:13.279557",
     "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-02.jpg"
   }
 ]
