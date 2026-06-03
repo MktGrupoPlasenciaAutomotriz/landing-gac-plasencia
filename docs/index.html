@@ -2471,18 +2471,20 @@ function filterByTypeChip(val) {
   var dd = document.getElementById('filterType'); if (dd) dd.value = val;
 }
 function filterByPriceSelect(val) { currentPriceFilter = val; visibleCount = ITEMS_PER_PAGE; updateFilters(); if (val !== 'all') dataLayer.push({ event: 'filter_price', filter_value: val, ...getTrackingContext() }); }
-// Datos de sucursales GAC Plasencia (pendiente confirmar direcciones exactas)
+// Datos de sucursales GAC Plasencia (verificados 2026-06-02 vs Google knowledge panel GMB)
 var SEDE_INFO = {
   'guadalajara': {
     nombre: 'GAC Plasencia · Bugámbilias',
-    direccion: 'Av. López Mateos Sur (Bugámbilias), Zapopan, Jal.', // TODO confirmar dirección exacta
+    direccion: 'Av. Adolfo López Mateos Sur 8050-A, Bugambilias, 45238 Zapopan, Jal.',
+    telefono: '+52 33 3230 7978',
     horario: 'Lun a Vie 9:00-20:00 · Sáb 9:00-19:00 · Dom 11:00-18:00',
     foco: 'Lineup GAC completo (combustión, híbridos y eléctricos)',
     embedUrl: 'https://www.google.com/maps?q=GAC+Bugambilias+Plasencia+Zapopan&output=embed'
   },
   'santa_anita': {
     nombre: 'GAC Plasencia · Américas',
-    direccion: 'Av. Américas, Guadalajara, Jal.', // TODO confirmar dirección exacta
+    direccion: 'Av. de las Américas 590, Ladrón de Guevara, 44600 Guadalajara, Jal.',
+    telefono: '+52 33 1012 2417',
     horario: 'Lun a Vie 9:00-20:00 · Sáb 9:00-19:00 · Dom 11:00-18:00',
     foco: 'Lineup GAC completo (combustión, híbridos y eléctricos)',
     embedUrl: 'https://www.google.com/maps?q=GAC+Americas+Plasencia+Guadalajara&output=embed'
@@ -3838,8 +3840,20 @@ function generateRegistrationPDF() {
   y += 4;
 
   sectionTitle('AGENCIA');
-  row('Agencia:', cfg.agencia, true);
-  row('Dirección:', cfg.direccion);
+  // Resolver sucursal seleccionada por el lead (Bugámbilias por default).
+  // Antes era hardcoded cfg.agencia / cfg.direccion → siempre Bugámbilias
+  // aunque el lead eligiera Américas. Fix 2026-06-02.
+  const SUCURSALES_PDF = {
+    'GAC Bugámbilias':   { agencia: 'GAC Plasencia Bugámbilias', direccion: 'Av. Adolfo López Mateos Sur 8050-A, Bugambilias, 45238 Zapopan, Jal.', telefono: '+52 33 3230 7978' },
+    'GAC Bugambilias':   { agencia: 'GAC Plasencia Bugámbilias', direccion: 'Av. Adolfo López Mateos Sur 8050-A, Bugambilias, 45238 Zapopan, Jal.', telefono: '+52 33 3230 7978' },
+    'GAC BUGAMBILIAS':   { agencia: 'GAC Plasencia Bugámbilias', direccion: 'Av. Adolfo López Mateos Sur 8050-A, Bugambilias, 45238 Zapopan, Jal.', telefono: '+52 33 3230 7978' },
+    'GAC Américas':      { agencia: 'GAC Plasencia Américas',    direccion: 'Av. de las Américas 590, Ladrón de Guevara, 44600 Guadalajara, Jal.', telefono: '+52 33 1012 2417' },
+    'GAC Americas':      { agencia: 'GAC Plasencia Américas',    direccion: 'Av. de las Américas 590, Ladrón de Guevara, 44600 Guadalajara, Jal.', telefono: '+52 33 1012 2417' },
+    'GAC AMERICAS':      { agencia: 'GAC Plasencia Américas',    direccion: 'Av. de las Américas 590, Ladrón de Guevara, 44600 Guadalajara, Jal.', telefono: '+52 33 1012 2417' },
+  };
+  const sedeData = SUCURSALES_PDF[a.sucursal] || SUCURSALES_PDF['GAC Bugámbilias'];
+  row('Agencia:', sedeData.agencia, true);
+  row('Dirección:', sedeData.direccion);
   row('Teléfono:', cfg.telefono);
   row('Horario:', cfg.horario);
   y += 4;
@@ -3876,11 +3890,13 @@ function generateRegistrationPDF() {
   doc.setFont('helvetica', 'normal');
   doc.setFontSize(7);
   doc.setTextColor(120, 120, 120);
-  doc.text(ASESOR_ASIGNADO.telefono, margin, footerY + 12);
+  // Canal del asesor digital (en lugar de un tel hardcoded de Puebla — era leak)
+  doc.text(ASESOR_ASIGNADO.canal, margin, footerY + 12);
   doc.setFont('helvetica', 'normal');
   doc.setFontSize(7);
   doc.setTextColor(120, 120, 120);
-  doc.text(`${cfg.telefono}`, pageW - margin, footerY, { align: 'right' });
+  // Tel de la sucursal seleccionada por el lead (no cfg.telefono hardcoded)
+  doc.text(`${sedeData.telefono}`, pageW - margin, footerY, { align: 'right' });
   doc.text(a.folio, pageW - margin, footerY + 4, { align: 'right' });
 
   doc.save(`Confirmacion_Registro_${cfg.brand}_${a.folio}.pdf`);
