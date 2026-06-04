@@ -142,6 +142,13 @@
       }
     ],
     "_fecha_parse": "2026-05-28T14:52:32.746604",
+    "oferta": {
+      "bono": "1 año Seguro Gratis",
+      "tasa": "Cargador Casa SIN COSTO",
+      "cxa": "desde 0%",
+      "bono_max": null,
+      "bono_tipo": "beneficio"
+    },
     "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-03.jpg"
   },
   {
@@ -319,6 +326,13 @@
       }
     ],
     "_fecha_parse": "2026-05-28T14:52:32.746627",
+    "oferta": {
+      "bono": "1 año Seguro Gratis",
+      "tasa": "Cargador Casa SIN COSTO",
+      "cxa": "desde 0%",
+      "bono_max": null,
+      "bono_tipo": "beneficio"
+    },
     "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-04.jpg"
   },
   {
@@ -407,7 +421,14 @@
       }
     ],
     "_fecha_parse": "2026-05-28T14:52:32.746637",
-    "_version_dca_raw": "EMKOO GL"
+    "_version_dca_raw": "EMKOO GL",
+    "oferta": {
+      "bono": "$100,000",
+      "tasa": "desde 0%",
+      "cxa": "desde 0%",
+      "bono_max": 100000,
+      "bono_tipo": "cash"
+    }
   },
   {
     "id": 219236248,
@@ -516,7 +537,14 @@
       }
     ],
     "_fecha_parse": "2026-05-28T14:52:32.746650",
-    "_version_dca_raw": "EMKOO HEV GL GAC"
+    "_version_dca_raw": "EMKOO HEV GL GAC",
+    "oferta": {
+      "bono": "hasta $70,000",
+      "tasa": "desde 10.99%",
+      "cxa": "desde 0%",
+      "bono_max": 70000,
+      "bono_tipo": "cash"
+    }
   },
   {
     "id": 4186101128,
@@ -741,7 +769,14 @@
       }
     ],
     "_fecha_parse": "2026-05-28T14:52:32.746667",
-    "_version_dca_raw": "EMZOOM GT"
+    "_version_dca_raw": "EMZOOM GT",
+    "oferta": {
+      "bono": "hasta $65,000",
+      "tasa": "desde 0%",
+      "cxa": "desde 0%",
+      "bono_max": 65000,
+      "bono_tipo": "cash"
+    }
   },
   {
     "id": 1815686536,
@@ -1191,7 +1226,14 @@
       }
     ],
     "_fecha_parse": "2026-05-28T14:52:32.746694",
-    "_version_dca_raw": "EMZOOM GT RACER"
+    "_version_dca_raw": "EMZOOM GT RACER",
+    "oferta": {
+      "bono": "hasta $65,000",
+      "tasa": "desde 0%",
+      "cxa": "desde 0%",
+      "bono_max": 65000,
+      "bono_tipo": "cash"
+    }
   },
   {
     "id": 3333051273,
@@ -1398,7 +1440,14 @@
       }
     ],
     "_fecha_parse": "2026-05-28T14:52:32.746707",
-    "_version_dca_raw": "GAC EMZOOM GL 2026"
+    "_version_dca_raw": "GAC EMZOOM GL 2026",
+    "oferta": {
+      "bono": "hasta $65,000",
+      "tasa": "desde 0%",
+      "cxa": "desde 0%",
+      "bono_max": 65000,
+      "bono_tipo": "cash"
+    }
   },
   {
     "id": 2885992475,
@@ -1691,6 +1740,13 @@
     ],
     "_fecha_parse": "2026-05-28T14:52:32.746726",
     "_version_dca_raw": "GAC GS4 GL MAX",
+    "oferta": {
+      "bono": "$100,000",
+      "tasa": "desde 0%",
+      "cxa": "desde 0%",
+      "bono_max": 100000,
+      "bono_tipo": "cash"
+    },
     "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-07.jpg"
   },
   {
@@ -1803,6 +1859,13 @@
       }
     ],
     "_fecha_parse": "2026-05-28T14:52:32.746733",
+    "oferta": {
+      "bono": "hasta $145,000",
+      "tasa": "desde 0%",
+      "cxa": "desde 0%",
+      "bono_max": 145000,
+      "bono_tipo": "cash"
+    },
     "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-08.jpg"
   },
   {
@@ -1916,6 +1979,13 @@
     ],
     "_fecha_parse": "2026-05-28T14:52:32.746739",
     "_version_dca_raw": "GS8 HEV GX AWD GAC",
+    "oferta": {
+      "bono": "hasta $145,000",
+      "tasa": "desde 0%",
+      "cxa": "desde 0%",
+      "bono_max": 145000,
+      "bono_tipo": "cash"
+    },
     "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-08.jpg"
   },
   {
@@ -2016,7 +2086,14 @@
         "precio_dca": 422440
       }
     ],
-    "_fecha_parse": "2026-05-28T14:52:32.746745"
+    "_fecha_parse": "2026-05-28T14:52:32.746745",
+    "oferta": {
+      "bono": "hasta $65,000",
+      "tasa": "desde 10.99%",
+      "cxa": "desde 0%",
+      "bono_max": 65000,
+      "bono_tipo": "cash"
+    }
   },
   {
     "id": 1984429722,
@@ -2123,7 +2200,14 @@
         "precio_dca": 463366
       }
     ],
-    "_fecha_parse": "2026-05-28T14:52:32.746751"
+    "_fecha_parse": "2026-05-28T14:52:32.746751",
+    "oferta": {
+      "bono": "$90,000",
+      "tasa": "desde 0%",
+      "cxa": "desde 0%",
+      "bono_max": 90000,
+      "bono_tipo": "cash"
+    }
   },
   {
     "id": 1944650304,
@@ -2336,6 +2420,13 @@
       }
     ],
     "_fecha_parse": "2026-05-28T14:52:32.746764",
+    "oferta": {
+      "bono": "$160,000",
+      "tasa": "desde 15.99%",
+      "cxa": "desde 0%",
+      "bono_max": 160000,
+      "bono_tipo": "cash"
+    },
     "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-05.jpg"
   },
   {
@@ -2437,6 +2528,13 @@
       }
     ],
     "_fecha_parse": "2026-05-28T14:52:32.746769",
+    "oferta": {
+      "bono": "$160,000",
+      "tasa": "desde 15.99%",
+      "cxa": "desde 0%",
+      "bono_max": 160000,
+      "bono_tipo": "cash"
+    },
     "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-05.jpg"
   },
   {
@@ -2614,6 +2712,13 @@
     ],
     "_fecha_parse": "2026-05-28T14:52:32.746779",
     "_version_dca_raw": "GS4 HEV GL MAX",
+    "oferta": {
+      "bono": "$20,000",
+      "tasa": "desde 10.99%",
+      "cxa": "desde 0%",
+      "bono_max": 20000,
+      "bono_tipo": "cash"
+    },
     "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-09.jpg"
   },
   {
@@ -2692,7 +2797,14 @@
       }
     ],
     "_fecha_parse": "2026-05-28T14:52:32.746785",
-    "_version_dca_raw": "GS7 PHEV 2WD"
+    "_version_dca_raw": "GS7 PHEV 2WD",
+    "oferta": {
+      "bono": "Cargador Casa SIN COSTO",
+      "tasa": "desde 0%",
+      "cxa": "desde 0%",
+      "bono_max": null,
+      "bono_tipo": "beneficio"
+    }
   },
   {
     "id": 754699696,
@@ -2770,7 +2882,14 @@
       }
     ],
     "_fecha_parse": "2026-05-28T14:52:32.746791",
-    "_version_dca_raw": "GS7 PHEV 4WD"
+    "_version_dca_raw": "GS7 PHEV 4WD",
+    "oferta": {
+      "bono": "Cargador Casa SIN COSTO",
+      "tasa": "desde 0%",
+      "cxa": "desde 0%",
+      "bono_max": null,
+      "bono_tipo": "beneficio"
+    }
   },
   {
     "id": 4211890439,
@@ -2882,6 +3001,13 @@
       }
     ],
     "_fecha_parse": "2026-05-28T14:52:32.746797",
+    "oferta": {
+      "bono": "hasta $145,000",
+      "tasa": "desde 0%",
+      "cxa": "desde 0%",
+      "bono_max": 145000,
+      "bono_tipo": "cash"
+    },
     "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-08.jpg"
   },
   {
@@ -2995,6 +3121,13 @@
     ],
     "_fecha_parse": "2026-05-28T14:52:32.746803",
     "_version_dca_raw": "GS8 HEV GX AWD",
+    "oferta": {
+      "bono": "hasta $145,000",
+      "tasa": "desde 10.99%",
+      "cxa": "desde 0%",
+      "bono_max": 145000,
+      "bono_tipo": "cash"
+    },
     "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-08.jpg"
   },
   {
@@ -3105,6 +3238,13 @@
     ],
     "_fecha_parse": "2026-05-28T14:52:32.746809",
     "_version_dca_raw": "HYPTEC HT ULTRA",
+    "oferta": {
+      "bono": null,
+      "tasa": "desde 10.99%",
+      "cxa": "desde 0%",
+      "bono_max": null,
+      "bono_tipo": "ninguno"
+    },
     "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-02.jpg"
   }
 ]
