@@ -2841,27 +2841,28 @@ function formatSucursalShort(loc, locs) {
 
 function buildSucursalBanner(v) {
   if (!v || v.id === 'general') {
-    // Sin vehículo específico: selector OBLIGATORIO entre 2 sucursales
-    return '<div class="modal-suc-banner" style="background:#FFF7ED;border:1px solid #FED7AA;border-radius:8px;padding:12px 14px;margin:0 0 14px;font-size:13px;color:var(--ink-700);">'
-      + '<div style="font-weight:700;margin-bottom:8px;">📍 ¿Cuál sucursal te queda mejor?</div>'
-      + '<label style="display:block;padding:8px 10px;background:#fff;border:1px solid var(--ink-200);border-radius:6px;margin-bottom:6px;cursor:pointer;font-weight:500;"><input type="radio" name="sucursalSelect" value="GAC Bugámbilias" checked style="margin-right:8px;"> GAC Bugámbilias (Av. López Mateos Sur 8050-A, Zapopan)</label>'
+    // Selector OBLIGATORIO sin preselección (director 2026-06-08: el usuario debe elegir activamente).
+    return '<div class="modal-suc-banner" id="sucursalBanner" style="background:#FFF7ED;border:1px solid #FED7AA;border-radius:8px;padding:12px 14px;margin:0 0 14px;font-size:13px;color:var(--ink-700);">'
+      + '<div style="font-weight:700;margin-bottom:8px;">📍 ¿Cuál sucursal te queda mejor? <span style="color:#B91C1C;font-weight:700;">*Obligatorio</span></div>'
+      + '<label style="display:block;padding:8px 10px;background:#fff;border:1px solid var(--ink-200);border-radius:6px;margin-bottom:6px;cursor:pointer;font-weight:500;"><input type="radio" name="sucursalSelect" value="GAC Bugámbilias" style="margin-right:8px;"> GAC Bugámbilias (Av. López Mateos Sur 8050-A, Zapopan)</label>'
       + '<label style="display:block;padding:8px 10px;background:#fff;border:1px solid var(--ink-200);border-radius:6px;cursor:pointer;font-weight:500;"><input type="radio" name="sucursalSelect" value="GAC Américas" style="margin-right:8px;"> GAC Américas (Av. de las Américas 590, Ladrón de Guevara)</label>'
+      + '<div id="sucursalError" style="display:none;color:#B91C1C;font-size:12px;font-weight:600;margin-top:8px;" role="alert">Selecciona una sucursal para continuar.</div>'
       + '</div>';
   }
   var locs = Array.isArray(v.locs) ? v.locs : [];
   if (locs.length === 1) {
-    // Una sola sede: default + informar al usuario
-    return '<div class="modal-suc-banner" style="background:#EFF6FF;border:1px solid #BFDBFE;border-radius:8px;padding:12px 14px;margin:0 0 14px;font-size:13px;color:var(--ink-700);"><strong>📍 Esta unidad está en: ' + (locs[0].nombre || v.loc || 'GAC Plasencia') + '</strong><br><span style="font-size:11px;color:var(--ink-500);">Te contactamos para coordinar tu visita en esta sede.</span></div>';
+    // Una sola sede: default + informar al usuario (no es selector, es información)
+    return '<div class="modal-suc-banner" style="background:#EFF6FF;border:1px solid #BFDBFE;border-radius:8px;padding:12px 14px;margin:0 0 14px;font-size:13px;color:var(--ink-700);"><strong>📍 Esta unidad está en: ' + (locs[0].nombre || v.loc || 'GAC Plasencia') + '</strong><br><span style="font-size:11px;color:var(--ink-500);">Te contactamos para coordinar tu visita en esta sede.</span><input type="hidden" name="sucursalSelect" value="' + (locs[0].nombre || v.loc || 'GAC Plasencia') + '"></div>';
   }
   if (locs.length >= 2) {
-    // 2 sedes: SELECTOR (radio) — usuario elige cuál quiere
-    var radios = locs.map(function(l, idx) {
-      var checked = idx === 0 ? 'checked' : '';
-      return '<label style="display:block;padding:8px 10px;background:#fff;border:1px solid var(--ink-200);border-radius:6px;margin-bottom:6px;cursor:pointer;font-weight:500;"><input type="radio" name="sucursalSelect" value="' + l.nombre + '" ' + checked + ' style="margin-right:8px;"> ' + l.nombre + ' (' + l.unidades + ' unidad' + (l.unidades > 1 ? 'es' : '') + ' disponible' + (l.unidades > 1 ? 's' : '') + ')</label>';
+    // 2 sedes: SELECTOR OBLIGATORIO SIN PRESELECCIÓN — usuario elige activamente
+    var radios = locs.map(function(l) {
+      return '<label style="display:block;padding:8px 10px;background:#fff;border:1px solid var(--ink-200);border-radius:6px;margin-bottom:6px;cursor:pointer;font-weight:500;"><input type="radio" name="sucursalSelect" value="' + l.nombre + '" style="margin-right:8px;"> ' + l.nombre + ' (' + l.unidades + ' unidad' + (l.unidades > 1 ? 'es' : '') + ' disponible' + (l.unidades > 1 ? 's' : '') + ')</label>';
     }).join('');
-    return '<div class="modal-suc-banner" style="background:#FFF7ED;border:1px solid #FED7AA;border-radius:8px;padding:12px 14px;margin:0 0 14px;font-size:13px;color:var(--ink-700);">'
-      + '<div style="font-weight:700;margin-bottom:8px;">📍 Disponible en 2 sucursales — ¿cuál prefieres para tu visita?</div>'
+    return '<div class="modal-suc-banner" id="sucursalBanner" style="background:#FFF7ED;border:1px solid #FED7AA;border-radius:8px;padding:12px 14px;margin:0 0 14px;font-size:13px;color:var(--ink-700);">'
+      + '<div style="font-weight:700;margin-bottom:8px;">📍 Disponible en 2 sucursales — ¿cuál prefieres para tu visita? <span style="color:#B91C1C;font-weight:700;">*Obligatorio</span></div>'
       + radios
+      + '<div id="sucursalError" style="display:none;color:#B91C1C;font-size:12px;font-weight:600;margin-top:8px;" role="alert">Selecciona una sucursal para continuar.</div>'
       + '</div>';
   }
   return '<div class="modal-suc-banner" style="background:#EFF6FF;border:1px solid #BFDBFE;border-radius:8px;padding:10px 14px;margin:0 0 14px;font-size:13px;color:var(--ink-700);"><strong>📍 ' + (v.loc || 'GAC Plasencia') + '</strong></div>';
@@ -3665,6 +3666,27 @@ function submitForm() {
   if (!privacyBox.checked) {
     showFieldError('fPrivacy');
     if (!firstError) firstError = privacyBox;
+  }
+
+  // Validación SUCURSAL OBLIGATORIA (director 2026-06-08).
+  var sucCheckedGAC = document.querySelector('input[name="sucursalSelect"]:checked');
+  if (!sucCheckedGAC) {
+    var sucBannerGAC = document.getElementById('sucursalBanner');
+    var sucErrGAC = document.getElementById('sucursalError');
+    if (sucErrGAC) sucErrGAC.style.display = 'block';
+    if (sucBannerGAC) {
+      sucBannerGAC.style.borderColor = '#B91C1C';
+      sucBannerGAC.style.background = '#FEF2F2';
+    }
+    if (!firstError) firstError = sucBannerGAC || document.querySelector('input[name="sucursalSelect"]');
+  } else {
+    var sucErrGAC2 = document.getElementById('sucursalError');
+    if (sucErrGAC2) sucErrGAC2.style.display = 'none';
+    var sucBannerGAC2 = document.getElementById('sucursalBanner');
+    if (sucBannerGAC2) {
+      sucBannerGAC2.style.borderColor = '#FED7AA';
+      sucBannerGAC2.style.background = '#FFF7ED';
+    }
   }
 
   if (firstError) {
