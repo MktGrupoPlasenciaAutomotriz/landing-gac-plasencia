@@ -1698,9 +1698,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <div class="hero-stat-num" id="heroStatPrice">Desde $—</div>
           <div class="hero-stat-label">El más accesible del catálogo</div>
         </div>
-        <div class="hero-stat" title="Tasa Santander desde 0% sin intereses en planes seleccionados (MSI disponibles). Tasa de referencia estándar 14.49% anual fija con 35% enganche y 72 meses. Tu asesor te orienta y arma un plan a la medida conforme a la oferta comercial vigente.">
+        <div class="hero-stat" title="Tasa desde 0% en planes seleccionados (varía por modelo: 0%, 10.99%, 13.99% o 15.99% según oferta autorizada). CXA desde 0% universal. Mensualidad estimada con 35% enganche, 72 meses, tasa de referencia 14.49% (CAT 33% sin IVA). Tu asesor te arma un plan a la medida.">
           <div class="hero-stat-num">Tasa desde 0%</div>
-          <div class="hero-stat-label">Santander · MSI disponibles</div>
+          <div class="hero-stat-label">Varía por modelo · CXA desde 0%</div>
         </div>
       </div>
       <div class="hero-bono-strip" title="Bono hasta $160,000 MXN, Tasa desde 0% y CXA desde 0% — aplican según modelo y plan seleccionado (oferta comercial autorizada GAC junio 2026). El bono varía por modelo desde $20,000 hasta $160,000; algunos AION incluyen Seguro Gratis y/o Cargador de Casa sin costo. Tu asesor te orienta y arma un plan a la medida. Vigencia 30-jun-2026. Sujeto a aprobación bancaria y disponibilidad." style="display:inline-flex;align-items:center;gap:10px;background:linear-gradient(135deg,rgba(235,10,30,0.18),rgba(235,10,30,0.08));border:1px solid rgba(235,10,30,0.35);border-radius:9999px;padding:10px 18px;margin-top:18px;font-size:13px;font-weight:700;color:#fff;cursor:help;">
@@ -1992,7 +1992,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="faq-list">
       <details class="faq-item">
         <summary>¿Hay 0% sin intereses? ¿Cómo funcionan las tasas con Santander?</summary>
-        <div class="faq-a">Sí. GAC ofrece <strong>tasa desde 0% sin intereses</strong> con Santander en <strong>planes seleccionados</strong> (modelos, plazos y enganches específicos). También hay <strong>MSI disponibles</strong> según promoción vigente. Tasa de referencia estándar para el resto: <strong>14.49% anual fija</strong> con 35% de enganche y 72 meses (CAT 33% sin IVA, lista oficial GAC junio 2026). <strong>Tu asesor te orienta y arma un plan a la medida conforme a la oferta comercial vigente.</strong> Crédito sujeto a aprobación bancaria.</div>
+        <div class="faq-a">Según la oferta comercial autorizada GAC junio 2026, la <strong>tasa varía por modelo</strong>: 0% en EMZOOM, EMKOO GL gas, GS4 GB/GL, AION Y, GS7 PHEV y GS8 gas; 10.99% en HEV/HYPTEC/AION ES; 13.99% en GN8 PHEV; 15.99% en GN8 GT y GX LUX. <strong>CXA desde 0%</strong> en todos los modelos. Mensualidad estimada con <strong>35% de enganche, 72 meses</strong>, tasa de referencia 14.49% (CAT 33% sin IVA). <strong>Tu asesor te arma un plan a la medida</strong> con la tasa autorizada para tu modelo. Crédito sujeto a aprobación bancaria.</div>
       </details>
       <details class="faq-item">
         <summary>¿Cómo funciona el bono hasta $160,000 MXN?</summary>
@@ -2024,7 +2024,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           Tienes 4 opciones, todas aplican a cualquier modelo GAC del catálogo:
           <ul style="margin:8px 0 0;padding-left:20px;line-height:1.7;">
             <li><strong>Contado</strong> — pago directo. Recibes tu auto sin trámites bancarios. Tu asesor maneja descuentos y promos vigentes.</li>
-            <li><strong>Crédito Santander</strong> — financiamiento con <strong>tasa desde 0% en planes seleccionados</strong> o tasa de referencia 14.49% anual fija. <strong>MSI disponibles</strong>. Hasta 72 meses. Tu asesor te arma un plan a la medida conforme a la oferta comercial vigente.</li>
+            <li><strong>Crédito Santander</strong> — financiamiento con tasa autorizada por modelo (desde 0% a 15.99% según oferta). CXA desde 0%. Hasta 72 meses. Tu asesor te arma un plan a la medida.</li>
             <li><strong>Arrendamiento</strong> — Pagas mensualidades más bajas que crédito y renuevas tu auto cada 2-3 años. Si eres empresa, tu contador puede deducirlo.</li>
             <li><strong>Flotillas</strong> — para empresas que necesitan 2 o más unidades. Precio preferente por volumen, factura mensual única, gestión centralizada de mantenimiento y seguros.</li>
           </ul>
@@ -2198,6 +2198,27 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               <label class="form-label" for="fEmail">Correo electrónico <span class="label-req">Obligatorio</span></label>
               <input class="form-input" id="fEmail" type="email" placeholder="tu@email.com" oninput="validateField(this)" autocomplete="email" required aria-required="true" aria-describedby="fEmail-error">
               <div class="form-error-msg" id="fEmail-error" role="alert">Revisa tu correo: ahí te confirmamos el registro</div>
+            </div>
+
+            <!-- ── Uso del vehículo (Personal vs Flotilla) — Pivote 2 2026-06-08 ── -->
+            <div class="form-group full" role="radiogroup" aria-labelledby="fUsoLabel">
+              <label class="form-label" id="fUsoLabel">¿Para qué lo quieres? <span class="label-req">Obligatorio</span></label>
+              <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;">
+                <label class="uso-card" data-uso="personal" style="display:flex;flex-direction:column;gap:4px;padding:12px 14px;border:2px solid var(--brand-accent,#EB0A1E);background:rgba(235,10,30,0.06);border-radius:8px;cursor:pointer;transition:all 0.15s;box-shadow:0 0 0 3px rgba(235,10,30,0.12);">
+                  <div style="display:flex;align-items:center;gap:6px;">
+                    <input type="radio" name="fUso" value="personal" checked oninput="onUsoChange(this)" style="accent-color:var(--brand-accent,#EB0A1E);">
+                    <span style="font-weight:700;color:var(--ink-900,#0F1A2E);font-size:13px;">Para mí</span>
+                  </div>
+                  <div style="font-size:11px;color:var(--ink-500,#64748B);line-height:1.3;">Uso personal o familiar</div>
+                </label>
+                <label class="uso-card" data-uso="flotilla" style="display:flex;flex-direction:column;gap:4px;padding:12px 14px;border:2px solid var(--ink-200,#E2E8F0);background:#fff;border-radius:8px;cursor:pointer;transition:all 0.15s;">
+                  <div style="display:flex;align-items:center;gap:6px;">
+                    <input type="radio" name="fUso" value="flotilla" oninput="onUsoChange(this)" style="accent-color:var(--brand-accent,#EB0A1E);">
+                    <span style="font-weight:700;color:var(--ink-900,#0F1A2E);font-size:13px;">Para mi negocio o flotilla</span>
+                  </div>
+                  <div style="font-size:11px;color:var(--ink-500,#64748B);line-height:1.3;">Esquemas PFAE/PM · Asesor B2B</div>
+                </label>
+              </div>
             </div>
           </div>
 
@@ -2844,6 +2865,26 @@ function buildSucursalBanner(v) {
       + '</div>';
   }
   return '<div class="modal-suc-banner" style="background:#EFF6FF;border:1px solid #BFDBFE;border-radius:8px;padding:10px 14px;margin:0 0 14px;font-size:13px;color:var(--ink-700);"><strong>📍 ' + (v.loc || 'GAC Plasencia') + '</strong></div>';
+}
+
+// Highlight de uso-card activa (Personal / Flotilla) — Pivote 2 2026-06-08.
+function onUsoChange(radio) {
+  if (!radio) return;
+  var group = document.querySelectorAll('input[name="fUso"]');
+  for (var i = 0; i < group.length; i++) {
+    var card = group[i].closest('label.uso-card');
+    if (!card) continue;
+    if (group[i].checked) {
+      card.style.borderColor = 'var(--brand-accent, #EB0A1E)';
+      card.style.background = 'rgba(235,10,30,0.06)';
+      card.style.boxShadow = '0 0 0 3px rgba(235,10,30,0.12)';
+    } else {
+      card.style.borderColor = 'var(--ink-200, #E2E8F0)';
+      card.style.background = '#fff';
+      card.style.boxShadow = 'none';
+    }
+  }
+  if (window.dataLayer) dataLayer.push({ event: 'select_content', content_type: 'form_uso', content_id: radio.value });
 }
 
 // Lee la sucursal seleccionada del radio (después de buildSucursalBanner con multi-loc)
@@ -3671,7 +3712,10 @@ function submitForm() {
     enganche_pct: '',
     plazo_meses: '',
     mensualidad: '',
-    tipo_persona: '',
+    // Pivote 2 — 2026-06-08 (paridad STL/HYU): selector Personal/Flotilla
+    tipo_persona: (function(){ var u = document.querySelector('input[name="fUso"]:checked'); return (u && u.value === 'flotilla') ? 'PFAE_PM' : 'FISICA'; })(),
+    uso_vehiculo: (function(){ var u = document.querySelector('input[name="fUso"]:checked'); return u ? u.value : 'personal'; })(),
+    es_flotilla: (function(){ var u = document.querySelector('input[name="fUso"]:checked'); return !!(u && u.value === 'flotilla'); })(),
     fuente: 'LANDING PAGE',
     etapa: 'POR CONTACTAR',
     fbclid: sessionStorage.getItem('fbclid') || '',
