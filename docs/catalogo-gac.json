@@ -83,7 +83,10 @@
     "descFinanc": 0,
     "msi": 0,
     "mantAnios": 0,
-    "programas": [],
+    "programas": [
+      "1 año de Seguro Gratis*",
+      "Cargador de Casa SIN COSTO"
+    ],
     "vigDesde": "",
     "vigHasta": "",
     "_id_grupo": "GAC||GAC AION|AION UT ELITE|2026",
@@ -149,7 +152,13 @@
       "bono_max": null,
       "bono_tipo": "beneficio"
     },
-    "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-03.jpg"
+    "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-03.jpg",
+    "mensualidadDesde": 6500,
+    "escenarioFinanciero": "35% de Enganche. 72 meses. * Costo Promedio Anual Total (CAT) 33% sin IVA. Tasa ordinaria fija anual del 14.49 %.",
+    "tecnologia": "Eléctrica",
+    "bono": null,
+    "tasaPromo": null,
+    "fuenteOferta": "Lista de Precios GAC PROYECTO · hoja MAY26 · vigente operativamente para junio 2026 según director"
   },
   {
     "id": 2903675631,
@@ -235,7 +244,10 @@
     "descFinanc": 0,
     "msi": 0,
     "mantAnios": 0,
-    "programas": [],
+    "programas": [
+      "1 año de Seguro Gratis*",
+      "Cargador de Casa SIN COSTO"
+    ],
     "vigDesde": "",
     "vigHasta": "",
     "_id_grupo": "GAC||GAC AION|AION UT STANDARD|2026",
@@ -333,7 +345,13 @@
       "bono_max": null,
       "bono_tipo": "beneficio"
     },
-    "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-04.jpg"
+    "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-04.jpg",
+    "mensualidadDesde": 6500,
+    "escenarioFinanciero": "35% de Enganche. 72 meses. * Costo Promedio Anual Total (CAT) 33% sin IVA. Tasa ordinaria fija anual del 14.49 %.",
+    "tecnologia": "Eléctrica",
+    "bono": null,
+    "tasaPromo": null,
+    "fuenteOferta": "Lista de Precios GAC PROYECTO · hoja MAY26 · vigente operativamente para junio 2026 según director"
   },
   {
     "id": 3826184157,
@@ -428,7 +446,13 @@
       "cxa": "desde 0%",
       "bono_max": 100000,
       "bono_tipo": "cash"
-    }
+    },
+    "mensualidadDesde": 8500,
+    "escenarioFinanciero": "35% de Enganche. 72 meses. * Costo Promedio Anual Total (CAT) 33% sin IVA. Tasa ordinaria fija anual del 14.49 %.",
+    "tecnologia": "Gasolina",
+    "bono": 100000,
+    "tasaPromo": 0.0,
+    "fuenteOferta": "Lista de Precios GAC PROYECTO · hoja MAY26 · vigente operativamente para junio 2026 según director"
   },
   {
     "id": 219236248,
@@ -544,7 +568,13 @@
       "cxa": "desde 0%",
       "bono_max": 70000,
       "bono_tipo": "cash"
-    }
+    },
+    "mensualidadDesde": 9000,
+    "escenarioFinanciero": "35% de Enganche. 72 meses. * Costo Promedio Anual Total (CAT) 33% sin IVA. Tasa ordinaria fija anual del 14.49 %.",
+    "tecnologia": "Híbrido",
+    "bono": 70000,
+    "tasaPromo": 0.1099,
+    "fuenteOferta": "Lista de Precios GAC PROYECTO · hoja MAY26 · vigente operativamente para junio 2026 según director"
   },
   {
     "id": 4186101128,
@@ -776,7 +806,13 @@
       "cxa": "desde 0%",
       "bono_max": 65000,
       "bono_tipo": "cash"
-    }
+    },
+    "mensualidadDesde": 5900,
+    "escenarioFinanciero": "35% de Enganche. 72 meses. * Costo Promedio Anual Total (CAT) 33% sin IVA. Tasa ordinaria fija anual del 14.49 %.",
+    "tecnologia": "Gasolina",
+    "bono": 65000,
+    "tasaPromo": 0.0,
+    "fuenteOferta": "Lista de Precios GAC PROYECTO · hoja MAY26 · vigente operativamente para junio 2026 según director"
   },
   {
     "id": 1815686536,
@@ -1233,7 +1269,13 @@
       "cxa": "desde 0%",
       "bono_max": 65000,
       "bono_tipo": "cash"
-    }
+    },
+    "mensualidadDesde": 5900,
+    "escenarioFinanciero": "35% de Enganche. 72 meses. * Costo Promedio Anual Total (CAT) 33% sin IVA. Tasa ordinaria fija anual del 14.49 %.",
+    "tecnologia": "Gasolina",
+    "bono": 65000,
+    "tasaPromo": 0.0,
+    "fuenteOferta": "Lista de Precios GAC PROYECTO · hoja MAY26 · vigente operativamente para junio 2026 según director"
   },
   {
     "id": 3333051273,
@@ -1447,7 +1489,13 @@
       "cxa": "desde 0%",
       "bono_max": 65000,
       "bono_tipo": "cash"
-    }
+    },
+    "mensualidadDesde": 5900,
+    "escenarioFinanciero": "35% de Enganche. 72 meses. * Costo Promedio Anual Total (CAT) 33% sin IVA. Tasa ordinaria fija anual del 14.49 %.",
+    "tecnologia": "Gasolina",
+    "bono": 65000,
+    "tasaPromo": 0.0,
+    "fuenteOferta": "Lista de Precios GAC PROYECTO · hoja MAY26 · vigente operativamente para junio 2026 según director"
   },
   {
     "id": 2885992475,
@@ -1747,7 +1795,13 @@
       "bono_max": 100000,
       "bono_tipo": "cash"
     },
-    "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-07.jpg"
+    "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-07.jpg",
+    "mensualidadDesde": 8500,
+    "escenarioFinanciero": "35% de Enganche. 72 meses. * Costo Promedio Anual Total (CAT) 33% sin IVA. Tasa ordinaria fija anual del 14.49 %.",
+    "tecnologia": "Gasolina",
+    "bono": 100000,
+    "tasaPromo": 0.0,
+    "fuenteOferta": "Lista de Precios GAC PROYECTO · hoja MAY26 · vigente operativamente para junio 2026 según director"
   },
   {
     "id": 3768416979,
@@ -1866,7 +1920,13 @@
       "bono_max": 145000,
       "bono_tipo": "cash"
     },
-    "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-08.jpg"
+    "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-08.jpg",
+    "mensualidadDesde": 9900,
+    "escenarioFinanciero": "35% de Enganche. 72 meses. * Costo Promedio Anual Total (CAT) 33% sin IVA. Tasa ordinaria fija anual del 14.49 %.",
+    "tecnologia": "Gasolina",
+    "bono": 145000,
+    "tasaPromo": 0.0,
+    "fuenteOferta": "Lista de Precios GAC PROYECTO · hoja MAY26 · vigente operativamente para junio 2026 según director"
   },
   {
     "id": 3865846035,
@@ -1876,7 +1936,7 @@
     "year": 2026,
     "version": "GS8 GX AWD",
     "type": "suv",
-    "price": 869900,
+    "price": 999900,
     "priceType": "lista_oficial",
     "badge": "HEV",
     "loc": "GAC Américas",
@@ -1986,7 +2046,13 @@
       "bono_max": 145000,
       "bono_tipo": "cash"
     },
-    "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-08.jpg"
+    "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-08.jpg",
+    "mensualidadDesde": 15000,
+    "escenarioFinanciero": "35% de Enganche. 72 meses. * Costo Promedio Anual Total (CAT) 33% sin IVA. Tasa ordinaria fija anual del 14.49 %.",
+    "tecnologia": "Hibrída",
+    "bono": 145000,
+    "tasaPromo": 0.1099,
+    "fuenteOferta": "Lista de Precios GAC PROYECTO · hoja MAY26 · vigente operativamente para junio 2026 según director"
   },
   {
     "id": 3216920295,
@@ -2093,7 +2159,13 @@
       "cxa": "desde 0%",
       "bono_max": 65000,
       "bono_tipo": "cash"
-    }
+    },
+    "mensualidadDesde": 7500,
+    "escenarioFinanciero": "35% de Enganche. 72 meses. * Costo Promedio Anual Total (CAT) 33% sin IVA. Tasa ordinaria fija anual del 14.49 %.",
+    "tecnologia": "Eléctrica",
+    "bono": 65000,
+    "tasaPromo": 0.1099,
+    "fuenteOferta": "Lista de Precios GAC PROYECTO · hoja MAY26 · vigente operativamente para junio 2026 según director"
   },
   {
     "id": 1984429722,
@@ -2207,7 +2279,13 @@
       "cxa": "desde 0%",
       "bono_max": 90000,
       "bono_tipo": "cash"
-    }
+    },
+    "mensualidadDesde": 7500,
+    "escenarioFinanciero": "35% de Enganche. 72 meses. * Costo Promedio Anual Total (CAT) 33% sin IVA. Tasa ordinaria fija anual del 14.49 %.",
+    "tecnologia": "Eléctrica",
+    "bono": 90000,
+    "tasaPromo": 0.0,
+    "fuenteOferta": "Lista de Precios GAC PROYECTO · hoja MAY26 · vigente operativamente para junio 2026 según director"
   },
   {
     "id": 1944650304,
@@ -2427,7 +2505,13 @@
       "bono_max": 160000,
       "bono_tipo": "cash"
     },
-    "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-05.jpg"
+    "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-05.jpg",
+    "mensualidadDesde": 13500,
+    "escenarioFinanciero": "35% de Enganche. 72 meses. * Costo Promedio Anual Total (CAT) 33% sin IVA. Tasa ordinaria fija anual del 14.49 %.",
+    "tecnologia": "Gasolina",
+    "bono": 160000,
+    "tasaPromo": 0.1599,
+    "fuenteOferta": "Lista de Precios GAC PROYECTO · hoja MAY26 · vigente operativamente para junio 2026 según director"
   },
   {
     "id": 3841289391,
@@ -2535,7 +2619,13 @@
       "bono_max": 160000,
       "bono_tipo": "cash"
     },
-    "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-05.jpg"
+    "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-05.jpg",
+    "mensualidadDesde": 13500,
+    "escenarioFinanciero": "35% de Enganche. 72 meses. * Costo Promedio Anual Total (CAT) 33% sin IVA. Tasa ordinaria fija anual del 14.49 %.",
+    "tecnologia": "Gasolina",
+    "bono": 160000,
+    "tasaPromo": 0.1599,
+    "fuenteOferta": "Lista de Precios GAC PROYECTO · hoja MAY26 · vigente operativamente para junio 2026 según director"
   },
   {
     "id": 2207884580,
@@ -2719,7 +2809,13 @@
       "bono_max": 20000,
       "bono_tipo": "cash"
     },
-    "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-09.jpg"
+    "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-09.jpg",
+    "mensualidadDesde": 9000,
+    "escenarioFinanciero": "35% de Enganche. 72 meses. * Costo Promedio Anual Total (CAT) 33% sin IVA. Tasa ordinaria fija anual del 14.49 %.",
+    "tecnologia": "Híbrido",
+    "bono": 20000,
+    "tasaPromo": 0.1099,
+    "fuenteOferta": "Lista de Precios GAC PROYECTO · hoja MAY26 · vigente operativamente para junio 2026 según director"
   },
   {
     "id": 438334307,
@@ -2770,7 +2866,9 @@
     "descFinanc": 0,
     "msi": 0,
     "mantAnios": 0,
-    "programas": [],
+    "programas": [
+      "Cargador de Casa Sin Costo"
+    ],
     "vigDesde": "",
     "vigHasta": "",
     "_id_grupo": "GAC||GAC GS7 PHEV|GS7 PHEV 2WD|2026",
@@ -2804,7 +2902,13 @@
       "cxa": "desde 0%",
       "bono_max": null,
       "bono_tipo": "beneficio"
-    }
+    },
+    "mensualidadDesde": 13500,
+    "escenarioFinanciero": "35% de Enganche. 72 meses. * Costo Promedio Anual Total (CAT) 33% sin IVA. Tasa ordinaria fija anual del 14.49 %.",
+    "tecnologia": "Hibrída Enchufable",
+    "bono": null,
+    "tasaPromo": 0.0,
+    "fuenteOferta": "Lista de Precios GAC PROYECTO · hoja MAY26 · vigente operativamente para junio 2026 según director"
   },
   {
     "id": 754699696,
@@ -2855,7 +2959,9 @@
     "descFinanc": 0,
     "msi": 0,
     "mantAnios": 0,
-    "programas": [],
+    "programas": [
+      "Cargador de Casa Sin Costo"
+    ],
     "vigDesde": "",
     "vigHasta": "",
     "_id_grupo": "GAC||GAC GS7 PHEV|GS7 PHEV 4WD|2026",
@@ -2889,7 +2995,13 @@
       "cxa": "desde 0%",
       "bono_max": null,
       "bono_tipo": "beneficio"
-    }
+    },
+    "mensualidadDesde": 13500,
+    "escenarioFinanciero": "35% de Enganche. 72 meses. * Costo Promedio Anual Total (CAT) 33% sin IVA. Tasa ordinaria fija anual del 14.49 %.",
+    "tecnologia": "Hibrída Enchufable",
+    "bono": null,
+    "tasaPromo": 0.0,
+    "fuenteOferta": "Lista de Precios GAC PROYECTO · hoja MAY26 · vigente operativamente para junio 2026 según director"
   },
   {
     "id": 4211890439,
@@ -3008,7 +3120,13 @@
       "bono_max": 145000,
       "bono_tipo": "cash"
     },
-    "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-08.jpg"
+    "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-08.jpg",
+    "mensualidadDesde": 9900,
+    "escenarioFinanciero": "35% de Enganche. 72 meses. * Costo Promedio Anual Total (CAT) 33% sin IVA. Tasa ordinaria fija anual del 14.49 %.",
+    "tecnologia": "Gasolina",
+    "bono": 145000,
+    "tasaPromo": 0.0,
+    "fuenteOferta": "Lista de Precios GAC PROYECTO · hoja MAY26 · vigente operativamente para junio 2026 según director"
   },
   {
     "id": 1146627640,
@@ -3128,7 +3246,13 @@
       "bono_max": 145000,
       "bono_tipo": "cash"
     },
-    "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-08.jpg"
+    "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-08.jpg",
+    "mensualidadDesde": 15000,
+    "escenarioFinanciero": "35% de Enganche. 72 meses. * Costo Promedio Anual Total (CAT) 33% sin IVA. Tasa ordinaria fija anual del 14.49 %.",
+    "tecnologia": "Hibrída",
+    "bono": 145000,
+    "tasaPromo": 0.1099,
+    "fuenteOferta": "Lista de Precios GAC PROYECTO · hoja MAY26 · vigente operativamente para junio 2026 según director"
   },
   {
     "id": 3440383420,
@@ -3245,6 +3369,12 @@
       "bono_max": null,
       "bono_tipo": "ninguno"
     },
-    "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-02.jpg"
+    "ficha_pdf": "imagenes/oficial/gac/brochures/brochure-02.jpg",
+    "mensualidadDesde": 15500,
+    "escenarioFinanciero": "35% de Enganche. 72 meses. * Costo Promedio Anual Total (CAT) 33% sin IVA. Tasa ordinaria fija anual del 14.49 %.",
+    "tecnologia": "Eléctrica",
+    "bono": null,
+    "tasaPromo": 0.1099,
+    "fuenteOferta": "Lista de Precios GAC PROYECTO · hoja MAY26 · vigente operativamente para junio 2026 según director"
   }
 ]
